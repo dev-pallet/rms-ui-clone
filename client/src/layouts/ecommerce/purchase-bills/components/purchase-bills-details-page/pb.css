@@ -1,0 +1,130 @@
+.sample-billing-box-img1{
+    margin: auto;
+    width:72%;
+    height: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: url("https://media.istockphoto.com/vectors/invoice-design-template-with-stamp-impression-vector-id838366704?b=1&k=20&m=838366704&s=612x612&w=0&h=AtNl1PJm2yjTmyVT1ZWYAjFTrREmyzWKLEyPjP4tQc8=") !important;
+    background-size: contain!important;
+    background-repeat: no-repeat !important;
+    opacity: 0.7 !important;
+}
+.pi-box-inventory{
+    width:300px;
+    background-color:white;
+    position: 'absolute';
+    margin:auto;
+    margin-top:100px;
+    border-radius: 7px;
+    padding: 10px;
+    border: none !important;
+    border: 1px solid red;
+}
+.modal-cancel-pi{
+    margin-right: 10px !important;
+}
+.pi-details-page-navbar{
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.modal-pi-border:focus{
+    outline: none !important;
+}
+.modal-pi-border{
+    border:none
+}
+.pi-approve-menu{
+    width:400px;
+    background-color:white;
+    position: 'absolute';
+    margin:auto;
+    margin-top:300px;
+    border-radius: 7px;
+    padding: 25px 25px 15px 25px;
+    border: none !important;
+}
+.pi-approve-btns-div{
+    display: flex;
+    margin-top:20px !important;
+}
+.pi-approve-btn{
+  color:white !important;
+  background-color: rgb(0,100,254) !important;
+}
+.pi-approve-btn1{
+    background-color:white !important;
+    color: rgb(0,100,254) !important;
+    margin-right: 10px !important;
+  }
+  
+  .add-comments-box{
+    display: flex;
+    align-items:flex-end;
+  }
+  .add-btn{
+    margin-left: 10px !important;
+    height:10px;
+    color:white !important;
+    background-color: rgb(0,100,254) !important;
+  }
+  .body-label{
+    font-size: 0.6em !important;
+    text-align: center !important;
+    color: #00B4FF !important;
+  }
+
+  .multiple-box{
+    border: 1px dashed lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+
+  .bills-details-inner-right-box-pi-details-page-navbar-bills-details{
+    width: 320px;
+    height: 55px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .pb-details-more{
+    color:#fff !important;
+    background-color: rgb(0,100,254) !important;
+    height: 30px;
+  }
+
+  .menu-bar-box{
+    margin-top: 18px;
+  }
+
+  .bills-details-inner-left-box{
+    width: 530px !important;
+  }
+
+  .header-submit-box{
+    float: right;
+  }
+
+  .bills-details-inner-left-box-opppd{
+    width: 700px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  /* media query mobile responsive */
+
+  @media screen and (min-width: 400px) {
+    .bills-details-inner-left-box{
+      width: 250px;
+    }
+  
+  }

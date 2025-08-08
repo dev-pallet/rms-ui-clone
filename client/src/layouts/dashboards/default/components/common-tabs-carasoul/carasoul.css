@@ -1,0 +1,26 @@
+.splide-slider-main-div {
+    height: auto !important;
+    width: 100% !important;
+    /* padding: 10px; */
+}
+
+.splide-slider-main-div>div>div>ul {
+    height: auto;
+    padding: 5px 0 5px 0 !important;
+}
+
+.slider-title-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+.slider-icon-div{
+    cursor: pointer;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.splide__arrow  {
+ margin-top:  25px;
+}

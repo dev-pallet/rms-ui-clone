@@ -1,0 +1,94 @@
+.new-locations-box {
+  border-bottom: 1px solid lightgray;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.west-icon {
+  width: 32px !important;
+  height: 30px !important;
+  border: 1px solid lightgray;
+  color: gray;
+  border-radius: 5px;
+}
+
+.add-location-text {
+  text-transform: capitalize !important;
+  color: #000 !important;
+  font-weight: 500 !important;
+}
+
+.details-location-cont-box {
+  padding: 10px;
+  margin-bottom: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 7px;
+}
+
+.location-name-box {
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 7px;
+}
+
+.det-text {
+  font-size: 0.9em !important;
+  font-weight: 600 !important;
+}
+.light-text {
+  font-size: 0.8em !important;
+  font-weight: 300 !important;
+  color: gray;
+}
+.light-text-I {
+  font-size: 0.8em !important;
+  font-weight: 300 !important;
+  color: gray;
+  margin-left: 5px;
+}
+.inventory-text {
+  font-size: 0.8em !important;
+  font-weight: 400 !important;
+  color: gray;
+  margin-left: 20px;
+}
+.location-address-box {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 7px;
+  padding: 10px;
+}
+.add-res-text {
+  font-size: 0.9em !important;
+  font-weight: 600 !important;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.country-text {
+  font-size: 0.8em !important;
+  font-weight: 300 !important;
+}
+.felx-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+.flex-width {
+  width: 30%;
+}
+.save-button {
+  float: right;
+  background-color: #0562fb !important;
+  color: #fff !important;
+}
+
+.verify-button {
+  margin: 0;
+  background-color: #0562fb !important;
+  color: #fff !important;
+  margin-left: 1rem !important;
+}

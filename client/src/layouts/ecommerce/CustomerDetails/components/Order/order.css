@@ -1,0 +1,13 @@
+.order-box{
+    width: 100%;
+    box-shadow: rgba(37, 37, 37, 0.126) 0px 5px 50px;
+    border-radius: 16px;
+    margin-top:20px !important;
+}
+
+.views{
+    margin-top: 10%;
+  width: 100% !important;
+  margin-left: -277%!important;
+
+}

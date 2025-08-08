@@ -1,0 +1,16 @@
+.mobile-status {
+  display: flex;
+  padding: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  /* border: 1px solid var(--Surface-G1, #e6e6e6); */
+  text-align: center;
+  font-size: var(--text-0_625rem, 0.625rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.625rem */
+  color: var(--Surface-G4, #6b6b6b);
+}

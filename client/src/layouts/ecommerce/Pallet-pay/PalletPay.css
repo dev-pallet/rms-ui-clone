@@ -1,0 +1,207 @@
+.css-f2q4o2-MuiTableContainer-root {
+  padding: 10px !important;
+}
+
+.softbtnSize {
+  min-width: 126px !important;
+}
+
+.settlement-table {
+  margin-top: '1rem';
+  padding: '15px';
+  overflow: 'auto';
+}
+
+.top-header-drawer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mdr-details {
+  margin-top: 1.5rem !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin: auto;
+  width: 70%;
+  min-height: 15rem;
+  /* width: 100%; */
+  border-radius: 2rem;
+  background-color: #344767 !important;
+  padding: 1.5rem;
+}
+
+.mdr-card-header {
+  color: white !important;
+}
+
+.mdr-charges {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-description {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem !important;
+  font-size: 0.8rem !important;
+}
+
+.paymentCard-logo {
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  /* background-color: aqua; */
+  background-clip: padding-box !important ;
+}
+
+.payment-mode-card-logo {
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+}
+
+.payment-logo {
+  height: 100% !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  /* background-color: #344767; */
+
+  background-color: white !important;
+}
+
+.transaction-rate {
+  color: white !important;
+  font-size: 0.8rem !important
+  ;
+}
+
+.pass-transaction {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pass-transaction-check {
+  display: flex;
+  align-items: center !important;
+  gap: 0.5rem;
+}
+.transaction-check-description {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+}
+.caution {
+  margin-top: 1rem;
+  min-height: 4rem;
+  padding: 2rem;
+  background-color: #ffffff !important;
+  box-shadow: inset 0rem 0rem 0.0625rem 0.0625rem rgba(255, 255, 255, 0.9),
+    0rem 1.25rem 1.6875rem 0rem rgba(0, 0, 0, 0.05) !important;
+  border-radius: 1rem !important;
+  display: flex;
+  gap: 1rem;
+}
+
+.caution-description {
+  font-weight: 600;
+  font-size: 1rem !important;
+}
+
+.invoice-transaction {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #ffffff !important;
+  box-shadow: inset 0rem 0rem 0.0625rem 0.0625rem rgba(255, 255, 255, 0.9),
+    0rem 1.25rem 1.6875rem 0rem rgba(0, 0, 0, 0.05) !important;
+  border-radius: 1rem !important;
+  padding: 1rem;
+}
+
+.invoice-charges {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gst-charges {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.payment-mode {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.activated {
+  background-color: #3877ff !important;
+  color: #ffffff !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.debit-card-list {
+  height: 10rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.list-group-item {
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Optional: Smooth background color transition */
+  /* height: 14rem; */
+}
+
+.card-collapse {
+  overflow: hidden;
+  transition: height 0.3s ease; /* Smooth height transition */
+}
+
+.is-expanded {
+  background-color: #344767; /* Optional: Background color change when expanded */
+}
+
+.card-title-text {
+  color: #ffffff !important;
+  background-color: blueviolet;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card-title-text:hover {
+  transform: scale(1) !important; /* Adjust the scale factor as needed */
+  transition: transform 0.3s ease !important; /* Smooth transform transition on hover */
+}
+
+.debit-transaction-charges {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-info {
+  display: flex;
+  gap: 2rem;
+}
+
+.save-btn-box {
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.save-btn-mdr {
+  background-color: #0562fb !important;
+  color: white !important;
+}
+
+.mdr-no-data-found {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

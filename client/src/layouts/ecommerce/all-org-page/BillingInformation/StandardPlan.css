@@ -1,0 +1,178 @@
+.billing-amount-and-active-plan {
+  margin-top: 1rem;
+}
+
+.reuirements-features {
+  margin-top: 1rem;
+}
+
+.features-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feature-data {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.check-icon-feature {
+  height: 1rem;
+  width: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #0562fb;
+  color: white;
+}
+
+.check-icon-svg {
+  height: 0.8rem !important;
+  width: 0.8rem !important;
+  font-weight: 600;
+}
+
+.feature-details-text {
+  font-size: 0.8rem !important;
+}
+
+.view-all-features {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.view-all-features-text {
+  font-size: 0.8rem !important;
+}
+
+.requirements {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.requirement-details {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.requirement-details-text {
+  font-size: 1rem !important;
+}
+
+.add-icon,
+.remove-icon {
+  color: #0562fb;
+  cursor: pointer;
+}
+
+.requirement-number {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.requirement-count {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.billing-info,
+.features {
+  margin-top: 1rem;
+  background-color: #fafafa;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.amount-pay {
+  margin-top: 1rem;
+  background-color: #fafafa !important;
+  border-radius: 1rem !important;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.total-amount-proceed-to-pay {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem !important;
+}
+
+.standard-plan-table,
+.standard-plan-table-td,
+.standard-plan-table-th,
+.standard-plan-table-tr {
+  border: none !important;
+}
+.standard-plan-table {
+  border-collapse: collapse !important;
+  width: 100% !important;
+  background-color: #fafafa !important;
+  font-size: 13px !important;
+  border-radius: 1rem !important;
+}
+
+.standard-plan-table-td {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.standard-plan-table-td,
+.standard-plan-table-th {
+  text-align: left !important;
+  padding: 4px;
+  background-color: #fafafa !important;
+}
+
+.standard-plan-table-th {
+  background-color: #fafafa !important;
+}
+
+.line-break {
+  height: 0.1rem;
+  width: 8rem;
+  background-color: darkgrey;
+  margin-top: 1rem;
+  margin-right: 3rem;
+}
+
+.billing-bottom-info {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.bottom-info-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-left-text {
+  font-size: 1rem !important;
+}
+
+.info-right-text {
+  font-size: 0.8rem !important;
+}
+
+.total-amount {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.total-amount-left,
+.total-amount-right {
+  font-size: 0.8rem;
+  font-weight: 700;
+}

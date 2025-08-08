@@ -1,0 +1,60 @@
+.new-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.finished-product-name {
+  display: 'flex';
+  flex-direction: column;
+}
+
+.gtin {
+  margin-top: 1rem;
+  display: 'flex';
+  flex-direction: column;
+}
+
+.unit-measurement {
+  margin-top: 1rem;
+  display: 'flex';
+  flex-direction: column;
+}
+
+.unit-weight {
+  margin-top: 1rem;
+  display: 'flex';
+  flex-direction: column;
+}
+
+.category {
+  margin-top: 1rem;
+  display: 'flex';
+  flex-direction: column;
+}
+
+.raw-material {
+  margin-top: 1rem;
+  display: 'flex';
+  flex-direction: column;
+}
+
+/* .cancel-save {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2rem;
+} */
+
+.cancel-save {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 767px) {
+  .modal-box-production-mapping {
+    width: 90vw !important;
+  }
+}

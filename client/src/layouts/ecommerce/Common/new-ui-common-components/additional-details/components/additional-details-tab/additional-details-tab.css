@@ -1,0 +1,72 @@
+.addDet-tab-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* margin-left: 20px; */
+  min-width: max-content;
+  height: 100%;
+}
+
+.addDet-tabname {
+  font-size: var(--font-size-xs);
+}
+
+.addDet-value {
+  font-size: var(--font-size-md);
+  font-weight: bold;
+  width: 100%;
+}
+
+.addDet-desc {
+  font-size: var(--font-size-2xs);
+  width: 100%;
+}
+
+.title-download-addDetTab {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tab-icon-div {
+  color: green;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .addDet-tab-main-container {
+    /* margin-left: 10px; */
+    display: flex;
+    padding: 0.375rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.375rem;
+    height: 100%;
+  }
+
+  .addDet-tabname {
+    color: var(--Surface-Black, #0b0b0b);
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 0.625rem */
+  }
+
+  .addDet-value {
+    color: var(--Surface-Black, #0b0b0b);
+    text-align: left;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 1.25rem */
+  }
+
+  .addDet-desc {
+    color: var(--Surface-G4, #6b6b6b);
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 0.625rem */
+  }
+}

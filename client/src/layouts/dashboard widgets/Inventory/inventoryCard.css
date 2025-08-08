@@ -1,0 +1,23 @@
+.inventoryStockCard {
+    padding: 15px
+}
+
+.inventoryCard-splitAlign-Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.inventoryCard-splitAlign {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.tagHead-flex {
+    /* flex : 1; */
+    font-size: 0.85rem !important;
+    font-weight: 600 !important;
+}

@@ -1,0 +1,29 @@
+table{
+    width: 100%;
+}
+
+td,th{
+    text-align: left !important;
+}
+
+th{
+    background-color: rgb(220, 220, 220);
+}
+td{
+    font-size: 0.9em !important;
+    font-weight: 400 !important;
+}
+
+.th-text{
+    text-transform: uppercase;
+    font-size: 0.7em !important;
+    font-weight: 400 !important;
+    color:gray;
+    margin-left: 5px !important;
+}
+
+.td-text{
+    display: flex !important;
+    gap: 5px;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+@keyframes glowColor {
+    0% {
+      color: black; 
+    }
+    50% {
+      color: #0562FB; 
+    }
+    100% {
+      color: black; 
+    }
+  }

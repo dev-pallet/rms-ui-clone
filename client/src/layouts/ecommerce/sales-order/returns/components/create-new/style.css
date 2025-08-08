@@ -1,0 +1,27 @@
+.return-table-head td {
+  border: 1px solid lightgray;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f2f3f3;
+}
+.return-table-body td {
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  padding: 2px;
+}
+.return-table-head-check {
+  width: 22px;
+}
+.return-table-head-num {
+  width: 42px;
+}
+.return-table-head-product {
+  width: 196px;
+}
+.return-table-head-big {
+  width: 106px;
+}
+.return-table-head-uom {
+  width: 77px;
+}

@@ -1,0 +1,15 @@
+/* .pay-now-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 26.5%;
+} */
+
+.value-view-bill-div {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.purchase-header-values {
+  font-weight: bold;
+}

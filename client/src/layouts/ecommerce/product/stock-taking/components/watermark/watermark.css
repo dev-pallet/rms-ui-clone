@@ -1,0 +1,16 @@
+/* Watermark.css */
+.watermark-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .watermark-image {
+    position: absolute;
+    top: -44px;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    pointer-events: none;
+    width: 70%;
+  }

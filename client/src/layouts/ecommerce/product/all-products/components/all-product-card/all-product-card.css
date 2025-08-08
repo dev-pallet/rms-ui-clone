@@ -1,0 +1,237 @@
+.all-prdt-main-wrapper {
+  width: 100%;
+  border-radius: 10px;
+  /* margin-bottom: 10px; */
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: white !important;
+  z-index: 4;
+  height: 100%;
+}
+
+.all-prdt-info-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  /* padding: 10px; */
+  position: relative;
+  z-index: 4;
+}
+
+.all-prdt-analysis-wrapper {
+  height: auto;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+}
+/* 
+  .analysis-type-main{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: auto;
+  } */
+.analysis-type-typo {
+  font-size: 14px !important;
+}
+
+.all-prdt-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid #00000026;
+}
+
+.all-prdt-img-div {
+  height: 100px;
+  width: 100px;
+  /* flex: 1;  */
+}
+
+.all-prdt-info-div {
+  height: 100%;
+  width: 70%;
+  flex: 1;
+}
+
+.product-card-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* gap: 10px; */
+  border-radius: 10px;
+  background-color: white !important;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.batch-details-accordion {
+  width: 100%;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  margin: 0px !important;
+}
+
+.batch-details-accordion::before {
+  background-color: transparent !important;
+}
+
+.batch-details-accordionSummary {
+  height: 50px !important;
+  min-height: 0px !important;
+}
+
+.batch-details-accordionSummary > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100% !important;
+}
+
+.accordion-details {
+  position: relative;
+}
+
+.batch-details-update-loader-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000026 !important;
+  border-radius: 10px;
+}
+
+.save-edit-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.prdt-wrapper {
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.prdt-wrapper > div {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+.down-arrow-icon-batch-details {
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  height: 1.5rem !important;
+  width: 1rem !important;
+  background-color: lightgrey;
+  border-radius: 100vw;
+}
+
+.searched-product-gtin-name {
+  font-size: 0.9rem !important;
+  font-weight: bold !important;
+}
+
+.searched-product-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px !important;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.clear-btn-all-prdt {
+  font-size: 0.7rem !important;
+  padding: 5px 10px 5px 10px !important;
+  min-height: 0px !important;
+  border-radius: 100vw !important;
+}
+
+.add-batch-main-div {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.add-batch-drawer-label-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.input-label-add-batch {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  margin-top: 5px;
+}
+
+.cancel-save-add-batch-btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.verifyingBatch {
+  font-size: 10px;
+  color: #0562fb;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.batch-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.verifiedBatch {
+  font-size: 10px;
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.alreadyPresent {
+  font-size: 10px;
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.main-back-drawer-div {
+  width: 100%;
+  height: auto;
+}

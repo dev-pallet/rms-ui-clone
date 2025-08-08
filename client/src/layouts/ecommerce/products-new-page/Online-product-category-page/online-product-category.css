@@ -1,0 +1,15 @@
+.products-new-online-category-heading {
+    color: #000000;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 34px !important;
+    margin-bottom: 20px !important;
+    margin-left: 20px !important;
+}
+
+#products-image-show {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}

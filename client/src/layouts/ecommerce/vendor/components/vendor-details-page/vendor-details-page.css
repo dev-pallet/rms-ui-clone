@@ -1,0 +1,141 @@
+.blue-col{
+
+    display: flex;
+    align-items: center;
+    min-height: 6.75rem;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vendor-logo{
+    position: relative;
+}
+
+#vendor-logo-edit-badge{
+    position: relative;
+    top:1.2rem;
+    right:0
+}
+
+.vendor-logo-select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+.vendor-logo-box{
+    position: relative;
+    height:60%;
+    width:30%;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 1rem;
+    box-shadow: 0rem 1.25rem 1.6875rem 0rem rgba(0, 0, 0, 0.05);
+    padding:1rem;
+}
+
+.cancel-icon-modal{
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+}
+
+.modal-preview-image{
+    margin-top: 2rem;
+    height:70%;
+    width:100%;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.img-preview{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.input-file-box{
+    height: 100%;
+    width:100%;
+    position: relative;
+}
+.default-img-upload{
+    height:100%;
+    width:100%;
+    border-radius: 0.5rem;
+}
+
+.input-file-upload{
+    height:100%;
+    opacity:0;
+    display: block;
+    position: relative;
+    bottom: 15rem;
+    cursor: pointer;
+}
+
+
+.cancel-save-btn-modal{
+   position:absolute;
+   bottom: 0;
+   right: 0;
+   padding: 1rem;
+}
+
+@media (max-width:780px){
+.vendor-logo-box{
+    width:50%
+}
+}
+
+.paperCardContainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid lightgray;
+    margin : 5px 0px 5px 0px
+  }
+.vendorCardContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin : 5px 0px 5px 0px;
+    box-shadow: 0px 2px 10px rgba(3,3,3,0.1) !important;
+  }
+  
+  .vendorCardHeading {
+    font-size: 0.875rem !important;
+  }
+  
+  .vendorCardValue {
+    font-size: 1.2rem;
+    font-weight: 600 !important;
+  }
+  
+  .vendorCardCount {
+    font-size: 0.8rem !important;
+  }
+  
+  .vendorLogo-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #555;
+    text-align: center !important;
+  }
+
+  .vendorImage-style {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid rgb(228, 226, 226);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px !important;
+  }
+  

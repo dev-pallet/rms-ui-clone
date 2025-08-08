@@ -1,0 +1,40 @@
+.mob-additional-card-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.75rem;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  min-width: max-content;
+  border: 1px solid var(--Surface-G1);
+  background: var(--Surface-White);
+  border-radius: 0.5rem;
+}
+
+.mob-additional-card-title {
+  color: #000;
+  font-size: var(--text-0_625rem, 0.625rem);
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.mob-additional-card-value {
+  color: #000;
+  font-size: var(--text-1_25rem, 1.25rem);
+  font-weight: bold;
+  line-height: 100%;
+}
+
+.mob-additional-card-descirption-active {
+  color: var(--Green-G0, #0b742c);
+  font-size: var(--text-0_625rem, 0.625rem);
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.mob-additional-card-descirption-inactive {
+  color: var(--Red-Solid, #e90000);
+  font-size: var(--text-0_625rem, 0.625rem);
+  font-weight: 400;
+  line-height: 100%;
+}

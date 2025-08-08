@@ -1,0 +1,39 @@
+.purchase-bills-divider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.purchase-bills-divider-children {
+  width: 100%;
+  height: 200px;
+}
+
+.bill-children-one {
+  flex: 0.3;
+}
+
+.bill-children-two {
+  flex: 0.7;
+}
+
+.view-payment-doc {
+  color: #0562fb;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.bill-details-main-div {
+  border-radius: 0.5rem;
+  background: var(--Surface-G0);
+  padding: 0.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  align-self: stretch;
+  /* margin-top: 20px; */
+}

@@ -1,0 +1,155 @@
+.logincontainer{
+    height: 800px;
+    display: flex;
+    /* border: 1px solid red; */
+    
+}
+
+.logincontainer div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: sticky;
+    
+}
+.logincontainer1{
+    flex: 0.7;
+    margin-left: 30px;
+    background-color: #EBA85A;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid #000;
+   
+}
+.logincontainer2{
+    flex: 0.5;
+    margin-right: 30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.fruitss{
+    width: 500px;
+    height: 500px;
+    margin-left: 15%;
+    object-fit: cover;
+}
+.logoimage{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 10%;
+}
+
+
+.welcome{
+    margin-top: 80px;
+    margin-left: 90px;
+    font-size: 2.1em;
+    color: #545454;
+    line-height: 3;
+    font-weight: 580;
+}
+.logincontainer2 p{
+    margin-left: 92px;
+    font-size: 0.8em;
+    line-height: 2;
+    color: #A6A6A6;
+}
+
+.emailspan{
+    font-size: 0.8em;
+    margin-left: 90px;
+}
+
+.emailinput{
+    margin-left: 90px;
+    width: 300px;
+    padding: 7px;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+    border: none;
+    margin-bottom: 5px;
+}
+.emailinput:focus{
+    outline: none;
+}
+
+.emailinput::placeholder{
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+
+.passinput{
+    margin-left: 90px;
+    width: 300px;
+    padding: 7px;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.passinput:focus{
+    outline: none;
+}
+
+.passinput::placeholder{
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+
+.passspan{
+    margin-left: 90px;
+    font-size: 0.8em;
+}
+
+.forgotspan{
+    font-size: 0.8em;
+    margin-left: 130px;
+    color: #184AB1;
+    font-weight: 550;
+}
+
+.checkinput{
+    margin-left: 90px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.checkinput:focus{
+    outline: none;
+}
+.remspan{
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+.loginbutton{
+    margin-left: 90px;
+    width: 310px;
+    padding: 7px;
+    border: none;
+    background-color: #EBA85A;
+    color: #000000;
+    text-decoration: underline;
+    font-size: 1em;
+    letter-spacing: 0.25em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* @media (min-width:"1100px"){
+    .fruitss{
+        margin-left: 10%;
+    }
+}
+@media (min-width:"995px"){
+    .fruitss{
+        margin-left: 10%;
+        border: 1px solid red;
+    }
+}
+@media (min-width:"380px"){
+    .fruitss{
+        margin-left: 5%;
+        border: 1px solid red;
+    }
+} */

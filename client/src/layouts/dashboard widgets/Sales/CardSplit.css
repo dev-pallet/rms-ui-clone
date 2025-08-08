@@ -1,0 +1,61 @@
+.CardFontStyle {
+    font-size: 0.875rem !important;
+    font-weight: 700 !important;
+    color: #67748e !important
+}
+
+.CardAlignStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.CardtypeStyle {
+    padding: 2px 8px 2px 8px;
+    background-color: #0562fb;
+    color: white !important;
+    border-radius: 8px;
+    font-size: 0.78rem !important;
+}
+
+.splitOrder-Gradient {
+    background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgba(138, 192, 216, 1) 90%);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.card-orderStatus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-orderStaus-tag {
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 2px 8px 2px 8px;
+    min-width: 60px;
+    text-align: center;
+    color: #0b1736;
+}
+
+.order-status-success {
+    background-color: #E0FFCD;
+    flex: 1;
+}
+
+.order-status-pending {
+    background-color: #FCF9BE;
+    flex: 1;
+
+}
+
+.order-status-failed {
+    background-color: #FFDCA9;
+    flex: 1;
+
+}

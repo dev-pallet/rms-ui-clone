@@ -1,0 +1,47 @@
+.mob-app-button {
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+.mob-app-black:active {
+  background-color: #949494 !important;
+}
+.mob-app-blue:active {
+  background-color: #67b5dc !important;
+}
+.mob-app-green:active {
+  background-color: #87c55d !important;
+}
+.mob-app-white:active {
+  background-color: transparent !important;
+}
+
+.button-content-app {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.common-button-title {
+  text-align: center;
+  font-size: var(--text_0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}
+
+.mobile-filter-right-icon {
+  line-height: 100%;
+}
+
+.circular-progress-main-div-ros-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

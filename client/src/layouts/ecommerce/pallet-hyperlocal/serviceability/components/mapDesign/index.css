@@ -1,0 +1,197 @@
+/* Map Container */
+.map-container {
+  text-align: center;
+  width: 100% !important;
+}
+
+
+.map-container button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+/* Container for Centering */
+/* .map-outer-container {
+    border: 1px solid blue;
+
+  }
+   */
+/* Container for Fixed Width and Height */
+.map-inner-container {
+  width: 790px;
+  height: 250px;
+  border: 1px solid #ccc;
+  position: relative;
+  margin-top: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-right: 21.8rem;
+}
+
+.gm-svpc {
+  display: none !important;
+}
+
+/* CSS for autocomplete suggestion list */
+.suggestion-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: white;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1;
+  width: 40%;
+  margin-left: 4rem;
+  background-color: white;
+  border-radius: 1px;
+  font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 12rem;
+}
+
+.suggestion-list li {
+  cursor: pointer;
+  border-bottom: 1px solid lightblue;
+  text-align: left !important;
+  padding: 2px;
+}
+
+.suggestion-list li:hover {
+  background-color: #f2f2f2;
+}
+
+.radius-map {
+  width: 100% !important;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.map-input {
+  padding: 3px;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  margin-left: 10px;
+}
+
+.map-input:focus {
+  outline: none;
+}
+
+.map-input::placeholder {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: .2rem;
+}
+
+.map-input-edit {
+  padding: 3px;
+  border-radius: 7px;
+  margin-left: 10px;
+  width: 60%;
+  margin-top: -7px;
+  font-size: 1rem;
+  border: none;
+  margin-right: 1rem;
+}
+
+.map-input-edit:focus {
+  outline: none;
+}
+
+.map-input-edit::placeholder {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: .2rem;
+}
+
+.address-container-box {
+  display: flex;
+  align-items: center;
+}
+
+
+.address-container-boxI {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+
+.address-txt {
+  margin-top: 7px;
+  font-size: .7rem;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.input-radius-wrapper {
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.input-radius-wrapper:hover {
+  border: 2px solid #0562fb;
+}
+
+.input-radius-wrapper-edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  margin-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: .3rem;
+
+}
+
+.map-input-wrapper-radius {
+  border: none !important;
+  padding: 1px;
+  border-radius: 7px;
+  font-size: 1rem;
+  width: 100px !important;
+}
+
+.map-input-wrapper-radius:focus {
+  outline: none !important;
+}
+
+.map-input-wrapper-radius-edit {
+  border: none !important;
+  padding: 1px;
+  border-radius: 7px;
+  font-size: 1rem;
+  width: 50px;
+  margin-top: -6px;
+}
+
+.map-input-wrapper-radius-edit:focus {
+  outline: none !important;
+}
+
+.symbol-txt {
+  letter-spacing: .1em;
+  text-transform: capitalize;
+  margin-top: .62rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .7rem;
+  color: #0562fb;
+}
+
+.SoftInput {
+  width: 80% !important;
+}

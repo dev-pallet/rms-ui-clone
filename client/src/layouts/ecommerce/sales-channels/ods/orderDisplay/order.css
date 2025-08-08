@@ -1,0 +1,35 @@
+.ods-title-box {
+  margin-bottom: 10px;
+  border-radius: 7px !important;
+  background-color: #0562fb !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  align-items: center;
+  padding: 10px;
+  color: #fff !important;
+  width: 200px;
+  overflow: auto;
+}
+.ods-card-box {
+  margin-bottom: 10px;
+  border-radius: 7px !important;
+  background-color: #fff !important;
+  align-items: center;
+  padding: 10px;
+  width: 200px;
+  overflow: auto;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; /* Adjust the shadow as needed */
+}
+.ods-card-box:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.column-container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.column {
+  flex: 0 0 auto;
+  min-width: 250px; /* Set the minimum width of each column */
+  margin: 0 10px; /* Adjust the margin between columns as needed */
+}

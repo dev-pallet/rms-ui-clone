@@ -1,0 +1,44 @@
+.stock-counting-modal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2.5px solid rgb(175, 173, 173) !important;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.cycle-count-batches {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.stock-count-input {
+  width: 100px !important;
+}
+
+.stock-taking-modal-back-btn {
+  float: left;
+  font-size: 2rem !important;
+  margin-bottom: 5px !important;
+}
+
+.cycle-count-modal {
+  height: 100vh;
+  height: 100dvh;
+}
+
+.stock-modal-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.stock-item-header {
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  margin: 0.5rem 0 !important;
+}

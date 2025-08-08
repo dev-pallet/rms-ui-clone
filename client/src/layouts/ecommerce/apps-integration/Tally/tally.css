@@ -1,0 +1,176 @@
+.tally {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-60%, -20%);
+  min-height: 31rem;
+  min-width: 50rem;
+  background: #fff !important;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  z-index: 299 !important;
+  padding: 1rem;
+  /* word-wrap: break-word; */
+  /* position: relative; */
+}
+
+.tally-info {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.tally-btns {
+  display: flex;
+  justify-content: flex-end;
+  /* position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 1rem; */
+}
+
+.tally-back-btn {
+  margin-right: 1rem !important;
+}
+
+.authenticate-btn {
+  margin-top: 0.7rem !important;
+  border: 1px solid #0562fb !important;
+  color: #0562fb !important;
+}
+.tally-next-btn {
+  background-color: #0562fb !important;
+  color: white !important;
+}
+
+.step-content {
+  margin-top: 1rem;
+}
+
+.ip-port-details,
+.company-details,
+.sync-data-details,
+.date-range-details,
+.data-history-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.ip-top-heading,
+.company-top-heading,
+.sync-data-top-heading,
+.date-range-top-heading,
+.date-history-top-heading {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  color: #0562fb !important;
+}
+.ip-sub-heading,
+.company-sub-heading,
+.sync-data-sub-heading,
+.date-range-sub-heading {
+  font-size: 0.7rem !important;
+  font-weight: 500 !important;
+  color: #333333 !important;
+}
+
+.ip-port-form,
+.compnay-form,
+.sync-form {
+  padding: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ip-input-details,
+.ip-port-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.sync-form-data {
+  display: flex;
+  gap: 10rem;
+}
+
+.date-range-start-end {
+  margin-top: 3rem;
+  display: flex;
+  gap: 6rem;
+}
+
+.start-date-range,
+.end-date-range {
+  margin-bottom: 4rem;
+}
+
+.loader {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.data-history-sync-dtails {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.add-company {
+  margin-top: 4rem;
+  height: 12rem;
+  overflow: scroll;
+}
+
+.sync-data-company {
+  margin-top: 2rem;
+}
+.syn-data-company-list {
+  width: 40% !important;
+}
+
+/* .sync-result-data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+} */
+
+.sync-data-details-result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  height: 4rem;
+  border-radius: 1rem;
+}
+
+.sync-data-name {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  color: #0562fb !important;
+}
+
+.sync-data-count {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: #333333 !important;
+}
+
+.sync-checkbox-container {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+}
+
+.syn-details-loader {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,21 @@
+.product-card-box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.stock-item-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px dashed rgb(205 208 212);
+}
+
+.stock-item-details {
+    font-size: .9rem !important;
+    font-weight: bold !important;
+}
+
+
+.stock-item-mian-box {
+    width: 100%;
+}

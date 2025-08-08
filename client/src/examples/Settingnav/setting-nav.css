@@ -1,0 +1,34 @@
+.setting-navbar-box{
+    width: 20%;
+    height: 670px;
+    padding: 10px;
+}
+
+.setting-icons-box{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.inner-icons-box{
+    flex: 0.2;
+    height: 75%;
+    border-radius: 7px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.setting-text-typo-org{
+    font-size: 0.7em !important;
+    font-weight: 400 !important;
+    color: #6B7891 !important;
+}
+
+.inner-text-box{
+    flex: 1.3;
+}

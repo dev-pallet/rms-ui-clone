@@ -1,0 +1,41 @@
+.products-department-new-form-label-2 {
+  color: #000000;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 21px !important;
+  /* margin-top: 20px !important; */
+}
+
+.products-new-tax-sales-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.products-new-main-box {
+  padding: 10px 0px 20px 0px;
+}
+
+.products-new-department-label-typo-2 {
+  color: #000000;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.products-new-department-addmore-btn-2 {
+  color: #367df3;
+  font-size: 13px !important;
+  font-weight: 500;
+  line-height: 21px;
+  margin-top: 20px !important;
+}
+
+.button-typo {
+  font-size: 13px !important;
+  font-weight: 500;
+  line-height: 21px;
+  color: #367df3 !important;
+  cursor: pointer;
+}

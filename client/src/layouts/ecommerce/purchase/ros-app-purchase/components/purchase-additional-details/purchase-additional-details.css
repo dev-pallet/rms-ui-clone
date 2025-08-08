@@ -1,0 +1,11 @@
+.additional-details-main-div {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.additional-details-main-div::-webkit-scrollbar {
+  display: none;
+}

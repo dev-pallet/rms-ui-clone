@@ -1,0 +1,51 @@
+.soft-select-white-bg {
+  background-color: #ffffff;
+}
+.checkbox-css {
+  border: 1.5px solid #dee2e6;
+}
+
+.container-card {
+  padding: 15px 20px;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+  background-color: #ffffff !important;
+}
+.container-card-without-shadow {
+  padding: 15px 20px;
+}
+
+.skeleton-loader-productGroup {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-bottom: -27px !important;
+}
+
+.product-search-result-div {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.exclude-ostk {
+  display: flex;
+  flex-direction: column;
+}
+
+.exclude-main-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stock-count-file-template {
+  color: var(--Blue-B0);
+  cursor: pointer;
+}
+.stock-count-file-template:hover{
+  text-decoration: underline;
+}

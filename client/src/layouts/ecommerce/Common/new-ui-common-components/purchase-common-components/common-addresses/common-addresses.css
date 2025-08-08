@@ -1,0 +1,74 @@
+.common-address-card {
+  width: 100%;
+  flex: 1;
+  border-radius: 24px !important;
+  box-shadow: var(--main-boxshadow-xl) !important;
+  height: 100%;
+  padding: 15px;
+  flex-grow: 1;
+  min-height: 145px;
+  max-height: 145px;
+  overflow-y: scroll;
+}
+
+.common-address-card::-webkit-scrollbar {
+  display: none;
+}
+
+.address-title {
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+}
+
+.address-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.address-line-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* width: 100%; */
+  gap: 10px;
+}
+
+.address-line-container > span {
+  font-size: var(--font-size-xs);
+  line-height: 1.3em;
+}
+
+.address-line-title {
+  /* min-width: 50px; */
+  font-size: var(--font-size-xs);
+  /* width: 100%; */
+  white-space: break-spaces;
+}
+
+@media only screen and (min-width: 600px) {
+  .common-address-card {
+    max-height: auto;
+    overflow: auto;
+  }
+
+  .common-address-card > div > div {
+    min-height: 0px !important;
+    height: auto !important;
+    margin: 0px !important;
+  }
+
+  .common-address-card > div {
+    min-height: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .address-title {
+    font-size: 1rem;
+    font-weight: unset;
+  }
+}

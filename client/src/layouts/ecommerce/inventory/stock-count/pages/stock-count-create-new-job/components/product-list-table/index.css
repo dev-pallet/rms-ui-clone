@@ -1,0 +1,86 @@
+.table-header-group {
+  display: table-header-group !important;
+}
+.sticky-table-header {
+  position: sticky;
+  top: 0;
+  padding: 0 !important;
+  z-index: 100 !important;
+  display: table-header-group !important;
+}
+/* 5%
+30%
+20%
+10%
+10%
+15%
+10% */
+
+/* products list table columns heading */
+.products-list-table .ReactVirtualized__Table__headerRow > div {
+  font-size: 16px !important;
+}
+.products-list-table .ReactVirtualized__Table__headerRow > div:first-child {
+  width: 3% !important;
+}
+.products-list-table .ReactVirtualized__Table__headerRow > div:nth-child(2) {
+  width: 5% !important;
+}
+.products-list-table .ReactVirtualized__Table__headerRow > div:nth-child(3) {
+  width: 30% !important;
+}
+.products-list-table .ReactVirtualized__Table__headerRow > div:nth-child(4) {
+  width: 15% !important;
+}
+.products-list-table .ReactVirtualized__Table__headerRow > div:nth-child(5) {
+  width: 10% !important;
+}
+.products-list-table .ReactVirtualized__Table__headerRow > div:nth-child(6) {
+  width: 12% !important;
+}
+.products-list-table .ReactVirtualized__Table__headerRow > div:nth-child(7) {
+  width: 15% !important;
+}
+.products-list-table .ReactVirtualized__Table__headerRow > div:nth-child(8) {
+  width: 10% !important;
+}
+
+/* products list table columns data font size */
+.products-list-table .ReactVirtualized__Grid__innerScrollContainer {
+  font-size: 16px !important;
+}
+/* products list table columns data  */
+.products-list-table .ReactVirtualized__Table__row > div:first-child {
+  width: 3% !important;
+}
+.products-list-table .ReactVirtualized__Table__row > div:nth-child(2) {
+  width: 5% !important;
+  cursor: pointer;
+}
+.products-list-table .ReactVirtualized__Table__row > div:nth-child(3) {
+  width: 30% !important;
+  cursor: pointer;
+}
+.products-list-table .ReactVirtualized__Table__row > div:nth-child(4) {
+  width: 15% !important;
+  cursor: pointer;
+}
+.products-list-table .ReactVirtualized__Table__row > div:nth-child(5) {
+  width: 10% !important;
+}
+.products-list-table .ReactVirtualized__Table__row > div:nth-child(6) {
+  width: 12% !important;
+}
+.products-list-table .ReactVirtualized__Table__row > div:nth-child(7) {
+  width: 15% !important;
+}
+.products-list-table .ReactVirtualized__Table__row > div:nth-child(8) {
+  width: 10% !important;
+}
+
+/* .products-list-table-body > tr > td:first-child {
+  min: 50px;
+} */
+.products-list-table .ReactVirtualized__Grid {
+    scrollbar-width: thin !important;
+}

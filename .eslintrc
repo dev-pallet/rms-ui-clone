@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+  "globals": {
+    "__DEV__": false
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": ["sort-imports-es6-autofix", "react", "unused-imports"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "curly": ["error"],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "linebreak-style": ["error", "unix"],
+    "no-console": "off",
+    "no-var": ["error"],
+    "prefer-const": ["error"],
+    "quotes": ["error", "single"],
+    "react/jsx-no-bind": ["error"],
+    "react/prop-types": "off",
+    "semi": ["error", "always"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "sort-imports-es6-autofix/sort-imports-es6": ["error"],
+    "unused-imports/no-unused-imports": "error"
+  }
+}

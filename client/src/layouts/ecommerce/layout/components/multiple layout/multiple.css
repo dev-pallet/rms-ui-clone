@@ -1,0 +1,55 @@
+#blockSelectionClr {
+  /* border: 1px solid #0064FE !important; */
+  background-color: #0562fb !important;
+  color: #ffffff !important;
+}
+
+.intactBlock {
+  background-color: #0562fb !important;
+  pointer-events: none !important;
+}
+
+.intactBlockOnLoad {
+  background-color: #0562fb !important;
+  pointer-events: none !important;
+}
+
+.componentsTextWhite {
+  color: #ffffff !important;
+}
+
+.componentsTextBlack {
+  /* color: black !important; */
+}
+
+.drag-drop-card {
+  /* color: #ffffff !important; */
+  color: #344767 !important;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 1rem;
+  /* box-shadow: 0rem 1.25rem 1.6875rem 0rem rgba(0, 0, 0, 0.05); */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  word-wrap: break-word;
+  /* background-color: #17c1e8 !important; */
+  background-color: white !important;
+  height: 5rem;
+  /* width: 664px !important; */
+  margin: 2rem;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.drag-drop-card:hover {
+  background-color: #0562fb !important;
+  color: #ffffff !important;
+}
+
+/* 
+.drag-drop {
+  display: flex;
+  justify-content: center;
+} */

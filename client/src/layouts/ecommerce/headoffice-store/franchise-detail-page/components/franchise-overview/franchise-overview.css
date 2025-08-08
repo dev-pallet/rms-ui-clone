@@ -1,0 +1,28 @@
+.frn-det-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frn-det-typo-main{
+    font-size: 14px !important;
+    font-weight: bold !important;
+    margin: 10px 0 10px 0 !important;
+}
+
+.frn-det-typo-secondary{
+    font-size: 14px !important;
+}
+
+.info-wrapper-frn-det{
+    margin-top: 20px;
+}
+
+.frn-det-overview-main-div{
+    padding-bottom: 20px;
+}
+
+.overview-products{
+    height: 60px;
+    margin-top: 20px;
+}

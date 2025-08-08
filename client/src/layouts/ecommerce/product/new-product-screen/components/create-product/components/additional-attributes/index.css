@@ -1,0 +1,25 @@
+.radio-checbox-products {
+  width: 15px;
+  height: 15px;
+  background-color: #007bff; 
+  border-color: #007bff; 
+}
+.checkbox-products {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  background-color: #007bff !important;
+  border-color: #007bff !important; 
+}
+.input-label-text {
+    color: #000000 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 21px !important;
+}
+.add-more-products{
+    color: #007bff !important;
+    font-size: 14px !important;
+    margin-top: 5px !important;
+    cursor: pointer;
+}

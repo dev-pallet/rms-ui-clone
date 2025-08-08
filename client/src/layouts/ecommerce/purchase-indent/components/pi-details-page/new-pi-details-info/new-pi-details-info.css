@@ -1,0 +1,75 @@
+.vendor-details-pi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pinsghts-title-main-container {
+    margin: 10px 0 !important;
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+    gap: 10px;
+}
+
+.purchase-insights-cards-main-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pinsights-tab-main-container {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.pinsights-tab-name {
+    font-size: var(--font-size-md);
+    font-weight: bold;
+}
+
+.pinsights-tab-value {
+    font-size: var(--font-size-xl);
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.pinsights-tab-desc {
+    font-size: var(--font-size-xs);
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+    .pinsights-tab-name {
+        font-size: var(--font-size-xs);
+    }
+
+    .pinsights-tab-value {
+        font-size: var(--font-size-lg);
+    }
+
+    .pinsights-tab-desc {
+        font-size: var(--font-size-2xs);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .purchase-insights-cards-main-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .vendor-details-pi{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

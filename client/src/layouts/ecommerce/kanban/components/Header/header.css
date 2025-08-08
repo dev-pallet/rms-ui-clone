@@ -1,0 +1,34 @@
+.header-submit-box {
+  float: right;
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+.sku {
+  display: 'flex';
+  flex-direction: column;
+}
+
+.quantity {
+  margin-top: 1rem;
+  display: 'flex';
+  flex-direction: column;
+}
+.expected-date {
+    margin-top: 1rem;
+    display: 'flex';
+    flex-direction: column;
+  }
+  .cancel-save-btn{
+    position: absolute;
+    bottom:0;
+    right:0;
+    padding:2rem
+  }
+
+@media only screen and (max-width: 767px) {
+  .header-new-btn-modal {
+    width: 80vw !important;
+  }
+}

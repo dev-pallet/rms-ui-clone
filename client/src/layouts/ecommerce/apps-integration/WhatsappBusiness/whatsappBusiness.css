@@ -1,0 +1,45 @@
+.wa-business-flow-box {
+    background: #efeef6 !important;
+}
+
+.wa-business-flow-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    color: rgb(102, 102, 102) !important;
+    cursor: pointer; 
+}
+
+.wa-business-flow-div-selected {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    color: #fff !important;
+    cursor: pointer; 
+    border-right: 2px solid #0562FB;
+    background: linear-gradient(60deg, #0562FB, #fff);
+}
+
+.wa-business-flow-typo {
+    font-size: 14px !important;
+    font-weight: 200 !important;
+    line-height: 2;
+}
+
+.wa-business-flow-typo-selected {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    line-height: 2;
+}
+
+.add-catalog-products-box {
+    background: #efeef6 !important;
+    padding: 20px;
+    border-radius: 5px;
+}

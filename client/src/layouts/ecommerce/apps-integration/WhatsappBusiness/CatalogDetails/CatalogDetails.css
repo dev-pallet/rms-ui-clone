@@ -1,0 +1,120 @@
+.catalog-details-tab-selection-box {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+  background: #0562fb !important;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.catalog-details-selected-tab {
+  width: 33%;
+  background-color: #fff !important;
+  color: #0562fb !important;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.catalog-details-unselected-tab {
+  width: 33%;
+  background-color: #0562fb !important;
+  color: #fff !important;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.template-header-typo {
+  font-size: 0.8rem !important;
+  line-height: 1.5 !important;
+  text-align: left !important;
+  margin-top: 10px !important;
+  font-weight: 200 !important;
+}
+
+.template-header-typo2 {
+  font-size: 0.6rem !important;
+  line-height: 1.5 !important;
+  text-align: left !important;
+  font-weight: 200 !important;
+}
+
+.template-header-text {
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  text-align: left !important;
+  font-weight: 600 !important;
+  margin: 10px 0px !important;
+}
+
+.template-body-text {
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  text-align: left !important;
+  font-weight: 200 !important;
+  margin: 10px 0px !important;
+}
+
+.template-footer-text {
+  font-weight: 200 !important;
+  font-size: 0.8rem !important;
+  line-height: 1.5 !important;
+  text-align: left !important;
+  margin: 10px 0px !important;
+  color: #8d949e !important;
+}
+
+.template-button-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.template-button-text {
+  font-weight: 200 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  text-align: left !important;
+  margin: 10px 0px !important;
+  color: #0562fb !important;
+}
+
+.catalog-details-workflow-main-box {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.catalog-details-workflow-single-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog-details-workflow-steps-typo {
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  color: #4b524d !important;
+  text-align: center !important;
+  margin: 10px 0px !important;
+}
+
+.catalog-details-workflow-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.catalog-details-button-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

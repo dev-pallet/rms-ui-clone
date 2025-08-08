@@ -1,0 +1,78 @@
+.item-count-text {
+  font-size: 0.9rem !important;
+  font-weight: bold !important;
+  margin-top: 1rem;
+}
+
+.item-count-save-btn {
+  display: flex;
+  padding: var(--4, 0.25rem);
+  align-items: center;
+  gap: var(--8, 0.5rem);
+  border-radius: var(--2, 0.125rem);
+  background: var(--Surface-Black, #0B0B0B);
+}
+
+.item-count-save-btn-text {
+  color: var(--Surface-White, #FEFEFE);
+  text-align: center;
+  font-family: var(--Nunito-Sans, "Nunito Sans");
+  font-size: var(--12, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}
+
+.stock-item-mrp {
+  font-size: 0.8rem !important;
+  color: #344767 !important;
+}
+
+.item-location-div {
+  display: flex;
+  padding: var(--6, 0.375rem) var(--4, 0.25rem);
+  align-items: center;
+  gap: var(--8, 0.5rem);
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: var(--4, 0.25rem);
+  background: var(--Surface-G1, #E6E6E6);
+}
+
+.item-location-text {
+  color: var(--Surface-G2, #BDBDBD);
+  text-align: center;
+  font-family: var(--Nunito-Sans, "Nunito Sans");
+  font-size: var(--10, 0.625rem);
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+  line-height: 100%; /* 0.625rem */
+  width: 80px;
+}
+
+.expiry-date-div{
+  display: flex;
+  padding: var(--6, 0.375rem) var(--4, 0.25rem);
+  align-items: center;
+  gap: var(--8, 0.5rem);
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: var(--4, 0.25rem);
+  background: var(--Surface-G1, #e6e6e6);
+}
+
+.expiry-date-text {
+  color: var(--Surface-G2, #bdbdbd);
+  text-align: center;
+  font-family: var(--Nunito-Sans, 'Nunito Sans');
+  font-size: var(--10, 0.625rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.625rem */
+  border: none;
+  background: var(--Surface-G1, #e6e6e6);
+}
+.expiry-date-value{
+  color: var(--Surface-G4, #6B6B6B) !important;
+}

@@ -1,0 +1,25 @@
+.pricing-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.pricing-text1 {
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  line-height: 74px;
+}
+
+.pricing-text2 {
+}
+
+.pricingCards > div {
+  min-height: 32rem;
+}
+
+/* .enterpriseCard > div:first-child {
+  height: 100%;
+  flex: 1 !important;
+} */

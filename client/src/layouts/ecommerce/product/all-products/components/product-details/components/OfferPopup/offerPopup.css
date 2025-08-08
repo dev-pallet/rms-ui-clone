@@ -1,0 +1,16 @@
+.orientation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.main-offer{
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+
+.details{
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}

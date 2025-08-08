@@ -1,0 +1,31 @@
+.common-drawer-close {
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.close-icon-mobile-drawer {
+  background-color: black;
+  border-radius: 100vw;
+  width: max-content;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.children-div-mobile-drawer {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.children-div-mobile-drawer {
+  display: flex;
+  padding: 0.75rem;
+  flex-direction: column;
+  gap: 0.5rem;
+}

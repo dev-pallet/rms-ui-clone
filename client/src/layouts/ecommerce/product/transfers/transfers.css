@@ -1,0 +1,74 @@
+.transfer-page{
+  display: flex;
+  padding: 15px 15px 15px 0px;
+  border-radius:7px;
+  background-color: whitesmoke;
+}
+.transfers-origin-autocomplete{
+  padding-right: 260px;
+  border-right: 2px solid rgba(176, 175, 178, 0.388);
+}
+.transfers-destination-page{
+  padding-left: 15px;
+}
+.transfers-page-inner-soft{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  align-content: left;
+}
+.transfers-page-head{
+font-size:16px !important;
+}
+.transfers-data-head{
+    font-size: 16px !important;
+}
+.transfers-page-table-data{
+   margin-top:20px;
+   margin-bottom:20px;
+}
+.transfer-inventory-head{
+    font-size: 18px !important;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+}
+.transfers-additional-details{
+  background-color: whitesmoke;
+  border-radius: 7px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.transfers-date-box{
+  width: 190px;
+}
+.barcode-filter-bar-btn{
+  color: rgb(0,100,254);
+}
+
+.res{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+.res-I{
+  margin-top: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+.transfer-inventory-text{
+  font-size: 0.9em !important;
+}
+
+.no-data-found{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white !important;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+

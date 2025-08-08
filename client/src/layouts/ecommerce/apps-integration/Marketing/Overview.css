@@ -1,0 +1,47 @@
+.marketing-overview-dash-images {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marketing-overview-inc-box {
+    padding: 5px;
+    border-radius: 5px;
+    background: #CCF5E7;
+    width: fit-content
+}
+
+.marketing-overview-mail-stats-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.marketing-overview-mail-stats-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.marketing-overview-mail-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.marketing-overview-second-box {
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px;
+}
+
+.marketing-overview-second-box-inner {
+    display: flex;
+    justify-content: space-between;
+}

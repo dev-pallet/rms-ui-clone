@@ -1,0 +1,40 @@
+.stack-row-center-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.stack-row-center-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-lang-new-btn {
+  color: #367df3;
+  font-size: 14px !important;
+  font-weight: 500;
+  line-height: 21px;
+  margin-top: 10px !important;
+}
+
+.title-heading-products-header {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+

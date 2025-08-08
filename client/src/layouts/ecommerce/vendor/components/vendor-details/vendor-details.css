@@ -1,0 +1,311 @@
+.AddVendor {
+  font-size: 14px;
+}
+
+.AddVendorInp5 {
+  font-size: 0.7em;
+  margin-bottom: 20px;
+}
+.add-vendor-other-details {
+  padding: 20px 20px 0px 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -15px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  /* border: 1px solid red; */
+  margin-left: 22px;
+}
+.add-vendor-other-details1 {
+  padding: 17px 17px 0px 17px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -15px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border: 1px solid red;
+}
+.add-product-file-box1 {
+  margin: 10px;
+}
+.add-product-file-head1 {
+  font-size: 0.7em !important;
+  font-weight: 400 !important;
+}
+.add-product-box-main1 {
+  text-align: center;
+  border: 2px solid rgba(117, 117, 117, 0.308) !important;
+  padding: -10px !important;
+  cursor: pointer;
+  height: 70px;
+  width: 300px;
+}
+.add-product-file-attach1 {
+  color: rgb(235, 168, 90) !important;
+  cursor: pointer;
+}
+.add-file-inner-box1 {
+  padding: 10px;
+}
+.add-product-file-attach1 {
+  font-size: 17px;
+}
+.add-product-htmlfor {
+  font-size: 12px;
+}
+.add-customer-save-btn1 {
+  background-color: rgb(235, 168, 90) !important;
+  color: white !important;
+  margin-right: 15px !important;
+}
+.add-customer-cancel-btn1 {
+  color: rgb(235, 168, 90) !important;
+  background-color: white !important;
+}
+.verify-add-vendor-btn {
+  font-size: 11px !important;
+  margin-left: 10px !important;
+  color: rgb(235, 168, 90) !important;
+  height: 20px !important;
+  width: 60px;
+  border: 1px solid rgb(235, 168, 90) !important;
+  margin-top: 7px !important;
+  background-color: white;
+  border-radius: 4px;
+}
+.verify-add-vendor-btn:hover {
+  color: rgb(28, 119, 255) !important;
+  border: 1px solid rgb(28, 119, 255) !important;
+  transform: scale(1.2) !important;
+}
+.vendor-add-image-box {
+  width: 200px;
+  height: 109px;
+  border-radius: 7px;
+}
+.vendor-add-image-edit {
+  width: 70px !important;
+  height: 25px !important;
+  background-color: rgb(0, 100, 254) !important;
+}
+
+.add-customer-other-details-box {
+  background-color: white !important;
+  margin-left: 22px;
+}
+.box-white-background {
+  background-color: white !important;
+  /* border: 1px solid red; */
+  margin-left: 22px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+}
+.add-customer-pan-verify-i {
+  background-color: #0562fb !important;
+  color: white !important;
+  font-size: 14px;
+  height: 40px;
+  padding: 0;
+  border-radius: 7px;
+  /* transform: translateY(15px); */
+  float: right;
+  margin-top: 20px !important;
+}
+.add-customer-pan-verify-i-scs {
+  background-color: rgb(24, 181, 3) !important;
+  color: white !important;
+  font-size: 14px;
+  height: 40px;
+  padding: 0;
+  border-color: white;
+  border-radius: 7px;
+  /* transform: translateY(15px); */
+  float: right;
+  margin-top: 35px !important;
+}
+.add-customer-progress-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 5px !important;
+  margin-left: 3px !important;
+  color: white !important;
+}
+
+.add-customer-pan-verify-j {
+  background-color: rgb(0, 100, 254);
+  color: white;
+  font-size: 15px;
+  padding: 5px 7px 7px 5px;
+  width: 20%;
+  border-color: white;
+  border-radius: 10px;
+}
+.form-button-cancel-i {
+  border-color: rgb(0, 100, 254);
+  background-color: aqua;
+}
+
+.form-button-submit-i {
+  background-color: rgb(0, 100, 254) !important;
+  color: white !important ;
+}
+
+.form-button-customer-vendor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.adds {
+  font-size: 14px !important;
+  /* margin-top: 15px !important; */
+  color: #0562fb !important ;
+  cursor: pointer;
+  margin-left: 13px !important;
+}
+
+.adds:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  /* margin-top: 20px; */
+  margin-left: 7px !important;
+  margin-bottom: 10px !important;
+}
+
+.add-more-box-div {
+  width: 50%;
+}
+
+.contact-list-div-box {
+  padding: 10px;
+  /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.grido-box {
+  margin-bottom: 20px;
+}
+
+.phone {
+  margin-top: 20px;
+  margin-bottom: 10px !important;
+  margin-left: 18%;
+}
+.email {
+  margin-top: 20px;
+  margin-bottom: 10px !important;
+  margin-left: 16%;
+}
+
+.contact-i {
+  width: 25%;
+  margin-top: 25px;
+  margin-left: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 10px; */
+}
+
+.css-zow5z4-MuiGrid-root > .MuiGrid-item {
+  /* padding-top: 10px !important; */
+}
+
+.phone-i {
+  width: 25%;
+  margin-top: 25px;
+  margin-left: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email-i {
+  width: 25%;
+  margin-top: 25px;
+  margin-left: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.remove {
+  margin-top: 25px;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-box-cont {
+  width: 500px !important;
+  /* margin-left: 16%; */
+}
+.export-div {
+  margin-top: 5px;
+  margin-left: 16px;
+  /* position: absolute; */
+}
+
+.nopointer-icon {
+  cursor: none !important;
+}
+.pointer-icon {
+  cursor: not-allowed !important;
+}
+.pointer-icon:focus {
+  outline: none !important;
+}
+
+@media only screen and (max-width: 480px) {
+  .contact {
+    width: 30%;
+    font-size: 9px;
+    margin-left: 11px !important;
+    font-size: bold;
+  }
+  .span_name {
+    margin-left: 15px;
+  }
+  .phone {
+    width: 15%;
+    font-size: 5px;
+    margin-left: 20px;
+  }
+  .email {
+    width: 15%;
+    font-size: 6px;
+    margin-left: 43px;
+  }
+  .contact-i {
+    width: 19%;
+  }
+  .phone-i {
+    width: 19%;
+    margin-left: 38px;
+  }
+
+  .email-i {
+    width: 19%;
+    margin-left: 29px;
+  }
+
+  .ola-box {
+    height: 60px;
+  }
+}
+
+.pan-gst-verification {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.pan-verification,
+.gst-verification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.pan-input,
+.gst-input {
+  /* width: 20rem !important; */
+  margin-right: 60px !important;
+}

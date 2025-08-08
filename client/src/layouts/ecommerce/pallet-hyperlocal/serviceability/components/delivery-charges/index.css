@@ -1,0 +1,33 @@
+.weight-wrapper-box {
+  display: flex;
+  gap: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cancel-cursor-weight {
+  cursor: pointer !important;
+  margin-top: 0.5rem !important;
+  color: #0562fb !important;
+}
+
+.weight-btn-wrapper {
+  margin-top: 2rem !important;
+}
+
+.shadow-input {
+  font-size: 0.7rem;
+  font-weight: 900;
+  width: 70px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.shadow-input:focus {
+  outline: none;
+}
+
+.shadow-input:disabled {
+  opacity: 0;
+}

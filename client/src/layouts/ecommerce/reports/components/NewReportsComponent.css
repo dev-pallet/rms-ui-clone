@@ -1,0 +1,8 @@
+.reportHeader {
+    background-color: #007aff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

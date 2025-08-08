@@ -1,0 +1,23 @@
+.terminal-listing-container {
+  padding: 1rem 1.2rem;
+}
+
+.terminal-listing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.terminal-listing-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.terminal-listing-header-chip-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

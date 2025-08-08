@@ -1,0 +1,322 @@
+.sample-billing-box-img1 {
+    margin: auto;
+    width: 72%;
+    height: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: url("https://media.istockphoto.com/vectors/invoice-design-template-with-stamp-impression-vector-id838366704?b=1&k=20&m=838366704&s=612x612&w=0&h=AtNl1PJm2yjTmyVT1ZWYAjFTrREmyzWKLEyPjP4tQc8=") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    opacity: 0.7 !important;
+}
+
+.pi-box-inventory {
+    width: 300px;
+    background-color: white;
+    position: 'absolute';
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 7px;
+    padding: 10px;
+    border: none !important;
+}
+
+.modal-cancel-pi {
+    margin-right: 10px !important;
+}
+
+.pi-details-page-navbar {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.modal-pi-border:focus {
+    outline: none !important;
+}
+
+.modal-pi-border {
+    border: none
+}
+
+.pi-approve-menu {
+    width: 400px;
+    background-color: white;
+    position: 'absolute';
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 7px;
+    padding: 25px 25px 15px 25px;
+    border: none !important;
+}
+
+.pi-approve-menu-1 {
+    width: 400px;
+    background-color: white;
+    position: 'absolute';
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 7px;
+    padding: 25px 25px 15px 25px;
+    border: none !important;
+}
+
+.pi-approve-btns-div {
+    display: flex;
+    margin-top: 20px !important;
+    transform: translateX(150px);
+}
+
+.pi-approve-btn {
+    color: white !important;
+    background-color: rgb(0, 100, 254) !important;
+}
+
+.pi-approve-btn1 {
+    background-color: white !important;
+    color: rgb(0, 100, 254) !important;
+    margin-right: 10px !important;
+}
+
+/* .items-quan-box{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.items-quan-box {
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.comment-box-pi {
+    margin-top: 20px;
+    padding: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 7px;
+}
+
+.comment-text-pi {
+    font-size: 0.8em !important;
+}
+
+.st-dot-box-I {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+}
+
+.st-dot-box-I:hover {
+    background-color: #d2d3d6;
+}
+
+.add-po-preview-btn-box-I {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tdd-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* text-align: center !important; */
+    /* justify-content: center; */
+    padding-left: 10px !important;
+}
+
+.gold {
+    font-size: 0.8em;
+    /* text-align: center !important; */
+}
+
+.bills-details-inner-right-box-inndent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transform: translateX(650px);
+}
+
+.form-control {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+
+.thk-text {
+    font-size: 0.8em !important;
+    font-weight: 600 !important;
+}
+
+.bills-details-inner-right-box-pi {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* transform: translateX(460px) !important; */
+}
+
+/* 
+#basic-menu{
+    border: 1px solid red !important;
+} */
+
+.menu-box {
+    margin-top: 15px !important;
+}
+
+.bills-details-inner-left-box-PI {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.bills-details-top-mob {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.pinum-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pi-details-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.vendor-det-typo-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 100%;
+
+}
+    
+@media only screen and (max-width:576px) {
+
+    .bills-details-top-mob {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .to-do-list {
+        /* margin-top: 20px; */
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+
+    .pi-number-position-mob {
+        position: sticky;
+        top: 75px;
+        background-color: white !important;
+        margin: 0px !important;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 0 10px 10px !important;
+        z-index: 998;
+    }
+
+    .pinum-main-container {
+        height: auto;
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: 0 0 10px 10px !important;
+    }
+
+    .pi-btn-position {
+        position: sticky;
+        top: 126px;
+        background-color: white !important;
+        margin: -5px 0 0 0 !important;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .pi-details-splide {
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        background-color: white !important;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .ministatistics-border {
+        box-shadow: none !important;
+        border: 1px solid lightgray !important;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.089) !important; */
+    }
+
+    .pi-timeline-accordion {
+        min-height: 0px !important;
+    }
+
+    .pi-timeline-accord {
+        margin-top: -4px;
+        border-bottom-left-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+        /* background-color: rgba(211, 211, 211, 0.137) !important; */
+    }
+
+    .pi-timeline-accord-main-div{
+        position: sticky;
+        top: 167px;
+        z-index: 997;
+    }
+
+    .approve-modal-new-pi,.pi-approve-menu-1-mobile{
+        background-color: white !important;
+        border-radius: 10px 10px 0 0;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .pi-approve-btns-div-mob{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .picancel-btn{
+        width: 100%s;
+        flex: 1;
+    }
+
+    .reject-title-new-pi{
+        width: 100%;
+        white-space: break-spaces;
+    }
+
+    .reason-main-div{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        width: 100%;
+        margin-top: 10px;
+    }
+}

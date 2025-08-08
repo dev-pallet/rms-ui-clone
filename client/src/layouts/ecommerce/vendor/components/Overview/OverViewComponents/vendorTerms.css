@@ -1,0 +1,63 @@
+.vendorTerms-cardBox {
+    padding : 15px;
+}
+
+.vendorFullfillmentValues {
+    display: flex;
+    gap : 200px;
+    align-items: center;
+    margin :5px 0px 5px 0px;
+}
+
+.vendorFontSize {
+    font-size: 0.875rem !important;
+    margin-left : 5px !important
+}
+
+.vendorPromotionFontSize {
+    font-size: 0.875rem !important;
+}
+
+.vendorTablestyle {
+    border-radius: 20px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+}
+
+.vendorCardShadow {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+ 
+}
+
+.vendorLocationbtn {
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #50505061;
+    padding-inline: 10px; 
+border-radius:  6px;
+min-height: 25px !important;
+}
+
+
+/* Default styles */
+.vendorSteperCycleValue {
+    margin: -53px 0px 0px 85% !important;
+    z-index: 100;
+    border: 4px solid #367df3;
+    border-radius: 50%;
+    height: 35px;
+    width:35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+}
+
+/* Media query for medium devices */
+@media (max-width: 490px) {
+    .vendorSteperCycleValue {
+        height: 20px;
+        width: 20px;
+    }
+}

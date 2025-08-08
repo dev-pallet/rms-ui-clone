@@ -1,0 +1,101 @@
+.coupon-main-div {
+    display: flex;
+    background-color: white !important;
+    border-radius: 10px;
+    /* height: auto; */
+    /* height: 100px; */
+    position: relative;
+    margin-top: 10px;
+    min-height: 80px;
+
+}
+
+.coupon-info-main-div {
+    padding: 10px;
+    flex: 1;
+
+    /* margin-left: 50px; */
+}
+
+.coupon-name-div {
+    color: white !important;
+    background-color: #0562fb !important;
+    /* height: 100%; */
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.coupon-name {
+    transform: rotate(270deg);
+    max-lines: 1;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+}
+
+.coupon-code-name-sales {
+    font-size: 10px !important;
+    color: lightgray;
+}
+
+.coupon-code-sales {
+    color: black !important;
+    font-weight: 700 !important;
+}
+
+.coupon-dicount-sales {
+    white-space: normal;
+}
+
+.coupon-code-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.301);
+    /* padding: 10px; */
+    border-radius: 0 10px 10px 0;
+}
+
+.coupon-dicount-sales {
+    font-size: 14px !important;
+    margin-top: 5px !important;
+}
+
+.coupon-discount-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.coupon-apply-button {
+    color: red !important;
+}
+
+.coupon-circle-cut-div {
+    height: 60px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+
+}
+
+.coupon-circle-cut {
+    height: 15px;
+    width: 15px;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+}
+
+.coupon-sales-offerName{
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}

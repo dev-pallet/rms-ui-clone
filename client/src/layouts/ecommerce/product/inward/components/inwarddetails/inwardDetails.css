@@ -1,0 +1,115 @@
+.inward-details-table-text {
+  font-size: 0.8em !important;
+}
+
+.inward-side-box {
+  border-radius: 7px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inward-side-text {
+  font-size: 0.7em !important;
+  font-weight: 600 !important;
+  line-height: 2 !important;
+}
+
+.inward-side-text-I {
+  font-size: 0.7em !important;
+  font-weight: 500 !important;
+  line-height: 2 !important;
+}
+
+.inward-side-text-II {
+  width: 70px;
+  padding: 2px 0px;
+  color: #de350b !important;
+  font-size: 0.7em !important;
+  font-weight: 700 !important;
+  line-height: 2 !important;
+  border: 1px solid #de350b !important;
+  border-radius: 4px !important;
+  text-align: center;
+  cursor: pointer !important;
+}
+.inward-side-text-IV {
+  width: 70px;
+  padding: 2px 0px;
+  color: green !important;
+  font-size: 0.7em !important;
+  font-weight: 700 !important;
+  line-height: 2 !important;
+  border: 1px solid green !important;
+  border-radius: 4px !important;
+  text-align: center;
+  cursor: pointer !important;
+}
+
+.error-inward-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #fff !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 7px;
+}
+
+.no-data-img-todo-inward {
+  width: 300px;
+  height: 570px;
+  object-fit: contain;
+  border-radius: 7px;
+}
+
+.status-text {
+  text-align: center !important;
+}
+
+.inward-details-session-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inward-details-session-heading {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px
+}
+
+.inward-details-box-1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 10px
+}
+
+.inward-details-typo-heading-1{
+  color: #214053 !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  text-align: left !important;
+  margin-top: 10px !important
+}
+
+.inward-details-typo-heading-2 {
+  color: #214053 !important;
+  font-size: 0.8rem !important;
+  font-weight: 200 !important;
+  text-align: left !important;
+}
+
+.grid-box {
+  height: 300px;
+  width: 100%
+}
+
+.margin-top-inward-details {
+  margin-top: 20px !important;
+}

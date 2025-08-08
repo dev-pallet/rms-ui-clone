@@ -1,0 +1,23 @@
+.vendorCardContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0px 5px 0px;
+  box-shadow: 0px 2px 10px rgba(3, 3, 3, 0.1) !important;
+}
+.vendorCardContainer-no-shadow {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0px 5px 0px;
+}
+.vendorCardHeading {
+  font-size: 0.875rem !important;
+}
+.vendorCardValue {
+  font-size: 1.2rem;
+  font-weight: 600 !important;
+}
+.vendorCardCount {
+  font-size: 0.8rem !important;
+}

@@ -1,0 +1,110 @@
+.timeline-main-container-return {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.approve-bedit-reject-debit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 0px;
+}
+
+.status-modal-main-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  border-radius: 24px;
+  width: 500px;
+  /* max-height: 500px; */
+  /* overflow-y: scroll; */
+}
+
+.status-modal-heading-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-modal-heading-div > span {
+  font-size: 18px;
+}
+
+.status-modal-softSelect > span {
+  font-size: 14px;
+}
+
+.status-button-div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.inward-table-return {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.inward-table-item-div > span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.inward-table-input-div {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* .inward-table-item-div { */
+/* border: 1px solid black; */
+/* } */
+
+.inward-item-modal-div-container {
+  height: auto !important;
+}
+
+.input-field-inward-table {
+  height: inherit;
+  overflow-y: scroll;
+}
+
+.header-grid-inward-table {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white !important;
+}
+
+.inward-item-table-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.inward-item-data-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+
+.batch-number-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.purchase-return-second-children {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

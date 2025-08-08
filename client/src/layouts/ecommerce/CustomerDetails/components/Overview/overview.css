@@ -1,0 +1,18 @@
+.overview-grid-card{
+    margin-bottom: 30px !important;
+}
+
+.m-vendorCardHeading {
+    font-size: 0.8rem !important;
+    font-weight: 600;
+  }
+  
+.m-vendorCardValue {
+  font-size: 1rem;
+  font-weight: bold !important;
+}
+
+.m-vendorCardCount {
+  font-size: 0.65rem !important;
+}
+  

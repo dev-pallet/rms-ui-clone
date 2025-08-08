@@ -1,0 +1,50 @@
+.dashboard-skull-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+.dash-skull-title{
+    height: 50px !important;
+    width: 60% !important;
+    transform: none !important;
+}
+
+.dash-skull-select{
+    height: 50px !important;
+    width: 80% !important;
+    transform: none !important;
+}
+
+.dash-skull-card{
+    height: 100px !important;
+    width: 100% !important;
+    transform: none !important;
+}
+
+.dashboard-skull-main{
+    background-color: white !important;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.dash-skull-card-title{
+    height: 25px !important;
+    width: 120px !important;
+}
+
+.dash-skull-value{
+    height: 40px !important;
+    width: 40px !important;
+}
+.dash-skull-icon{
+    height: 70px !important;
+    width: 48px !important;
+}

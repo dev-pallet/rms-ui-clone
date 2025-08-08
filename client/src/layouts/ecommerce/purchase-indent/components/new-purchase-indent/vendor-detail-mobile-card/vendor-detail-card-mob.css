@@ -1,0 +1,89 @@
+.vendor-details-card-label {
+  color: var(--Surface-G4, #6b6b6b);
+  font-size: var(--text-0_625rem, 0.625rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 0.625rem */
+}
+
+.vendor-detail-main-div {
+  display: flex;
+  padding: 0.375rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+  border-radius: 0.25rem;
+  background: var(--Surface-G0, #f5f5f5);
+}
+
+.vendor-details-card-value {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}
+
+.vendor-details-card-value-secondary {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-0_625rem, 0.625rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 0.8125rem */
+}
+
+.vendor-details-pi-info-ros-app {
+  display: flex;
+  padding: 0.375rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  border-radius: 0.25rem;
+  background: var(--Surface-G0, #f5f5f5);
+}
+
+.vendor-details-main-parent-div {
+  border-radius: 0.25rem;
+  background: var(--Surface-White, #fefefe);
+  display: flex;
+  padding: 0.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  align-self: stretch;
+}
+
+.vendor-detail-title {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-1rem, 1rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 1rem */
+}
+
+.vendor-detail-vendorname {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}
+
+.drawer-common-purchase-method {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.purchase-terms-method-span {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}

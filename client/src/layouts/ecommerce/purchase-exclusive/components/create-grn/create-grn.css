@@ -1,0 +1,171 @@
+.express-grn-columns {
+  padding: 5px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  font-size: 12px;
+  top: 0;
+  position: sticky;
+  /* background: white; */
+  z-index: 1;
+  width: 82.97px !important;
+}
+.express-grn-columns:first-child {
+  border-top-left-radius: 5px;
+  width: 50px !important;
+  align-items: center;
+}
+
+.express-grn-columns:last-child {
+  border-top-right-radius: 5px;
+  width: 55px !important;
+}
+.express-grn-barcode-column {
+  padding: 8px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  font-size: 12px;
+  top: 0;
+  position: sticky;
+  /* background: white; */
+  z-index: 1;
+  width: 100px !important;
+}
+.express-grn-vendor-column {
+  padding: 8px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  font-size: 12px;
+  top: 0;
+  position: sticky;
+  /* background: white; */
+  z-index: 1;
+  width: 90px !important;
+}
+
+.express-grn-columns:nth-child(3) {
+  width: 300px !important;
+}
+.grn-background-color {
+  background: white;
+  border: none;
+  padding: 0px;
+}
+.express-grn-rows {
+  border: 1px solid #ddd;
+  padding: 2px;
+  font-size: 12px;
+}
+
+.express-grn-product-box {
+  min-width: 120px;
+}
+.pi-product-box {
+  min-width: 80px;
+}
+.express-grn-offer-icon {
+  border: 0.0625rem solid #d2d6da;
+  padding: 8px;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.table-container {
+  overflow-x: auto;
+}
+.additional-details-header {
+  padding: 5px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  font-size: 12px;
+  width: 100px;
+}
+.additional-details-header:first-child {
+  width: 40px;
+}
+.additional-details-header:last-child {
+  width: 40px;
+}
+.additional-details-header:nth-child(2) {
+  width: 200px;
+}
+.grn-file-box {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: #e0dada !important;
+  width: 60%;
+  margin: 5px 0 9px;
+  padding: 4px 4px 4px 8px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.highlighted-row {
+  background-color: yellow; /* Or any other highlight color */
+}
+.auto-foucs-textField:focus {
+  outline: none !important;
+  border: 1px solid #0562fb;
+  box-shadow: 0 0 10px #719ece;
+}
+.shortCutKeys-icon {
+  position: fixed !important;
+  bottom: 70px !important;
+  right: 16px !important;
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #0562fb !important;
+  color: white !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important; /* Adjust as needed */
+}
+.key-shortcut-btn {
+  background-color: #ebebeb;
+  border-radius: 5px;
+  border: none;
+  color: #344767;
+  padding: 5px;
+  font-size: 12px;
+}
+.shortcut-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  width: 300px;
+  white-space: pre-wrap;
+}
+/* .debounceProduct_loader_box {
+  display: flex;
+  gap: 0.225rem;
+  justify-content: flex-start;
+  align-items: center;
+  color: red;
+  font-size: 0.75rem;
+  width: 100%;
+  padding: 2px;
+} */
+.loading-row {
+  position: relative;
+}
+
+.debounceProduct_loader_box {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.225rem;
+  font-size: 0.8rem;
+  padding: 8px;
+}
+.debounceProduct_loader_box svg {
+  font-size: 20px !important;
+  cursor: pointer;
+}

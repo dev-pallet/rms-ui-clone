@@ -1,0 +1,42 @@
+.basic-info-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-details-box {
+  display: flex !important;
+  border: 1px solid;
+}
+
+.front-title {
+  font-size: 0.7em !important;
+  font-weight: 700 !important;
+  line-height: 3.5 !important;
+}
+
+.back-title {
+  font-size: 0.7em !important;
+  font-weight: 400 !important;
+  line-height: 3 !important;
+}
+
+.solid-box {
+  padding: 10px;
+}
+
+.form-main-box-profile {
+  display: flex !important;
+}
+
+.back-input {
+  border: none !important;
+  font-weight: 400 !important;
+  font-size: 0.7em !important;
+  line-height: 3.5 !important;
+}
+
+.details-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}

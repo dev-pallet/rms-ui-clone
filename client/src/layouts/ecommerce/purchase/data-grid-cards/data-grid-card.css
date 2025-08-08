@@ -1,0 +1,88 @@
+.card-purchase-main-div {
+  border-radius: 0.5rem;
+  background: var(--Surface-White, #fefefe);
+}
+.card-main-component {
+  display: flex;
+  padding: 0.75rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+  /* border-radius: 0.5rem; */
+}
+
+.card-title {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 0.975rem */
+}
+
+.card-sub-title {
+  color: var(--Surface-G4, #6b6b6b);
+  font-size: var(--text-0_625rem, 0.625rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 0.625rem */
+}
+
+.card-desc {
+  font-size: var(--font-size-xs);
+}
+
+.card-small-title {
+  font-size: var(--font-size-xs);
+}
+
+.card-small-value {
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+}
+
+.card-small-desc {
+  font-size: var(--font-size-xs);
+}
+
+.common-divider-mob-cards {
+  margin: 0.5rem 0 !important;
+}
+
+.inward-card-ros-app {
+  display: flex;
+  padding: var(--text-0_75rem, 0.75rem);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+}
+
+.inward-card-title-app {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-1rem, 1rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 1rem */
+}
+
+.inward-card-info-main-div {
+  padding: 0.25rem;
+  gap: 0.625rem;
+}
+
+.inward-info-title-ros-app {
+  color: var(--Surface-G4, #6b6b6b);
+  font-size: var(--text-0_625rem, 0.625rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 0.625rem */
+}
+.inward-info-value-ros-app {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}

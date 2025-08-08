@@ -1,0 +1,97 @@
+.product-statuses-div {
+    border: 1px dashed black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.flagIcon-main-div{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: -8px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.newpi-addItems-container {
+    display: flex;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.newpi-addItems{
+    width: 100%;
+    /* flex: 0.7; */
+}
+
+
+.newpi-vendorProducts {
+    width: 100%;
+    flex: 1;
+}
+
+.new-pi-barcode-scan{
+    display: flex;
+    align-items: flex-end;
+}
+
+.no-flag-recommendation{
+    font-size: 16px;
+    color: red;
+    margin-bottom: 0px !important;
+}
+
+.no-flag-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    margin: 15px auto;
+}
+
+.vendor-select-label{
+    font-size: 0.75rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.choose-vendor-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#vendor{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    outline: none;
+}
+
+
+.flag-data-line-item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5px;
+}
+
+.recommendation-mob-view{
+    white-space: break-spaces;
+}

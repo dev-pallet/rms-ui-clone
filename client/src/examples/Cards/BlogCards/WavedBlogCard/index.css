@@ -1,0 +1,16 @@
+.wave-img-bg{
+    background: rgba(49, 170, 59, 0.364) !important;
+}
+
+.wave-card-details{
+ height: 250px !important;
+}
+
+.wave-card-arrow{
+    position: absolute !important; 
+    bottom: 0 !important;
+    right: 0 !important;
+    margin-bottom: 30px !important;
+    margin-right: 20px !important;
+
+}

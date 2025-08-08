@@ -1,0 +1,347 @@
+.service-wrapper-box {
+  float: right !important;
+  margin-right: 20px !important;
+  display: flex !important;
+  gap: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.service-wrapper-box-I {
+  float: right !important;
+  margin-right: 20px !important;
+  display: flex !important;
+  gap: 10px !important;
+  margin-bottom: 10px !important;
+  /* margin-top: 5.5rem !important; */
+  margin-top: 0.5rem !important;
+}
+
+.service-edit-cancel-btn {
+  border: 1px solid #0562fb !important;
+  padding: 10px !important;
+}
+
+.service-edit-save-btn {
+  background-color: #0562fb !important;
+  color: #fff !important;
+  padding: 10px !important;
+  border: 1px solid #0562fb !important;
+  cursor: pointer !important;
+}
+
+.service-edit-save-btn:disabled {
+  cursor: not-allowed !important;
+}
+
+.slots-wrapper-input {
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  padding: 5px;
+  width: 170px;
+}
+
+.slots-wrapper-input:focus {
+  outline: none;
+}
+
+.slots-wrapper-input::placeholder {
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+}
+
+.star-txt {
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+}
+
+.flex-delivery-wrapper-container {
+  margin-top: 1.5rem;
+}
+
+.main-delivery-wrapper-box {
+  border-bottom: 1px solid lightgray !important;
+  margin-bottom: 10px;
+  width: 100% !important;
+}
+
+.icon-slot {
+  transform: translateY(-2px) !important;
+  color: #0562fb !important;
+}
+
+.slots-book-time-wrapper {
+  width: 30% !important;
+}
+
+.imp-txt {
+  font-weight: 900 !important;
+  color: red !important;
+}
+
+
+
+/* deliverslots monday css */
+
+
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.common-properties {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-left: .8rem;
+}
+
+.main-wrapper-label-container {
+  width: 60%;
+  margin: auto;
+  margin-top: -3.3rem;
+  padding: .5rem;
+}
+
+
+
+.day-container {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+
+.day-text {
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: .9rem;
+  color: #344767;
+}
+
+.day-textI {
+  margin-top: .7rem;
+  font-weight: 600;
+  font-size: .9rem;
+  color: #344767;
+}
+
+.label-container {
+  display: flex;
+  align-items: center;
+  gap: 6.2rem;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 2px;
+
+}
+
+.slot-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.time-picker {
+  width: 150px;
+  margin-top: .4rem;
+}
+
+.time-pickerI {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 150px;
+  height: 40px;
+
+}
+
+.time-pickerII {
+  height: 37.5px;
+  display: flex;
+  align-items: center;
+}
+
+.orderCapxity-input {
+  width: 140px;
+  border: 1px solid lightgray;
+  font-size: .8rem;
+  font-weight: 600;
+  border-radius: 5px;
+  height: 95%;
+  margin-top: .5rem;
+}
+
+.orderCapxity-input:focus {
+  outline: none;
+}
+
+.datepicker-comp {
+  width: 100% !important;
+  height: 100% !important;
+  border: 1px solid lightgray !important;
+  border-radius: 5px !important;
+  font-size: .9rem !important;
+  color: #344767 !important;
+}
+
+.datepicker-comp:hover {
+  background-color: #bfd3f4 !important;
+  cursor: pointer;
+}
+
+.datepicker-comp:focus {
+  outline: none !important;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #0562FB;
+  margin-left: 1rem;
+  font-size: .9rem !important;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+/* Additional styles for better alignment and spacing */
+.time-picker label {
+  margin-right: 1rem;
+}
+
+.day-container label {
+  font-weight: bold;
+}
+
+.slot-container label {
+  font-weight: bold;
+}
+
+.slot-container input {
+  padding: 8px;
+  margin-right: 1rem;
+  margin-bottom: 10px;
+}
+
+.add-more-btn {
+  padding: 5px;
+  background-color: #0562FB;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: .7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.add-more-btn:hover {
+  background-color: #5C9BFF;
+}
+
+.common-prop-wrapper-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.cut-off-input {
+  width: 100px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.cut-off-input:focus {
+  outline: none;
+}
+
+.label {
+  font-size: .7rem !important;
+  color: #344767 !important;
+  font-weight: 600 !important;
+  margin-left: 3px !important;
+}
+
+.label-I {
+  font-size: .7rem !important;
+  color: #344767 !important;
+  font-weight: 600 !important;
+  transform: translateX(1rem);
+}
+
+.label-II {
+  font-size: .7rem !important;
+  color: #344767 !important;
+  font-weight: 600 !important;
+  transform: translateX(1.5rem);
+}
+
+.insatnt-wrapper-box {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 1.5rem;
+  margin-left: 1.3rem;
+  margin-top: 1rem;
+}
+
+
+.instant-service-inout-box {
+  height: 34px;
+  width: 120px;
+  margin-top: .7rem;
+}
+
+
+.instant-service-inout-feild {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+}
+
+.instant-service-inout-feild:focus {
+  outline: none;
+}
+
+.date-picker-wrapper {
+  width: 120px;
+  height: 32px;
+}
+
+.datepicker-compI {
+  border: 1px solid lightgray !important;
+  border-radius: 5px !important;
+  font-size: .9rem !important;
+  color: #344767 !important;
+  padding: .3rem;
+  width: 100% !important;
+}
+
+.datepicker-compI:hover {
+  background-color: #bfd3f4 !important;
+  cursor: pointer;
+}
+
+.datepicker-compI:focus {
+  outline: none !important;
+}

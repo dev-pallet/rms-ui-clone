@@ -1,0 +1,67 @@
+.transfer-accordion-details {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-radius: 10px !important;
+  box-shadow: none;
+  margin-bottom: 30px;
+  background-color: white !important;
+  padding: 0px !important;
+}
+
+.transfer-accordion-main-div {
+  box-shadow: none !important;
+  border-radius: 10px;
+  background-color: transparent !important;
+}
+
+.transfer-accordion-main-div::before {
+  background-color: transparent !important;
+}
+
+.add-pi-textarea {
+  /* width: 95%;
+    height: 130px !important;
+    border: 1px solid gainsboro;
+    font-size: 16px !important; */
+  height: 176px !important;
+  padding: 0px 8px;
+  border: 1px solid #c2c2c2;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  /* color: #c2c2c2; */
+  font-size: 14px;
+  outline: none;
+}
+
+.time_picker > div {
+  justify-content: space-between !important;
+}
+
+.confirm-btn {
+  margin-right: 20px !important;
+}
+
+.billing_details_box{
+    border: 1px solid gainsboro;
+    background-color: #ffffff !important;
+    border-radius: 0.5rem;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.batchNo-highlight {
+  color: var(--bg-button) !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .billing-total-transfers {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,135 @@
+.reports-text-div {
+  padding: 5px 0 5px 0;
+  border-bottom: 1px solid lightgrey;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  font-size: 0.8rem !important;
+}
+.reports-title-div {
+  height: 100%;
+  padding: 5px 0;
+  border-bottom: 1px solid #d3d3d35e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-left 0.3s ease; /* Smooth transition */
+}
+
+.reports-title-div:hover {
+  background-color: #f0f8ff;
+  border-left: 5px solid lightblue; 
+  padding-left : 5px
+}
+
+.reports-title-div-1 {
+  height: 100%;
+  padding: 5px 0 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.reports-title-text {
+  font-size: 14px !important;
+  color: blue !important;
+}
+.orders-last-thirty-days {
+  margin-top: 15px !important;
+  text-transform: uppercase !important;
+  font-size: 15px !important;
+  letter-spacing: 0.1px !important;
+  font-weight: 550 !important;
+}
+
+.report-card-border {
+  border-left: 2px solid lightblue;
+  /* border-left : 3px solid lightgreen !important; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+  padding : 15px
+}
+
+.unAvailable_Report {
+  opacity: 0.3;
+  background-color: #d9d4d454;
+  cursor : no-drop;
+}
+
+.available_Report {
+cursor: pointer;
+}
+
+.reportHeader_Data {
+  margin-top: 15px !important;
+  font-weight: 550 !important;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+}
+
+.reportText {
+  padding : 5px 0 5px 0;
+  border-bottom :1px solid lightgrey;
+  font-size: 0.8rem !important;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.reportProfitValue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linkFontStyle {
+  font-size : 0.9rem !important;
+  padding-top: 10px;
+  margin-left: auto;
+}
+
+.reportDescriptionText {
+  width : 80%;
+  margin-top: 10px !important;
+  font-size:  14px !important;
+  color: rgb(70, 67, 67);
+}
+
+.reportBox {
+  width : 100%;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 10px;
+}
+
+.reports-operator-typo {
+  margin-top: 15px !important;
+  font-weight: 550 !important;
+  text-transform: uppercase !important;
+  font-size: 15px !important;
+  letter-spacing: 0.1px !important
+}
+
+.reports-operator-typo-2 {
+  padding: 5px 0 5px 0 !important;
+  border-bottom: 1px solid lightgrey !important;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  font-size: 0.8rem !important
+}
+
+.reportHeader-Text {
+  font-family: system-ui !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  background-color: whitesmoke;
+  width: 250px;
+  margin-left: -45px !important;
+  padding-left: 58px !important;
+  padding: 5px;
+  border-radius: 0px 8px 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.06) 1px 1px 1px !important;
+  margin-bottom: 15px !important;
+}

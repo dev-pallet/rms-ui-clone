@@ -1,0 +1,84 @@
+.title-heading-products {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+.desc-warning-icon {
+  color: #ff9500;
+  font-size: 20px;
+  width: 22px;
+  height: 34px;
+}
+.duplicate-warning-msg {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.duplicate-category-msg {
+  color: #b7bdc9;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 21px;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.look-up-btn {
+  cursor: pointer;
+  width: 120px;
+  height: 36px;
+  padding: 0px 8px;
+  border: 1px solid #367df3;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #367df3;
+  font-size: 14px;
+  line-height: 24px;
+  outline: none;
+}
+.select-box-category {
+  cursor: pointer;
+  width: 100%;
+  background-color: #ffffff;
+  color: #c2c2c2;
+  font-size: 14px;
+  line-height: 24px;
+  outline: none;
+}
+
+.select-box-radius {
+  border-radius: 8px !important;
+}
+.checkbox-container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  pointer-events: auto;
+  color: rgba(54, 125, 243, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(54, 125, 243, 1);
+}
+.checkbox-ticked {
+  display: none;
+  transition: left 0.3s ease;
+  z-index: 1;
+}
+.input-checbox-products {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}

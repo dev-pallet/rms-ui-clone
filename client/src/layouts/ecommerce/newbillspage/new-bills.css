@@ -1,0 +1,195 @@
+
+.table-row-typo-text{
+    font-size: 0.7em !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    font-weight: 600 !important;
+}
+
+.table-row-typo-record{
+    font-weight: 300 !important;
+    font-size: 0.7em !important;
+    color: gray !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.lower-box{
+    height: 200px;
+    width: 50%;
+    padding: 25px;
+}
+
+.sub-total-box{
+    height: 20%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.discount-lower-input{
+    width: 120px;
+    height: 29.2px;
+    border: 1px solid lightgray;
+}
+.discount-lower-input:focus{
+    outline: none;
+}
+.discount-lower-input::placeholder{
+    float: right;
+    margin-top: 5px;
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #EBA85A;
+}
+
+.discount-lower-select{
+    height: 29.5px;
+    border: 1px solid lightgray;
+    border-left: none;
+}
+.discount-lower-select:focus{
+    outline: none;
+}
+
+.attach-file-box{
+    /* height: 100px; */
+    width: 97%;
+    background-color: #FBFAFA !important;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.attach-text{
+    font-size: 0.6em !important;
+    font-weight: 500 !important;
+    margin-left: 10px !important;
+    margin-top: 15px !important;
+}
+.full-input-record{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.full-input-record:focus{
+    outline: none;
+}
+
+.custom-file-upload-data {
+    border: 1px dashed #ccc;
+    display: inline-block;
+    padding: 5px 25px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 10px;
+    text-align: center;
+}
+.custom-file-upload-data:hover{
+    border: 1px dashed #EBA85A;
+}
+
+.create-bills-verify-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(0,100,254);
+    border-radius: 6px;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left:10px;
+}
+
+ .verify-text{
+     color: rgb(0,100,254) !important; 
+    
+ }
+
+ .verify-text:hover{
+    color: rgb(0, 13, 254) !important; 
+}
+
+.verify-text-verify{
+    color: #0064FE !important;
+}
+
+.flex-main-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.total-bill-amount-details{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.create-bills-flex-box{
+    display:flex;
+    align-items: center;
+    gap: 25px;
+}
+.create-bills-last-box{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.save-create-bills{
+    color: white !important;
+    background-color:rgb(0,100,254) !important;  
+    margin-left: 10px !important;
+}
+.cancel-create-bills{
+    background-color: white !important;
+    color:rgb(0,100,254) !important;  
+}
+
+.billing-box{
+    border: 1px solid rgb(233, 230, 230);
+    border-radius: 7px;
+    padding: 8px;
+}
+
+.billing-text{
+    font-size: 0.7em !important;
+    font-weight: 600 !important;
+}
+
+.logo-box-org-I{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.add-customer-file-box-I{
+    margin-top: 10px;
+    border-radius: 7px;
+    background-color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -15px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    height: 90%;
+    padding: 10px;
+}
+
+.upload-text-I{
+    font-size: 0.7em !important;
+    font-weight: 500 !important;
+    color: #0064FE !important;
+    text-align: center;
+}
+
+.custom-file-upload-data-I-bills{
+    padding: 5px;
+    width: 150px;
+    margin-top: 5px;
+    border: 1px dashed lightgray;
+    cursor: pointer;
+}
+
+.logo-box-org{
+    width: 80px;
+    height: 80px;
+}
+
+.custom-file-upload-data-I-bills:hover{
+    border: 1px dashed #0064FE;
+}

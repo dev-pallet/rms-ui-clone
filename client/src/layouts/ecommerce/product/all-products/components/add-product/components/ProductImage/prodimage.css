@@ -1,0 +1,81 @@
+.upload{
+    /* width: 100px; */
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  .upload img{
+    border-radius: 50%;
+    border: 2px solid #eaeaea;
+  }
+  
+  .upload .round{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #00B4FF;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .upload .round input[type = "file"]{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+  }
+  
+  input[type=file]::-webkit-file-upload-button{
+      cursor: pointer;
+  }
+
+  .fa{
+    color: #fff !important;
+  }
+
+  .body-label{
+    font-size: 0.6em !important;
+    text-align: center !important;
+    color: #00B4FF !important;
+  }
+
+  .multiple-box{
+    border: 1px dashed lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+
+  .images-box{
+    border: 1px solid rgb(246, 241, 241);
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .uil{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-left: 10px;
+  }
+  .del-btn{
+    width: 50px !important;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }

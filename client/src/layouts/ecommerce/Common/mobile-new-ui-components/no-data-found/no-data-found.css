@@ -1,0 +1,22 @@
+.no-data-found-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 3rem;
+  width: 100%;
+}
+
+.no-data-found-text {
+  color: var(--Surface-G4, #6b6b6b);
+  text-align: center;
+  font-size: var(--text-0_75rem, 0.625rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 0.8125rem */
+}
+
+.no-data-found-image {
+  width: 5rem;
+  height: 5rem;
+}

@@ -1,0 +1,28 @@
+.text-editor-button-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.text-editor-buttons-box {
+  display: flex;
+  gap: 20px;
+}
+
+.text-editor-textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 120px
+}
+
+.text-editor-textarea-2 {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 80px;
+}

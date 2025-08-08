@@ -1,0 +1,21 @@
+.product-mob-picard-label{
+    font-size: 12px !important;
+}
+
+.product-mob-picard-value{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+
+.parent-stack{
+    width: 100%;
+    justify-content: space-between !important;
+}
+
+.product-mob-card-main-conatiner{
+    background-color: white !important;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}

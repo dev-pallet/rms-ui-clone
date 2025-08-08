@@ -1,0 +1,208 @@
+.vendor-details-pi {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 20px;
+  height: auto;
+}
+
+.pinsghts-title-main-container {
+  margin: 10px 0 !important;
+  display: flex;
+  align-items: center;
+  justify-self: flex-start;
+  gap: 10px;
+}
+
+.purchase-insights-cards-main-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.pinsights-tab-main-container {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.pinsights-tab-name {
+  font-size: var(--font-size-md);
+  font-weight: bold;
+}
+
+.pinsights-tab-value {
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.pinsights-tab-desc {
+  font-size: var(--font-size-xs);
+}
+
+.mobileDrawer-box-wrapper {
+  background-color: #e5e5e5 !important;
+  border-radius: 10px 10px 0 0;
+  padding: 24px;
+  overflow-y: scroll;
+}
+
+.mobileDrawer-box-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.chip-style-purchase {
+  color: #505050 !important;
+  /* background-color: transparent !important; */
+  border-radius: 10px !important;
+}
+
+.flag-tooltip-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+  margin-left: 10px;
+}
+
+.indent-details-mob-card-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 400px;
+  overflow-y: scroll;
+  /* padding: 10px 10px 15px 10px; */
+  width: 100%;
+}
+
+.no-data-purchase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: var(--font-size-sm);
+  background-color: lightgray;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: var(--main-boxshadow-xl);
+}
+
+.flag-tooltip-container-main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .pinsights-tab-name {
+    font-size: var(--font-size-xs);
+  }
+
+  .pinsights-tab-value {
+    font-size: var(--font-size-lg);
+  }
+
+  .pinsights-tab-desc {
+    font-size: var(--font-size-2xs);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .purchase-insights-cards-main-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .vendor-details-pi {
+    gap: 10px;
+    overflow-x: scroll;
+    margin-top: 5px;
+  }
+
+  .vendor-details-pi::-webkit-scrollbar {
+    display: none;
+  }
+  .pinsghts-title-main-container {
+    margin: 0px !important;
+    margin-top: 0px !important;
+    color: var(--Surface-Black, #0b0b0b);
+    font-size: var(--text-1rem, 1rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 1rem */
+  }
+
+  .purchase-details-datagrid {
+    border-radius: 0.5rem;
+    background: var(--Surface-G0, #f5f5f5);
+    padding: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+    /* margin-top: 20px; */
+  }
+  .purchase-id-title {
+    color: var(--Surface-Black, #0b0b0b);
+    text-align: right;
+    font-size: var(--text-1rem, 1rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 1rem */
+  }
+
+  .purchase-id-value {
+    color: var(--Surface-Black, #0b0b0b);
+    font-size: var(--text-0_75rem, 0.75rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 0.75rem */
+  }
+
+  .header-button-action-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .purchase-heading-ros-app {
+    color: var(--Surface-Black, #0b0b0b);
+    font-size: var(--text-1rem, 1rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 1rem */
+  }
+
+  .address-list-pi-po-ros-app {
+    display: flex;
+    /* padding: 0.5rem; */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+  }
+
+  .main-adress-list-parent {
+    display: flex;
+    /* padding: 0.5rem; */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+  }
+
+  .common-timeline-main-div {
+    padding: 0.5rem;
+    width: 100%;
+  }
+}

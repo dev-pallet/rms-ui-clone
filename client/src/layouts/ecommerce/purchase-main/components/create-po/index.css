@@ -1,0 +1,81 @@
+.vendor-data-headings {
+  color: #000000;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  /* line-height:621px !important; */
+}
+.vendor-data-names {
+  color: #000000;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  margin-top: 10px;
+  margin-left: 5px;
+  /* line-height: 21px !important; */
+}
+.po-item-table-header {
+  padding: 5px;
+  /* color: #000000; */
+  border: 1px solid #dddddd;
+  text-align: center;
+  font-size: 12px;
+  /* background-color: #fff; */
+}
+.po-item-table-body {
+  padding: 5px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  /* background-color: #fff; */
+}
+.po-item-number-box {
+  width: 30px !important;
+}
+.po-item-gtin-box {
+  width: 130px !important;
+}
+.po-item-name-box {
+  width: 180px !important;
+}
+.po-item-hsn-box {
+  width: 80px !important;
+}
+.po-item-amount-box {
+  width: 100px !important;
+}
+.po-item-discount-box {
+  width: 100px !important;
+}
+.po-address-font {
+  font-size: 12px !important;
+}
+.po-address-title {
+  font-size: 14px !important;
+  font-weight: bold;
+}
+.vendor-notify-success-btn {
+  background-color: #000000 !important;
+  color: #fff !important;
+  border-radius: 7px !important;
+  padding: 12px 24px !important;
+  font-size: 12px !important;
+  border: 1px solid #000000 !important;
+  text-transform: none !important;
+  background-image: none !important;
+  text-align: center !important;
+  height: auto !important;
+}
+
+.vendor-notify-cancel-btn {
+  background-color: #fff !important;
+  border: 1px solid #000000 !important;
+  color: #000000 !important;
+  padding: 12px 24px !important;
+  border-radius: 7px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.center-icon img {
+  width: 100px;
+  height: 150px;
+  margin-bottom: 20px;
+}

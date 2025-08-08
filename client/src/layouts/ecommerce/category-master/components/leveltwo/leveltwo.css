@@ -1,0 +1,25 @@
+.main-category-input-box-II{
+    margin-right: 10px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid lightgray;
+    background-color:  #fff !important;
+    border-radius: 7px !important;
+    margin-bottom: 10px !important;
+}
+
+.ptext-II{
+    font-size: 0.7em !important;
+    font-weight: 400 !important;
+}
+
+.main-add-text-II{
+    font-size: 0.7em !important;
+    font-weight: 400 !important;
+    margin-top: 10px !important;
+    color: rgb(0,100,254) !important;
+    cursor: pointer !important;
+    margin-bottom: 15px !important;
+}

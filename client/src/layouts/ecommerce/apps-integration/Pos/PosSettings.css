@@ -1,0 +1,55 @@
+.license-settings-select {
+  width: 100%;
+}
+
+.license-settings-select > div {
+  background-color: #f2f2f2;
+}
+
+.license-settings-select-container {
+  flex: 1;
+}
+
+.license-settings-secondary-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.5rem 0;
+  margin-left: 20px;
+}
+
+.license-settings-secondary-container > .MuiInputBase-root {
+  width: auto !important;
+}
+
+.terminal-settings-button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.terminal-settings-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.license-select-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.terminal-settings-offline-input-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.license-settings-checkbox-disabled,
+.license-settings-radio-disabled {
+  opacity: 0.3;
+  cursor: not-allowed !important;
+}

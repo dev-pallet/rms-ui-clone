@@ -1,0 +1,116 @@
+.top-box {
+  background: white !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 1rem;
+  margin-top: 25px;
+  padding: 1.5rem;
+  /* height: 10rem; */
+}
+
+.components-text {
+  margin-left: 20px !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+
+.bottom-box {
+  background: white !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 1rem;
+  margin-top: 25px;
+  padding: 1.5rem;
+}
+
+.add-more {
+  margin-top: 1rem;
+  margin-left: 20px !important;
+}
+
+.flex-row-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .tab-form {
+  position: relative !important;
+} */
+
+.tab-contents {
+  position: relative !important;
+}
+
+.cancel-save {
+  margin-top: 1.5rem;
+  /* display: flex;
+  justify-content: flex-end; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+}
+
+.components-tab-view {
+  background: white !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 1rem;
+  /* margin-top: 25px; */
+  padding: 1.5rem;
+  min-height: 32rem !important;
+}
+
+.chip {
+  font-size: 10px !important;
+  background-color: #0562fb !important;
+}
+
+#multiselectContainerReact {
+  min-width: 5rem !important;
+}
+
+.multiSelectContainer li {
+  font-size: 14px;
+}
+
+.multiSelectContainer input {
+  font-size: 14px;
+}
+
+.optionListContainer {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.5rem 1.625rem -0.25rem rgba(20, 20, 20, 0.15),
+    0rem 0.5rem 0.5625rem -0.3125rem rgba(20, 20, 20, 0.06);
+}
+
+.searchWrapper {
+  border-radius: 10px !important;
+  padding: 3px !important;
+}
+
+.searchWrapper ::placeholder {
+  color: #67748e !important;
+  padding: 0.6rem;
+}
+
+.dropdown-container {
+  border-radius: 0.6rem !important;
+}
+
+.dropdown-heading-value > span {
+  font-size: 0.8rem !important;
+}
+
+.item-renderer {
+  font-size: 0.8rem !important;
+}
+
+.search {
+  font-size: 1rem !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  #in-use {
+    position: relative;
+    bottom: 1rem;
+  }
+}

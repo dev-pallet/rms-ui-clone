@@ -1,0 +1,67 @@
+.transaction-table {
+  padding: 15px;
+  overflow: auto !important;
+}
+
+.date-labels > div {
+  justify-content: space-between;
+}
+
+.transaction-tabs {
+  margin-top: 2rem;
+}
+
+.tab-contents {
+  overflow: scroll;
+  min-height: 30rem;
+  padding: 1rem;
+}
+
+.transaction-details {
+  min-height: 31rem !important;
+  overflow: auto !important;
+}
+
+.transaction-flex {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-text {
+  font-size: 16px !important;
+  line-height: 22.85px !important;
+  color: #7c7c7c !important;
+}
+
+.header-subtext {
+  font-size: 16px !important;
+  line-height: 22.85px !important;
+  font-weight: 700 !important;
+  color: #1d1d1d !important;
+}
+
+/* datagrid css  scrollbar css*/
+.MuiDataGrid-virtualScroller {
+  overflow: 'auto',
+}
+
+.MuiDataGrid-virtualScroller::-webkit-scrollbar {
+  /* width: 2px; */
+  height: 5px;
+}
+
+.MuiDataGrid-virtualScroller::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.MuiDataGrid-virtualScroller::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.7) ;
+  border-radius: 10px ;
+  border: transparent;
+}
+
+.MuiDataGrid-virtualScroller::-webkit-scrollbar-thumb:hover {
+  background: #8d8d8d;
+  cursor: pointer;
+}

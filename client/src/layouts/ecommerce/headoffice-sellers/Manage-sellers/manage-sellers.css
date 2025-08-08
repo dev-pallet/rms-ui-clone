@@ -1,0 +1,9 @@
+.seller-datagrid-header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: var(--bg-button);
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}

@@ -1,0 +1,149 @@
+.batch-details-loader{
+    color: var(--blue) !important;
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.loader-wrapper{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.batch-details-main-div{
+    border-radius: 10px;
+    background-color: rgba(211, 211, 211, 0.540) !important;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.no-batches-found{
+    height: 50px !important;
+    background-color: transparent !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.batch-details-header{
+    background-color: white !important;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    border-top: 1px solid lightgray ;
+    border-right: 1px solid lightgray ;
+    border-left: 1px solid lightgray ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.batch-details-body{
+    border-radius: 0 0 10px 10px;
+    height: auto;
+    width: 100%;
+    border: 1px solid lightgray ;
+    overflow: hidden;
+    background-color: rgba(211, 211, 211, 0.425) !important;
+
+}
+
+/* .batch-expired{
+    background-color: rgba(255, 0, 0, 0.486) !important;
+
+}
+
+.batch-aboutTobeExpired{
+    background-color: rgba(255, 166, 0, 0.726) !important;
+}
+
+.batch-notExpired{
+} */
+
+.expired-typo{
+    font-weight: 800 !important;
+    color: red !important;
+}
+
+.abouttobe-expired-typo{
+    font-weight: 800 !important;
+    color: rgba(255, 166, 0, 0.726) !important;
+}
+
+.batch-body-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    min-height: 50px;
+}
+
+.batch-data-typo{
+    font-size: 12px !important;
+    text-align: center !important; 
+}
+.batch-details-header-typo{
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    text-align: center;
+    border-right: 1px solid lightgray;
+}
+
+.latest-inward-icon{
+    height: 15px !important;
+    width: 15px !important;
+    margin-left: -5px;
+    color: var(--blue) !important;
+}
+
+.latest-batch-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.batch-edit-input{
+    height: auto;
+    padding: 0px !important;
+}
+
+.batch-edit-input > input {
+    text-align: center;
+}
+
+.batch-details-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .expiryDate-picker{
+    font-size: 0.6rem !important;
+
+} */
+
+.expirydate-batch-details{
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    font-size: 12px !important;
+    border: 0.0625rem solid #d2d6da;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.clearButton-batchdetails{
+    background-color: #0562fb;
+    border: 1px solid #d2d6da;
+    font-size: 12px;
+    padding: 3px 5px 3px 5px;
+    border-radius: 8px;
+    color: white;
+}

@@ -1,0 +1,32 @@
+.overview-grid-card{
+    margin-bottom: 30px !important;
+}
+
+.overviewBtnStyle {
+    color: #0562FB !important;
+    border: 1px solid #0562FB !important;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 5s !important;
+    height: 36px !important;
+    font-size: 14px !important;
+    margin-inline: 5px !important;
+  }
+
+  .defaultvendorTabstyle {
+    height: 36px !important;
+    font-size: 14px !important;
+    border: 1px solid #50505061 !important;
+    margin-inline: 5px !important;
+    /* margin-top:  5px !important; */
+    max-width: 200px !important;
+  }
+  
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

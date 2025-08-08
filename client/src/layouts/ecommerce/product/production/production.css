@@ -1,0 +1,17 @@
+.inventory-button{
+    float: right;
+}
+
+.batch-box-inventory{     
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    margin: auto;
+    transform: translateY(100px);
+    border-radius: 7px;
+}
+
+
+.kanban{
+    border: 1px solid red !important;
+}

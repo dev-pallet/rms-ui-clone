@@ -1,0 +1,43 @@
+.add-customer-pan-verify-i-otp {
+  background-color: #0562fb !important;
+  color: white !important;
+  font-size: 14px;
+  height: 40px;
+  padding: 0;
+  border-color: white;
+  width: 100%;
+  border-radius: 7px;
+  /* transform: translateY(15px); */
+  float: right;
+  margin-top: 35px !important;
+}
+.add-customer-pan-verify-i-scs-otp {
+  background-color: rgb(24, 181, 3) !important;
+  color: white !important;
+  font-size: 14px;
+  height: 40px;
+  padding: 0;
+  width: 100%;
+  border-color: white;
+  border-radius: 7px;
+  /* transform: translateY(15px); */
+  float: right;
+  margin-top: 35px !important;
+}
+.add-customer-progress-otp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 5px !important;
+  margin-left: 3px !important;
+  color: white !important;
+}
+
+.pallet-img-gif-background {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(5, 100, 254) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

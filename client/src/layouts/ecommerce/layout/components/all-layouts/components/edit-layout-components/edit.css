@@ -1,0 +1,12 @@
+.edit-layout-box {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -15px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  overflow: auto;
+  height: 80vh;
+}
+.edit-cancel-update {
+  margin-top: 1rem;
+  display: flex;
+}

@@ -1,0 +1,28 @@
+.schedule-details-card {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.card-inner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-outer-box {
+  height: 50px;
+  width: 50px;
+  z-index: 100;
+}
+
+.stocking-taking-card-text {
+  font-size: 0.9rem !important;
+  font-weight: bold !important;
+  margin-top: 10px !important;
+}
+
+.card-content-primary {
+  z-index: 100 !important;
+}

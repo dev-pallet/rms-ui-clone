@@ -1,0 +1,42 @@
+/* .purchase-main-btn{
+    margin-top: 12px !important;
+} */
+.filter-product-list-customer {
+  /* margin-top: -48px !important; */
+  display: flex !important;
+  justify-content: space-around !important;
+  overflow: auto;
+  min-width: 800px;
+}
+
+.filter-customers {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.text-align-right {
+  text-align: right;
+}
+.text-align-left {
+  text-align: left;
+}
+
+.customersPage .filter-icon-main-div {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .col-md-6 {
+      width: 50%;
+  }
+}
+
+/* .vendor-kk{
+    margin-top: 4px;
+} */
+/* .list-div-heading{
+    max-height: 30px !important; align-items: center;justify-content: center;
+} */

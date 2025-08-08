@@ -1,0 +1,49 @@
+.mtop {
+  margin-top: 20px;
+}
+
+.custom-date-picker,
+.custom-date-picker-md {
+  width: 100%;
+}
+
+.custom-date-picker > div {
+  justify-content: space-between !important;
+  height: 32px !important;
+}
+.custom-date-picker-md > div {
+  justify-content: space-between !important;
+  padding: 8px 14px 8px 12px !important;
+}
+
+.custom-soft-avatar {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 24px !important;
+}
+
+.custom-soft-avatar > img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.react-custom-phone-input > input {
+  width: 100% !important;
+}
+
+.hrms-employee-title {
+  font-size: 0.875rem !important;
+  line-height: 1em !important;
+}
+
+.hrms-employee-title-info {
+  font-size: 0.875rem !important;
+  line-height: 1.2em !important;
+  font-weight: bold !important;
+  margin-top: 5px !important;
+}
+
+.custom-select {
+  width: 150px !important;
+}

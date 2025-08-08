@@ -1,0 +1,111 @@
+.push-preview-box {
+  padding: 10px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.push-campaign-typo-1 {
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  color: #0562fb !important;
+  text-align: left !important;
+  margin: 10px 0px !important;
+}
+
+.push-campaign-typo-2 {
+  font-weight: 200 !important;
+  font-size: 0.8rem !important;
+  line-height: 1.5 !important;
+  color: #4b524d !important;
+  text-align: left !important;
+  margin: 8px 10px !important;
+}
+
+.push-campaign-typo-3 {
+  font-weight: 200 !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  color: #4b524d !important;
+  text-align: left !important;
+  margin: 10px 0px !important;
+}
+
+.push-campaign-typo-4 {
+  font-weight: 200 !important;
+  font-size: 0.8rem !important;
+  line-height: 1.5 !important;
+  color: #4b524d !important;
+  text-align: left !important;
+  margin: 10px 0px !important;
+}
+
+.push-campaign-typo-5 {
+  font-weight: 600 !important;
+  font-size: 0.7rem !important;
+  line-height: 1.5 !important;
+  color: #4b524d !important;
+  text-align: left !important;
+  margin: 10px 0px !important;
+}
+
+.push-campaign-typo-6 {
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  color: #4b524d !important;
+  text-align: left !important;
+}
+
+.push-campaign-typo-7 {
+  font-weight: 200 !important;
+  font-size: 0.8rem !important;
+  line-height: 1.5 !important;
+  color: #4b524d !important;
+  text-align: left !important;
+}
+
+.push-campaign-typo-8 {
+  font-weight: 200 !important;
+  font-size: 0.7rem !important;
+  line-height: 1.5 !important;
+  color: grey !important;
+  text-align: left !important;
+  cursor: pointer;
+  margin-top: 15px !important;
+}
+
+.push-campaign-mess-prev-box {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.push-campaign-img {
+  width: 25px;
+  height: 25px;
+}
+
+.push-campaign-img-2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.push-campaign-error-msg {
+    font-weight: 600 !important;
+    font-size: 0.9rem !important;
+    line-height: 1.5 !important;
+    color: red !important;
+    text-align: left !important;
+    margin: 10px 0px !important;
+}
+
+.emoji-selector{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 15px;
+}

@@ -1,0 +1,11 @@
+.sales-channel-inner-cont{
+    border-radius: 15px;
+    background-color: #F6F6F6 !important;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+
+.sales-channel-inner-cont:hover{
+    transition: all 0.7s ease;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

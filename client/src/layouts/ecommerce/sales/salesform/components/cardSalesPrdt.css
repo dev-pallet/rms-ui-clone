@@ -1,0 +1,59 @@
+.sales-order-card-main-div{
+    background-color: #f5f2f2 !important;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    /* flex: 1; */
+    z-index: 2;
+    /* border-right: 3px solid white; */
+}
+
+
+.sales-order-heading{
+    font-size: 12px !important;
+}
+
+.sales-order-value{
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+
+.sales-prdt-card-btn-div{
+    background-color: #0562fb !important;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    padding-left: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+
+}
+.sales-prdt-card-btn{
+    flex: 1;
+    color: red;
+    z-index: 1;
+    /* pointer-events: none; */
+}
+
+.sales-order-main-div-wrapper{
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.sales-card-iconbtn{
+    height: 40px;
+    width: 40px;
+    background-color: white !important;
+    border-radius: 50%;
+    border: 2px solid rgba(211, 211, 211, 0.582) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

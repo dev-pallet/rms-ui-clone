@@ -1,0 +1,31 @@
+.stepper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reason-label {
+  margin-top: 0.5rem !important ;
+}
+
+.checkbox-label {
+  border-color: #343767 !important;
+}
+
+.textarea-reason {
+  margin-top: 1rem !important;
+  background-color: #fafafa !important;
+}
+
+.plan-name,
+.plan-start-date,
+.plan-billingCycle {
+  font-size: 0.8rem !important;
+  /* line-height: 37px !important; */
+  font-weight: 700 !important;
+  color: #0562fb !important;
+}
+
+.plan-subText {
+  font-size: 0.8rem !important;
+}

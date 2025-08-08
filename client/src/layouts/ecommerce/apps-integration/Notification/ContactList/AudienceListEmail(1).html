@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">  
+    <title>Pallet Audience List</title>
+    <style>
+        /* CSS styles for the template */
+        body {
+            margin: 0;
+        }
+
+        #main-container {
+            width: 100%;
+            background-color: #f4f5f7;
+        }
+
+        #container {
+            width: 100%;
+            max-width: 640px;
+            margin: auto;
+        }
+
+        /* organization logo */
+        .logo {
+            width: 100px; /* Adjust the width as needed */
+            height: 100px; /* Preserve aspect ratio */
+            background-color: #edebeb;
+        }
+
+        .logo_box {
+            background-color: #edebeb;
+        }
+
+        .organization-name {
+            font-size: 25px;
+            font-weight: bold;
+            background-color: #edebeb;
+            color: #31302D;
+            font-family: Poppins, sans-serif;
+        }
+
+        h1 {
+            padding: 0px 30px;
+            font-size: 18px;
+            font-family: Poppins, sans-serif;
+            color: #31302D;
+            font-weight: 600;
+        }
+
+        h4 {
+            font-size: 18px;
+            font-family: Poppins, sans-serif;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 1.6;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+        }
+
+        p {
+            padding: 0px 30px;
+            font-size: 14px;
+            font-family: Poppins, sans-serif;
+            line-height: 1.6;
+            color: #31302D;
+        }
+
+        /* #container > table tr:nth-child(2) td {} */
+
+        #box td {
+            position: relative;
+        }
+
+        .trademark_address_website > td {
+            text-align: center;
+            font-size: 10px;
+            font-family: Poppins, sans-serif;
+            color: #525252 !important;
+            /* padding-top: 150px !important; */
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .centered {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 10px;
+        }
+
+        .curved_img_top td {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* .footer tr td {
+            padding-top: 100px;
+        } */
+
+        .footer-logo td {
+            padding-top: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            text-align: center;
+        }
+
+        #sign-in-btn {
+            padding: 10px 20px;
+            background-color: #0868FE;
+            color: #ffffff;
+            font-size: 14px;
+            border: none;
+            border-radius: 0.5rem;
+            font-family: Poppins, sans-serif;
+        }
+
+        .phone_email_address_box {
+            font-size: 14px;
+            font-family: Poppins, sans-serif;
+        }
+
+        .phone_email_address_box > td {
+            padding: 0px 30px;
+            color: #525252 !important;
+            font-family: Poppins, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            color: #525252 !important;
+            font-family: Poppins, sans-serif;
+        }
+
+        /* Responsive Styles */
+        @media only screen and (max-width: 600px) {
+            h1 {
+                line-height: 22px;
+                padding: 0px 10px;
+            }
+
+            p {
+                line-height: 22px;
+                padding: 0px 10px;
+            }
+ 
+            .footer-logo td {
+                padding-top: 20px;
+            }
+            
+            .phone_email_address_box > td {
+                padding: 0px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <div id="container">
+            <table>
+                <tr class="curved_img_top">
+                    <td>
+                        <div style="position: relative;">
+                            <div style="padding-top: 20px;padding-left: 30px; background-color: #0868FE;">
+                                <img src="https://storage.googleapis.com/twinleaves_bucket/FrontEnd/PALLET_images/pallet_logo_white.png" width="150px" />
+                            </div>
+                            <img src="https://storage.googleapis.com/twinleaves_bucket/FrontEnd/PALLET_images/email-template-curved-wave-img-top.png" width="100%" height="80px" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top: 30px;">     
+                        <h1>
+                            Pallet: || ${insertDate} || ${audienceListName}  is ready!
+                        </h1>                   
+                        <p>
+                        Hey,
+                        <br/>
+                        <br/>                                    
+                            We are pleased to inform you that your audience list ${audienceListName} for ${insertDate} has been 
+                            successfully generated. Please find the attached file containing your requested list.
+                        <br/>
+                        <br/>
+                        Regards,
+                        <br/>
+                        Team Pallet
+                        </p>
+                    </td>
+                </tr>
+                <tr class="footer">
+                    <td>
+                        <table>
+                            <tr class="footer-logo">
+                                <td> 
+                                    <img src="https://storage.googleapis.com/twinleaves_bucket/FrontEnd/PALLET_images/pallet-icon.png" alt="Powered By" width="30" height="30" style="border-radius: 4px;">
+                                </td>                          
+                            </tr>
+                            <tr class="trademark_address_website">        
+                                <td>
+                                    <br/>
+                                    <div style="margin-bottom: 10px;">
+                                      <span style="border-right: 1px solid black;padding-right: 10px;">
+                                        Copyright © 2024 Pallet
+                                      </span>   
+                                      &nbsp;&nbsp;&nbsp;
+                                      <span>
+                                        <a href="https://palletnow.co/" target="_blank">www.palletnow.co</a>
+                                      </span>  
+                                      <br/>
+                                      <br/>
+                                      <div style="padding: 5px;">
+                                        <a href="https://play.google.com/store/apps/details?id=com.pallet.b2b&hl=en-IN" target="_blank">                                                    
+                                            <img src="https://storage.googleapis.com/twinleaves_bucket/FrontEnd/PALLET_images/google-play.png" width="100px" />
+                                        </a>
+                                      </div>                                       
+                                    </div>
+                                    <div >
+                                      <span style="border-right: 1px solid black;padding-right: 10px;">
+                                          <a href="https://palletnow.co/privacyPolicy" target="_blank">Privacy Policy</a>
+                                      </span>
+                                      &nbsp;&nbsp;&nbsp;
+                                      <span style="border-right: 1px solid black;padding-right: 10px;">
+                                          <a href="https://palletnow.co/terms-of-use" target="_blank">Terms Of Use</a>
+                                      </span>
+                                      &nbsp;&nbsp;&nbsp;
+                                      <span>
+                                          <a href="https://palletnow.co/contact" target="_blank">Contact Us</a>
+                                      </span>
+                                    </div>
+                                </td>
+                            </tr> 
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://storage.googleapis.com/twinleaves_bucket/FrontEnd/PALLET_images/email-template-curved-wave-img-bottom.png" width="100%" height="80px" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

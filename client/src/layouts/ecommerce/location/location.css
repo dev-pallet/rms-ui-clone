@@ -1,0 +1,120 @@
+.location-box {
+  border-bottom: 1px solid lightgray;
+  height: 60px;
+  padding: 10px;
+}
+.location-text-I {
+  font-size: 1em !important;
+  font-weight: 500 !important;
+}
+
+.location-float-box {
+  float: right !important;
+  /* border: 1px solid red;  */
+}
+
+.location-text-II {
+  font-size: 0.8em !important;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0562fb;
+  color: #fff !important;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.location-details-box {
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+
+.location-text-III {
+  font-size: 0.8em !important;
+  color: #6d7175 !important;
+  font-weight: 300 !important;
+}
+.compare-text {
+  font-weight: 300 !important;
+  color: rgb(0, 100, 254) !important;
+  cursor: pointer !important;
+  text-decoration: underline;
+}
+.compare-text:hover {
+  text-decoration: none;
+}
+.location-info-box {
+  height: 70px;
+  border-radius: 7px;
+  margin-top: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+.location-shop-box {
+  height: 100%;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+.location-default-box {
+  height: 25%;
+  width: 30%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #e4e5e7 !important;
+  margin-right: 15px;
+}
+.place-icon {
+  border: 1px solid lightgray;
+  height: 45px !important;
+  width: 45px !important;
+  border-radius: 5px !important;
+  color: #6d7175 !important;
+  cursor: pointer;
+}
+
+.shop-text {
+  font-size: 0.8em !important;
+  font-weight: 400 !important;
+  color: #000 !important;
+  cursor: pointer;
+}
+.india-text {
+  font-size: 0.8em !important;
+  font-weight: 400 !important;
+  color: #6d7175 !important;
+  cursor: pointer;
+}
+.default-text {
+  font-size: 0.8em !important;
+  color: #000 !important;
+  cursor: pointer;
+  font-weight: 300 !important;
+}
+
+.article-location-text {
+  margin-top: 30px !important;
+  font-size: 0.7em !important;
+  text-align: center !important;
+  font-weight: 300 !important;
+}
+.bold-text {
+  font-weight: 400 !important;
+  color: rgb(0, 100, 254) !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.bold-text:hover {
+  text-decoration: none;
+}
+.loc-not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

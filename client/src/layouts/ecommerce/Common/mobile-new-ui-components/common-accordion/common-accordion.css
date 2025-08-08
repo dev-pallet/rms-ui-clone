@@ -1,0 +1,22 @@
+.common-accordion-summary {
+  display: flex;
+  align-items: center;
+  min-height: 0px !important;
+  width: 100%;
+  padding: 0px !important;
+  /* border-radius: 0.125rem !important; */
+}
+
+.accordion-summary-title {
+  color: var(--Surface-White, #fefefe);
+  text-align: center;
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}
+
+.common-accordion-summary > div {
+  margin: 0px !important;
+  color: var(--Surface-White, #fefefe);
+}

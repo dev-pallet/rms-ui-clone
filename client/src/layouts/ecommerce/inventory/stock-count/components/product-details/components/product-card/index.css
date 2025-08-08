@@ -1,0 +1,108 @@
+.product-card-box {
+  /* display: flex;
+  justify-content: flex-start; */
+  display: flex;
+  padding: var(--12, 0.75rem) !important;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  align-self: stretch;
+  border-radius: var(--8, 0.5rem);
+  background: var(--Surface-G0, #F5F5F5) !important;
+}
+
+.product-card-item-title{
+  color: var(--Surface-Black, #0B0B0B);
+  font-family: var(--Nunito-Sans, "Nunito Sans");
+  font-size: var(--12, 0.75rem);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 0.75rem */
+  align-self: stretch;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  line-clamp: 2; 
+  line-height: 1.5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-card-item-barcode-brand {
+  color: var(--Surface-G3, #949494) !important;
+  font-family: var(--Nunito-Sans, "Nunito Sans");
+  font-size: var(--12, 0.75rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 0.75rem */
+}
+
+.stock-item-image {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px dashed rgb(205 208 212);
+}
+
+.stock-item-image-title {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+}
+
+.stock-item-details {
+  font-size: 0.9rem !important;
+  font-weight: bold !important;
+}
+
+.stock-item-mian-box {
+  width: 100%;
+}
+
+.prdt-status-stock-count {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.stock-item-details-status {
+  font-size: 0.7rem !important;
+  font-weight: bold !important;
+}
+
+.batch-card-id-mrp {
+  display: flex;
+  padding: var(--12, 0.75rem);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+
+.batch-card-title-mrp-label{
+  color: var(--Surface-G4, #6B6B6B);
+  font-family: var(--Nunito-Sans, "Nunito Sans");
+  font-size: var(--12, 0.75rem);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 0.75rem */
+}
+
+.batch-card-title-mrp-value{
+  color: var(--Surface-Black, #0B0B0B);
+  font-family: var(--Nunito-Sans, "Nunito Sans");
+  font-size: var(--12, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.gap-5px {
+  gap: 5px;
+}
+.space-5px {
+  margin-left: 5px;
+}

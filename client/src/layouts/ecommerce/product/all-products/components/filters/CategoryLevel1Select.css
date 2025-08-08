@@ -1,0 +1,10 @@
+.categoryLevel1Select .css-l4kyc0-Control {
+  /* visibility: hidden !important; */
+  width: 200px;
+  height: 2rem !important;
+  font-size: 12px;
+  border-radius:1rem;
+}
+.categoryLevel1Select .css-l4kyc0-Control:hover {
+  background-color: white !important;
+}

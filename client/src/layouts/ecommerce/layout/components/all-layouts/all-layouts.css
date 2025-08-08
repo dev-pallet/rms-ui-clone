@@ -1,0 +1,49 @@
+.all-layouts {
+  margin-top: 1rem !important;
+  height: 37rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.layout-card {
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 1rem;
+  box-shadow: 0rem 1.25rem 1.6875rem 0rem rgba(0, 0, 0, 0.05);
+  word-wrap: break-word;
+  background-color: #0562fb !important;
+  height: 10rem;
+  width: 28rem;
+  /* cursor: pointer; */
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.layout-card:hover {
+  transform: scale(1.05);
+}
+
+.layout-card-img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.layout-card-bottom-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1rem;
+}
+
+.layout-card-top-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 1rem;
+}

@@ -1,0 +1,47 @@
+.timelineitem-purchase-anchor{
+   width: 60px;
+   border: 1px solid #0064FE;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 20px;
+   border-radius: 3px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+
+.down-p{
+   margin-top: 17px;
+   color: #0064FE; 
+   font-size: 11px !important;
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: 600;
+}
+
+.spin-box-load{
+   width: 60px;
+   height: 20px;
+   margin-top: 18px;
+   color: #0064FE !important;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 3px;
+   font-size: 11px !important;
+   text-transform: capitalize;
+   text-align: center;
+   font-weight: 600;
+   gap: 5px;
+
+}
+
+.spin-to-win{
+   width: 20px !important;
+   height: 20px !important;
+   font-size: 0.5em !important;
+   color: #0064FE !important;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

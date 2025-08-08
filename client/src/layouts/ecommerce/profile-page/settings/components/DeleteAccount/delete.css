@@ -1,0 +1,49 @@
+.delete-taxes-button{
+    border: 1px solid !important;
+    background-color: #F22830 !important;
+    color: #fff !important;
+}
+.border-bottom-box-Delete{
+    border-bottom: 1px solid lightgray !important;
+    height: 50px !important;
+}
+
+.border-bottom-box-pop{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+}
+
+.delete-acc-popup{
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+
+}
+
+.del-acc-btns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.del-acc-delete-button,.del-acc-cancel-button{
+    width: 100%;
+    flex: 1;
+}
+
+.del-acc-delete-button{
+    border: 1px solid !important;
+    background-color: #F22830 !important;
+    color: #fff !important;
+}
+
+.del-acc-cancel-button{
+    border: 1px solid !important;
+    color: #F22830 !important;
+}

@@ -1,0 +1,13 @@
+.franchise-details-main-div{
+    padding: 20px  0 0 0;
+}
+
+.franchise-details-main-div > div {
+    background-color: #d3d3d34f !important;
+}
+
+.div-normal-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

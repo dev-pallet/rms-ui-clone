@@ -1,0 +1,30 @@
+.input-container {
+    width: 100%;
+    margin-right: 60px;
+    margin: 10px;
+  }
+  
+  .upload-box{
+    border: 1px dashed lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 200px;
+  }
+  
+  .body-label{
+    font-size: 0.6em;
+    text-align: center;
+    color: #00B4FF;
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+  
+  .MuiMenuItem-gutters{
+    min-width: 0 !important;
+  }
+
+  .css-13bvbr1-MuiStack-root {
+    width: 100%;
+  }

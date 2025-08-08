@@ -1,0 +1,131 @@
+.edit-icon-product {
+  margin: 10px 10px 0px 0px;
+  cursor: pointer;
+}
+
+.table-container:before {
+  /* position: absolute; */
+  background: rgba(122, 138, 138, 0);
+  filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -webkit-filter: blur(4px);
+  content: '';
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  /* backdrop-filter: blur(6px); */
+}
+
+.table-container {
+  position: relative;
+}
+
+.table {
+  position: relative;
+  z-index: 2;
+}
+
+.table-text {
+  position: absolute;
+  left: 50%;
+  top: 93%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.interval-select {
+  width: 12rem;
+}
+
+/* offer details css */
+
+
+.offer-details{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 100px;
+  width: 100px;
+  border:1px solid yellow;
+  background-color: red;
+}
+
+/* min - max select css ----> */
+
+.min-select-div,.max-select-div{
+  width: 205px !important;
+  padding: 0px 10px;
+  margin-bottom: 5px;
+}
+.min-select-div span{
+  font-size: 12px !important;
+}
+.max-select-div span{
+  font-size: 12px !important;
+}
+
+.min-max-select-box-container{
+  width: 220px !important;
+  max-width: none !important;
+}
+.product-side-menu-list{
+  display: flex; 
+  flex-direction: column;
+  gap:5px;
+  align-items: center ;
+  margin-top: 10px;
+}
+
+.product-analysis{
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.product-analysis-main-box{
+  display: flex;
+  flex-direction: column;
+  /* border-right: 1px dotted rgb(167, 164, 164); */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.product-analysis-main-box:last-child{
+  border: none;
+}
+
+.product-analysis-heading{
+  font-size: 14px !important;
+}
+
+/* <---- min - max select css */
+
+@media (width >=992px) {
+  .table-text {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+
+}
+
+.dataGrid-productExpiry > div {
+  background-color: rgba(255, 0, 0, 0.486) !important;  color: white !important;
+}
+
+
+.productDetailsTag_Align {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+}

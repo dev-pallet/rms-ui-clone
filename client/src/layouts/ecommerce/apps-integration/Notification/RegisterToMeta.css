@@ -1,0 +1,48 @@
+.header-box {
+  margin-right: 120px;
+  padding: 20px;
+}
+
+.header-box h4 {
+  font-size: 18px;
+}
+
+.header-box ul li {
+  font-size: 16px;
+  margin-left: 20px;
+}
+.steps-to-guide h4 {
+  font-weight: bold;
+}
+
+.steps-to-guide p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.steps-to-guide img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.steps-to-guide ul li {
+  font-size: 16px;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.steps-to-guide ol li {
+  font-size: 16px;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.whatsapp-connect-main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}

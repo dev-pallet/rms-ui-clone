@@ -1,0 +1,25 @@
+.statement-main-container {
+  background-color: white !important;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.statement-headers {
+  display: flex;
+  /* gap: 1rem; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.date-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 774px) {
+  .balance {
+    margin-top: 1rem;
+  }
+}

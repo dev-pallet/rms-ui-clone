@@ -1,0 +1,14 @@
+.ind-session-details-map{
+    display: flex;
+    justify-content: space-between;
+    line-height: 5px !important;
+}
+.close-session-btn{
+    background-color: rgb(1,100,254) !important;
+    color: white !important;
+}
+.close-btn-box{
+    display: flex;
+    justify-content: flex-end;
+    border:none !important;
+}

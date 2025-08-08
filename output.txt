@@ -1,0 +1,4 @@
+
+> origin-warehouse-ui@1.0.0 start /Users/mac/workspace/origin/origin-warehouse-ui
+> node server/bin/www
+

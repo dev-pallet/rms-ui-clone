@@ -1,0 +1,85 @@
+.batch-modal-wrapper-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.batch-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.batch-header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.batch-header-title {
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  color: var(--blue) !important;
+}
+
+.batch-header-subtitle {
+  color: grey;
+}
+
+.batch-header-subtitle > p {
+  font-size: 1rem !important;
+}
+
+.batch-header-title-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.batch-header-title-text-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.batch-header-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #dbdbdb;
+}
+
+.select-button-box {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.batch-select-text {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.batch-select-batchno {
+  font-weight: bold;
+}
+
+.select-items-container > label > p {
+  margin-bottom: 0;
+}
+
+.select-batch-wrapper-box {
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.batch-option-wrapper-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

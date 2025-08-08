@@ -1,0 +1,12 @@
+.manufacture-card-img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.manufacture-card-main-div{
+    background-color: white !important;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.041);
+    width: 300px;
+}

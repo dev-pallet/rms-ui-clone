@@ -1,0 +1,102 @@
+.whatsapp-business-mobile-preview-mobile {
+  width: 260px;
+  height: 450px;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-image: url('https://cdn.wallpapersafari.com/4/11/WofyVJ.png') !important;
+  background-repeat: no-repeat !important;
+}
+
+.wb-message-preview {
+  background-image: url('https://cdn.wallpapersafari.com/4/11/WofyVJ.png') !important;
+}
+
+.catalogue-background-img {
+  background-image: url('https://static.wixstatic.com/media/a16c70_66558d16022144629d4d1d073893825b~mv2.jpg/v1/fit/w_2500,h_1330,al_c/a16c70_66558d16022144629d4d1d073893825b~mv2.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  background-size: cover;
+}
+
+.catalog-product-preview-image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.blur {
+  width: 100% !important;
+  backdrop-filter: blur(2px); /* blur effect to the backdrop */
+  background-color: rgba(255, 255, 255, 0.082);
+  font-size: 30px;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.whatsapp-business-workflow-box {
+  width: 150px;
+  height: 120px;
+  border-radius: 10px;
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.whatsapp-business-workflow-checkbox {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  right: 65px;
+  border: 1px solid grey;
+}
+
+.whatsapp-bus-process-typo {
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  color: #4b524d !important;
+  text-align: left !important;
+  margin: 10px 0px !important;
+}
+
+
+.whatsapp-bus-process-typo-2 {
+  font-weight: 200 !important;
+  font-size: 0.8rem !important;
+  line-height: 1.5 !important;
+  color: #4b524d !important;
+  text-align: left !important;
+  margin: 5px 0px !important;
+}
+
+.whatsapp-bus-process-typo-3 {
+  font-weight: 600 !important;
+  font-size: 0.8rem !important;
+  line-height: 1.5 !important;
+  color: #0562FB !important;
+  text-align: left !important;
+  margin: 10px 0px !important;
+  
+}
+
+.whatsapp-bus-button-box {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px
+}

@@ -1,0 +1,137 @@
+.stock-start-count-image {
+  width: 100%;
+}
+
+.stock-start-count-btn {
+  position: absolute !important;
+  top: 280px;
+  left: 216px;
+  background-color: var(--bg-button) !important;
+  color: #fff !important;
+}
+
+.stock-start-count-text {
+  position: absolute !important;
+  top: 328px;
+  left: 71px;
+  font-size: 0.8rem !important;
+  color: rgb(5, 98, 251) !important;
+  font-weight: bold !important;
+}
+
+.stock-started-count-text {
+  font-size: 0.9rem !important;
+  font-weight: bold !important;
+  color: white !important;
+}
+
+.stock-taking-chip {
+  background-color: rgb(5, 98, 251) !important;
+  color: white !important;
+  margin-bottom: 6px !important;
+}
+
+.stock-btn-scn {
+  background-color: rgb(5, 98, 251) !important;
+  color: white !important;
+  border-radius: 5px !important;
+  width: 65px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px !important;
+  padding: 2px 40px;
+  border: none;
+}
+
+.stock-taking-text {
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  color: white !important;
+  margin-right: 2px !important;
+}
+
+.stock-taking-icon {
+  font-size: 1.5rem !important;
+}
+
+.stock-count-top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px !important;
+}
+
+.close-session-btn-container {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding: 10px 20px;
+}
+
+.close-session-btn {
+  background-color: red !important;
+  color: white !important;
+}
+
+.infinityScroll-circularprogress{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 100%;
+}
+
+.apply-btn-stock-taking-filter{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.stock-filter-status{
+  width: 90% !important;
+}
+
+.bg-white {
+  background-color: var(--main-bg-white);
+}
+
+.min-height-100{
+  min-height: 100vh;
+}
+
+.save-btn-container {
+  display: flex;
+  height: 40.375rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  align-self: stretch;
+  border-radius: var(--4, 0.25rem) var(--4, 0.25rem) 0rem 0rem;
+}
+
+.save-btn {
+  display: flex;
+  padding: var(--8, 0.5rem);
+  justify-content: center;
+  align-items: center;
+  gap: var(--8, 0.5rem);
+  align-self: stretch;
+  border-radius: var(--2, 0.125rem);
+  background: var(--Surface-Black, #0B0B0B);
+}
+
+.save-btn-text {
+  color: var(--Surface-White, #FEFEFE);
+  text-align: center;
+  font-family: var(--Nunito-Sans, "Nunito Sans");
+  font-size: var(--12, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}
+
+.height-auto {
+  height: auto;
+}

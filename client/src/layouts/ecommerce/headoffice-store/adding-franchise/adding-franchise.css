@@ -1,0 +1,100 @@
+.information-heading-ho{
+    font-size: 16px !important;
+    margin-bottom: 10px;
+    font-weight: 700 !important;
+}
+
+.soft-input-heading-ho{
+    font-size: 13px !important;
+    font-weight: bold !important;
+    margin: 10px 0 5px 0 !important;
+}
+
+.details-item-wrrapper{
+    background-color: white !important;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -15px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px !important;
+}
+
+.contact-main-div-ho{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cntc-inputs-ho{
+    width: 100%;
+    flex: 1;
+}
+
+.flex-div-ho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px
+}
+
+.flex-div-flexstart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: 'row';
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.main-wrapper-ho{
+    padding-bottom: 20px;
+}
+
+.frn-cntc-info-div{
+    min-width: 650px;
+}
+
+.liscense-input{
+    border: none;
+    background-color: rgba(211, 211, 211, 0.39);
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+}
+
+.liscense-button{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(128, 128, 128, 0.61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.form-control-label-terms > .MuiFormControlLabel-label{
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+
+.breadcrumps-center{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px
+}
+
+.document-main-div{
+    padding: 10px;
+}
+
+.document-title-div{
+    background-color: white !important;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -15px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

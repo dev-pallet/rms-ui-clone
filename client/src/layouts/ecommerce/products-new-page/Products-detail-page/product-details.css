@@ -1,0 +1,24 @@
+.products-new-details-category-typo {
+    color: #367df3;
+    font-size: 12px !important;
+    font-weight: 400;
+    line-height: 14px
+}
+
+.products-new-details-top-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.products-new-details-top-right-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.products-new-wrapper {
+    padding: 20px 10px;
+    background-color: #fff;
+}

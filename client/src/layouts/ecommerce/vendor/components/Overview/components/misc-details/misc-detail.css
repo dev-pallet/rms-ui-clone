@@ -1,0 +1,16 @@
+.misc-details-box{
+    display: flex;
+    padding: 15px;
+}
+.misc-details-font{
+    font-size: 14px !important;
+    color:rgba(47, 51, 70, 0.733) !important;
+}
+.misc-details-box2{
+    margin-right: 20px;
+}
+
+.inc-input-boxo{
+    /* width: 250px; */
+    margin-left: 3px;
+}

@@ -1,0 +1,42 @@
+.mob-add-po-list-main-wrapper{
+    background-color: white !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+    margin-top: 10px !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.041);
+    border: 0px !important;
+} 
+
+.mob-add-po-list-main-wrapper::before{
+    background-color: transparent !important;
+}
+
+.info-checkbox{
+    width: 100% !important;
+}
+
+.info-checkbox > span {
+    background-color: #d7d3d3 !important;
+}
+
+.mo-add-po-input{
+    background-color: lightgray !important;
+}
+
+.open-card{
+    background-color: #d3d3d373 !important;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 10px !important;
+    /* min-height: 100% !important; */
+    /* min-width: 100% !important; */
+}
+
+.tax-applied{
+    color: green
+}
+.tax-not-applied{
+    color: red;
+}

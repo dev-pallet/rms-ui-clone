@@ -1,0 +1,86 @@
+.carty-icon {
+  color: #0562fb;
+}
+.carty-icon-selected {
+  color: #e8e8e8;
+}
+
+.overall-backbutton {
+  background-color: rgba(211, 211, 211, 0.315) !important;
+  border-radius: 100vw 100vw 100vw 100vw !important;
+  border: 2px solid lightgray !important;
+}
+
+.logout-success-btn {
+  background-color: #0562fb !important;
+  color: #fff !important;
+  border-radius: 7px !important;
+  padding: 12px 24px !important;
+  font-size: 12px !important;
+  border: 1px solid #0562fb !important;
+  text-transform: none !important;
+  background-image: none !important;
+  text-align: center !important;
+  height: auto !important;
+}
+
+.logout-cancel-btn {
+  background-color: #fff !important;
+  border: 1px solid #0562fb !important;
+  color: #0562fb !important;
+  padding: 12px 24px !important;
+  border-radius: 7px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.logout-deny-btn {
+  background-color: #ea0606  !important;
+  border: 1px solid #fff !important;
+  color: #fff !important;
+  padding: 12px 24px !important;
+  border-radius: 7px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.custom-swal-title {
+  font-size: 20px !important;
+}
+
+.notification-wrapper {
+  height: 25px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.notification-item {
+  margin-right: 1.5rem;
+  text-align: right;
+  cursor: pointer;
+  transform: translateY(100%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  font-size: 14px;
+  background-color: lightyellow;
+  padding: 10px;
+  color: #0D47A1;
+}
+
+.custom-badge {
+  color: #FD5361;
+  font-weight: bold;
+  /* color: #ffffff; */
+  margin-right: 5px;
+}
+
+.notification-item.visible {
+  opacity: 1;
+  transform: translateY(0); /* Slide into view */
+}
+
+.notification-item:not(.visible) {
+  transform: translateY(-100%); /* Slide out of view */
+  opacity: 0; /* Ensure it's hidden */
+}

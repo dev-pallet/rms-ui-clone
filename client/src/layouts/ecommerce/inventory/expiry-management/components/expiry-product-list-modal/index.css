@@ -1,0 +1,33 @@
+.expiry-products-list-table .ReactVirtualized__Table__headerRow {
+  height: auto !important;
+}
+
+/* expiry product list table columns heading */
+.expiry-products-list-table .ReactVirtualized__Table__headerRow > div {
+  font-size: 16px !important;
+}
+
+/*expiry products list table columns data font size */
+.expiry-products-list-table .ReactVirtualized__Grid__innerScrollContainer {
+  font-size: 16px !important;
+}
+.expiry-products-list-table .ReactVirtualized__Table__row > div:nth-child(2) {
+  cursor: pointer;
+}
+.expiry-products-list-table .ReactVirtualized__Table__row > div:nth-child(3) {
+  cursor: pointer;
+}
+
+.expiry-products-list-table .ReactVirtualized__Grid {
+  scrollbar-width: thin !important;
+}
+
+.flex-gap{
+  gap: 20px;
+}
+
+.expiry-products-list-modal-div-mobile{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}

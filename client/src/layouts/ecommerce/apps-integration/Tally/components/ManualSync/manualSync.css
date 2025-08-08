@@ -1,0 +1,22 @@
+.tally-manual-sync {
+  min-height: 31rem;
+  width: 100%;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 1rem;
+  box-shadow: 0rem 1.25rem 1.6875rem 0rem rgba(0, 0, 0, 0.05);
+  background-color: #ffffff !important;
+  position: relative;
+}
+
+.step-content-manual-sync {
+  margin-top: 1rem;
+  padding: 0.8rem;
+}
+
+.tally-btns-manual-sync {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 1rem;
+}

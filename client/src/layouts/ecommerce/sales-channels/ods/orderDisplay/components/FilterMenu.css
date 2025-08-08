@@ -1,0 +1,50 @@
+.board-filter-menu-paper {
+  padding: 1rem !important;
+}
+
+.board-filter-menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.soft-select__menu-portal {
+  z-index: 10001 !important;
+}
+
+.board-filter-date-inputs {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.board-filter-date-inputs > div {
+  width: 8rem !important;
+}
+
+.board-filter-apply-box {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.board-filter-select-disabled {
+  pointer-events: none;
+  background-color: #efefef;
+  border-radius: 10px;
+}
+
+.select-option-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-option-body {
+  color: #606060;
+}
+.select-option-title {
+  font-weight: 600;
+  color: #2954a5;
+}
+.select-option-body div:first-child {
+  font-weight: 600;
+}

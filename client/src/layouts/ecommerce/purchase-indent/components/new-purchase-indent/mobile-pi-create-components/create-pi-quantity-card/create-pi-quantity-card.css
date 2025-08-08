@@ -1,0 +1,87 @@
+.pi-create-card-title {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 0.75rem */
+}
+
+.pi-create-card-value {
+  color: var(--Surface-G3, #949494);
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 0.75rem */
+}
+
+.pi-create-spec-mrp {
+  color: var(--Surface-Black, #0b0b0b);
+  text-align: center;
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}
+
+.pi-create-quantity {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}
+
+.pi-create-main-card-div {
+  display: flex;
+  padding: var(--text-0_75rem, 0.75rem);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  align-self: stretch;
+  border-radius: var(--text-0_5rem, 0.5rem);
+  background: var(--Surface-White, #fefefe);
+  width: 100%;
+}
+
+.pi-create-info-title {
+  color: var(--Surface-G4, #6b6b6b);
+  font-size: var(--text-0_625rem, 0.625rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 0.625rem */
+}
+
+.pi-create-info-value {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}
+
+.abc-analysis-pi-create {
+  display: flex;
+  height: 1.5rem;
+  padding: 0.25rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border-radius: 0.125rem;
+  background: var(--Blue-B4, #d9f2ff);
+}
+
+.abc-analysis-title {
+  color: var(--Surface-White, white) !important;
+  text-align: center;
+  font-size: var(--text-0_625rem, 0.625rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.625rem */
+}
+
+.pi-create-flag-data {
+  border-radius: 0.25rem;
+  border: 1px solid var(--Surface-G1, #e6e6e6);
+  background: var(--Surface-White, #fefefe);
+  width: 100%;
+}

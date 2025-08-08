@@ -1,0 +1,107 @@
+.pi-details-prdt-main-div {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white !important;
+    margin-bottom: 20px;
+}
+
+.pi-det-button-div {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.pi-det-btn-mob {
+    width: 100%;
+    flex: 1;
+}
+
+.no-btn-padding {
+    padding: 0px !important;
+}
+
+.pi-det-prdt-card-main-div {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    border-top: 1px solid lightgray;
+    padding-bottom: 10px;
+    padding-top: 10px !important;
+
+
+}
+
+.pi-det-prdt-card-img-div {
+    height: 100%;
+    width: 90px;
+    background-color: lightgray !important;
+    border-radius: 10px;
+}
+
+.pi-prdt-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.qty-editing-input {
+    height: 25px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.qty-editing-input::placeholder{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.flag-data-div{
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag-data-pi-details-mobile{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.flag-pi-det-child{
+    width: 100%;
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flag-data-pi-heading{
+    width: 100%;
+    flex: 0.5;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.flag-data-pi-detail-value{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    padding-left: 10px;
+}

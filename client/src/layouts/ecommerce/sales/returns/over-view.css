@@ -1,0 +1,103 @@
+.sales-over-view{
+    height: 50px;
+    display: flex;
+}
+.orders-view{
+    flex: 0.4;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.orders-text{
+    font-size: 0.8em !important;
+    font-weight: 700 !important;
+}
+
+.discount-online-view{
+    flex: 0.6;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+}
+.discount-text{
+    font-size: 0.8em !important;
+    text-decoration: underline !important;
+    color: #EBA85A !important;
+}
+
+.export-text{
+    font-size: 0.8em !important;
+    color: gray !important;
+}
+
+.online-text{
+    color: #EBA85A !important;
+    font-size: 0.8em !important;
+}
+.sales-today-list{
+    height: 70px;
+    display: flex;
+    border-radius: 7px !important;
+}
+
+.sales-overview-list{
+    flex: 1;
+    border-right: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: #E9E9E9 !important;
+}
+.sales-overview-list1{
+    flex: 1;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: #E9E9E9 !important;
+}
+.sales-border{
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.sales-text{
+    font-size:0.8em !important;
+    font-weight: 500 !important;
+}
+.filter-product-list1{
+    height: 50px;
+    display: flex;
+    gap: 25px;
+}
+
+.list-div-heading1{
+    margin-top: 10px;
+    height: 60px;
+    display: flex;
+    border-radius: 7px;
+}
+
+.vend-or{
+    font-size: 0.7em !important;
+}
+
+.sales-border-left{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.return-no-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: lightgray !important;
+    border-radius: 10px;
+}

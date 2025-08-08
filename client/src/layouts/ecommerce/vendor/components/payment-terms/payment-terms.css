@@ -1,0 +1,55 @@
+.PaymentSub{
+    font-size: 0.7em;
+    line-height: 40px;
+    padding: 15px;
+    margin-top:30px;
+}
+.Cancel-btn-payment{
+    color:rgb(235,168,90) !important;
+    background-color:white !important;
+    margin-right:20px !important;
+    width:130px;
+    font-size: 14px !important;
+}
+.Submit-btn-payment{
+    background:rgb(235,168,90) !important;
+    color:white !important;
+    width:130px;
+    font-size: 14px !important;
+}
+.button-grp{
+    float: right;
+    margin-top:30px;
+}
+
+.label-heading {
+    font-size: 0.875rem;
+    color: #100f5e;
+    margin: 0px 0px 10px 5px;
+    font-weight: bold;
+}
+
+.inputLabelTextStyle {
+        font-weight: 500 !important;
+        font-size: 0.875rem !important;
+        /* color: #344767; */
+        margin: 5px 5px 5px 3px;
+        text-transform: lowercase;
+      
+}
+.inputLabelTextStyle::first-letter {
+    text-transform: uppercase;
+}
+
+.smallBtnStyle  {
+    scale : 0.8 !important
+    /* text-transform: capitalize;
+    padding: 0px 15px 0px 15px !important;
+    font-size: 0.775rem !important;
+    min-height: 35px  !important; */
+}
+
+.inputStyle {
+    min-width: 200px;
+    max-width: 230px;
+}

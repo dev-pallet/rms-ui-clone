@@ -1,0 +1,109 @@
+.location-skelton-org-card {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 10px;
+}
+
+.loc-skelton-div {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.skeleton-main-div {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.org-skull {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white !important;
+}
+
+.org-skull-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.org-skull-info-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.skull-btn-location {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.location-skelton-org-btn {
+    width: 100%;
+    flex: 1;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.location-skelton-org-title {
+    height: 25px !important;
+    width: 120px !important;
+    border-radius: 10px;
+}
+
+.location-skelton-org-chip {
+    height: 20px !important;
+    width: 30px !important;
+    border-radius: 100vw;
+}
+
+.skull-bg {
+    background-color: white !important;
+}
+
+.skull-card-div {
+    padding: 15px;
+    width: 180px !important;
+    height: 250px !important;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+
+.location-skelton-loc-card {
+    height: 150px !important;
+    width: 150px !important;
+    border-radius: 10px;
+}
+
+.location-skelton-loc-btn {
+    height: 30px !important;
+    width: 50px !important;
+    border-radius: 10px;
+}
+
+.location-skelton-loc-name {
+    width: 70% !important;
+    border-radius: 10px;
+}
+
+.location-skelton-loc-subName {
+    width: 100% !important;
+    height: 10px !important;
+    border-radius: 10px;
+}

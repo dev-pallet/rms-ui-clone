@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">    
+    <title>Password Has Been Set To Email</title>
+    <style>
+        /* CSS styles for the template */
+        body{
+            margin: 0;
+        }
+        #main-container{
+            width: 100%;
+            background-color: #f4f5f7;
+        }
+        #container{
+            width: 70%;
+            /* width: 640px; */
+            margin: auto;
+        }
+        /* organization logo  */
+        .logo {
+            width: 100px; /* Adjust the width as needed */
+            height: 100px; /* Preserve aspect ratio */
+            background-color: #edebeb;
+        }
+
+        .logo_box{
+            background-color: #edebeb;
+        }
+
+        h1{
+            padding: auto 30px ;
+            font-size: 35px;
+            font-family: Montserrat,sans-serif;
+            color: #31302D;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+        }
+
+        p{
+            padding: auto 100px ;
+            font-size: 14px;
+            font-family: Roboto,sans-serif;
+            line-height: 1.6;
+            color: #31302D;
+        }
+
+        #highlight{
+            font-size: 18px;
+            font-family: Poppins,sans-serif;
+            font-weight: 500;
+        }
+
+        /* body > table tr:first-child td{
+            padding: 0px 30px;
+        } */
+
+        #container > table tr:nth-child(2) td{
+            padding: 0px 100px;
+        }
+        
+        .footer tr td{
+            padding-top: 100px;
+        }
+
+        .footer-logo td{
+            padding-top: 100px;
+            padding-left: 30px;
+            padding-right: 30px;
+            text-align: center;
+        }        
+
+        .trademark_address_website td{
+            text-align: center;
+            font-size: 10px;
+            font-family: Roboto,serif;
+            color: #31302D;
+            padding-top: 20px !important;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .curved_img_top td{
+            /* height: 300px; */
+            padding: 0;
+            margin: 0;
+        }
+
+        .centered td{
+            text-align: center;
+            /* padding-right: 50px; */
+        }
+
+        /* Rest of the CSS styles... */
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <div id="container">
+            <table>
+                <tr class="curved_img_top">
+                    <td>
+                        <img src="https://storage.googleapis.com/twinleaves_bucket/FrontEnd/PALLET_images/email-template-curved-wave-img-top.png" width="100%" height="120px"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h1>
+                            Password Changed
+                        </h1>
+                        <p>
+                            Hey ${firstName},
+                            <br/>
+                            <br/>                                    
+                            This email is to inform that your password has been set to ${password}.
+                            <br/>
+                            <br/>
+                            Team Pallet
+                        </p>
+                    </td>
+                </tr>
+                <tr class="footer">
+                    <td colspan="2">
+                        <table>
+                            <tr class="footer-logo">
+                                <td> 
+                                    <img src="https://storage.googleapis.com/twinleaves_bucket/FrontEnd/PALLET_images/pallet-icon.png" alt="Powered By" width="40" height="40" style="border-radius: 0.5rem;"/>
+                                </td>                          
+                            </tr>
+                            <tr class="trademark_address_website">
+                                <td>
+                                    Pallet is a registered trademark of Twinleaves Retail Ecommerce India Private Limited
+                                    <br/>
+                                    Level 4, No 3, ITPL Main Road, Kundalahalli, Bangalore 560 037
+                                    <br/>
+                                    www.palletnow.co
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0;">
+                        <img src="https://storage.googleapis.com/twinleaves_bucket/FrontEnd/PALLET_images/email-template-curved-wave-img-bottom.png" width="100%" height="120px"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+.users-box {
+  border-bottom: 1px solid lightgray;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.transfer-box {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 7px;
+}
+.transfer-flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.about-box {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+  padding: 10px;
+}
+.image-avtar {
+  width: 70px;
+  height: 70px;
+}
+.transfer-text {
+  font-size: 0.7em !important;
+  font-weight: 400 !important;
+  color: #0562fb !important;
+  cursor: pointer;
+}
+.last-text {
+  font-weight: 300 !important;
+  color: #000 !important;
+}
+.store-text {
+  padding: 10px;
+  font-size: 0.8em !important;
+}
+.owner-text {
+  color: #0562fb !important;
+  text-decoration: underline !important;
+  font-size: 0.8em !important;
+  cursor: pointer;
+}
+.owner-text:hover {
+  text-decoration: none !important;
+}
+.add-staff-btn {
+  background-color: #0562fb !important;
+  color: #fff !important;
+  height: 20px !important;
+  margin-top: 15px !important;
+}
+.auto-div-box {
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+.transfer-model-div {
+  width: 630px;
+  height: 630px;
+  margin: auto;
+  margin-top: 110px;
+  background-color: #fff !important;
+  border-radius: 7px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  animation: movedown 0.2s linear 1;
+}
+
+.transfer-grid-modal-box {
+  background-color: #fff !important;
+  border-radius: 7px !important;
+}
+
+.transfer-model-div:focus {
+  outline: none;
+}
+
+.modal-transfer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  height: 60px;
+}
+.transferr-text {
+  font-size: 0.9em !important;
+  font-weight: 300 !important;
+  margin-left: 15px !important;
+  color: #000 !important;
+}
+.close-icon {
+  width: 30px !important;
+  height: 30px !important;
+  margin-right: 15px;
+}
+.close-icon:hover {
+  border-radius: 5px;
+  background-color: rgb(231, 225, 225);
+}
+
+.transfer-ul {
+  font-size: 0.8em !important;
+  font-weight: 300 !important;
+  color: gray !important;
+  margin-left: 10px !important;
+  margin-bottom: 10px !important;
+}
+.transfer-li {
+  margin-left: 25px !important;
+}
+.upper-text {
+  text-transform: uppercase !important;
+  font-size: 0.7em !important;
+  font-weight: 500 !important;
+}
+.transfer-flx-box {
+  display: flex;
+  gap: 10px;
+}
+.first-name-box {
+  width: 49%;
+}
+.email-box-div {
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  /* border: 1px solid; */
+  height: 290px;
+}
+.email-txt {
+  font-size: 0.8em !important;
+  font-weight: 300 !important;
+  margin-top: 10px !important;
+}
+
+.btn-box {
+  float: right !important;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.store-owner-btn {
+  background-color: #0562fb !important;
+  color: #fff !important;
+}
+
+.cancle-btn {
+  border: 1px solid !important;
+}
+
+@keyframes movedown {
+  0% {
+    transform: translateY(-100px);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0px);
+    visibility: visible;
+  }
+}
+
+.data-grid-table-boxo-user {
+  border-radius: 10px !important;
+}

@@ -1,0 +1,55 @@
+.content-left {
+  position: relative;
+  max-width: 100%; /* Limit the container to the parent width */
+  overflow: hidden; /* Prevent content from overflowing */
+}
+
+.vendorLocationbtn {
+  margin: 4px;
+  padding: 8px 12px;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.scrollable-container {
+  display: flex; /* Align items in a row */
+  flex-wrap: nowrap; /* Prevent wrapping to the next line */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  max-width: 100%; /* Ensure it doesn't exceed the container's width */
+  gap: 4px; /* Add spacing between buttons */
+}
+
+.scrollable-container::-webkit-scrollbar {
+  height: 4px; /* Height of the scrollbar */
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Scrollbar color */
+  border-radius: 8px; /* Rounded corners for scrollbar */
+}
+
+.scrollable-container button {
+  flex-shrink: 0; /* Prevent buttons from shrinking in size */
+}
+
+/* mobile screen  */
+/* name and logo  */
+.logo-name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  margin-bottom: 10px;
+}
+.logo-container {
+  display: flex;
+  width: 3.125rem;
+  height: 3.125rem;
+  padding: 1.875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+.padding-btn {
+  padding: 0 5px!important;
+}

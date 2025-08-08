@@ -1,0 +1,24 @@
+.batch-card-text {
+  font-size: 0.9rem !important;
+  font-weight: bold !important;
+}
+
+.batch-card-main-card {
+  padding: 1rem !important;
+  margin-bottom: 10px !important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
+  border-radius: 5px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row !important;
+}
+
+.batch-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.count-completed {
+  background-color: #e8ffd8 !important;
+}

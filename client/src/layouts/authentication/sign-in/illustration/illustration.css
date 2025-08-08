@@ -1,0 +1,126 @@
+.add-customer-pan-verify-i-otp {
+  background-color: #0562fb !important;
+  color: white !important;
+  font-size: 14px;
+  height: 40px;
+  padding: 0;
+  border-color: white;
+  width: 100%;
+  border-radius: 7px;
+  /* transform: translateY(15px); */
+  float: right;
+  margin-top: 35px !important;
+}
+.add-customer-pan-verify-i-scs-otp {
+  background-color: rgb(24, 181, 3) !important;
+  color: white !important;
+  font-size: 14px;
+  height: 40px;
+  padding: 0;
+  width: 100%;
+  border-color: white;
+  border-radius: 7px;
+  /* transform: translateY(15px); */
+  float: right;
+  margin-top: 35px !important;
+}
+.add-customer-progress-otp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 5px !important;
+  margin-left: 3px !important;
+  color: white !important;
+}
+
+.pallet-img-gif-background {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(5, 100, 254) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-background {
+  z-index: 1;
+  object-fit: contain;
+  width: 50vw;
+  height: 50vh;
+  /* background: rgba(0,0,0,0); */
+  /* opacity: 1; */
+  /* filter: brightness(50%); */
+  /* position: absolute;
+  bottom: 5rem;
+  left: 0; */
+  margin-top: 3rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  /* position: absolute;
+    bottom: 0; */
+}
+
+.footer-container {
+  padding-top: 15rem;
+}
+
+.message-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100000;
+  width: 100vw;
+  color: #0868fe;
+  font-size: 4em;
+  text-align: center;
+  background-color: #0868fe;
+  border: 2px solid #0868fe;
+  opacity: 0;
+}
+.animate {
+  opacity: 0;
+  animation: fadeInOut 3s ease-out;
+}
+
+.login-change-btns-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
+
+.login-change-buttons{
+  width: 100%;
+  flex: 1;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.9;
+  }
+  70% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.create-acc-btn {
+  color: #0562fb !important;
+}
+
+@media only screen and (max-width: 768px){
+  .footer-container{
+    padding-top: 0rem !important;
+  }
+}

@@ -1,0 +1,62 @@
+.no-access-info-div,
+.no-access-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.no-access-main-container {
+  margin: auto;
+  height: 100vh;
+}
+
+.main-heading-noacess {
+  color: var(--Surface-Black, #0b0b0b);
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 1rem */
+}
+
+.main-heading-subtitle {
+  color: var(--Surface-Black, #0b0b0b);
+  text-align: center;
+  font-size: var(--text-0_625rem, 0.625rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 0.625rem */
+}
+
+.hurry {
+  color: var(--Blue-B0, #0860e6);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.download {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.download-ros-app {
+  text-align: center;
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 0.75rem */
+}
+
+.store-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}

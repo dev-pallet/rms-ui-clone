@@ -1,0 +1,131 @@
+.timeline-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+}
+
+.timeline-point {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.timeline-timestamp {
+  font-size: 0.5em;
+  color: #666;
+}
+
+.timeline-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.6em;
+}
+
+.timeline-value-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.timeline-value {
+  font-size: 1.2em;
+  font-weight: bold;
+  z-index: 1;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  transform: translateY(-50%);
+}
+
+.timeline-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+}
+
+.timeline-event {
+  display: flex;
+  align-items: center;
+  margin: 2px 0;
+  font-size: 0.5em;
+}
+
+.timeline-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.timeline-circle.sold {
+  background-color: orange;
+}
+
+.timeline-circle.inwarded {
+  background-color: green;
+}
+
+.timeline-circle.adjusted {
+  background-color: red;
+}
+
+.timeline-circle.transfer {
+  background-color: blue;
+}
+
+.timeline-circle.adjusted {
+  background-color: purple;
+}
+
+/* for mobile device  */
+.timeline-container-w-460{
+  width: 460px !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.timeline-value-mobile {
+  font-size: 0.8em !important;
+  background-color: white !important;
+}
+
+.timeline-value-mobile-completed {
+  font-size: 0.8em !important;
+  background-color: #e8ffd8 !important;
+}
+
+.overflow-scroll-width-none{
+  scrollbar-width: none !important;
+}
+
+.bg-gainsboro {
+  background-color: gainsboro;
+}
+
+.padding-left-0_5rem{
+  padding-left: 0.5rem !important;
+}
+
+.padding-0_5rem {
+  padding: 0.5rem !important;
+}

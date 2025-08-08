@@ -1,0 +1,72 @@
+.price-label {
+  /* padding: 15px; */
+  border-radius: 10px;
+  background-color: white !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -15px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  overflow: auto;
+}
+
+.price-label-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.price-label-filters {
+  /* padding: 1rem; */
+
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 1rem; */
+
+  /* flex: 0.8; */
+}
+
+.limit-tag > div > span {
+  border-radius: 0.8rem;
+}
+
+.price-label-search {
+  /* width: 12rem; */
+}
+
+.category-filter {
+  /* width: 12rem; */
+  /* max-width: 15rem !important; */
+  width: 100%;
+}
+
+.print-btn {
+  /* solid button with #6c8ebf background */
+  background-color: #0562fb !important;
+  color: #ffffff !important;
+  /* '&:hover, &:focus, &:active': {
+      backgroundColor:"#6c8ebf",
+      color: '#ffffff',
+    } */
+}
+
+.print-label {
+  cursor: pointer;
+}
+
+.cancel-print {
+  /* margin: 1rem; */
+}
+
+.batch-data {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 767px) {
+  .custom-print-modal {
+    width: 90vw !important;
+  }
+}
+
+@media (max-width: 759px) {
+  #bulk-print-btn {
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,28 @@
+.approve-btn-transfer {
+    transform: none !important;
+}
+
+.transfer-billing-details {
+    background-color: white !important;
+    padding: 15px;
+}
+
+.transfer-billing-div-main-wrapper {
+    border: none !important;
+}
+
+.transfer-billing-div-main-wrapper>div {
+    padding: 0px;
+}
+
+@media only screen and (max-width: 576px) {
+    .billing-values-end {
+        text-align: right !important;
+    }
+
+    .transfer-billing-total{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

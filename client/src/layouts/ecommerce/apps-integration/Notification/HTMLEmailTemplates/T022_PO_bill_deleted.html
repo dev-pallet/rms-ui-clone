@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Deletion Of Bill Number</title>
+    <style>
+        /* CSS styles for the template */
+
+        /* organization logo  */
+        .logo {
+            width: 100px; /* Adjust the width as needed */
+            height: 100px; /* Preserve aspect ratio */
+            background-color: #edebeb;
+        }
+
+        .logo_box{
+            background-color: #edebeb;
+        }
+
+        .organization-name {
+            font-size: 25px;
+            font-weight: bold;
+            /* border: 1px solid; */
+            background-color: #edebeb;
+            color:#31302D ;
+            font-family: 'Poppins',sans-serif;
+        }
+
+        h3{
+            font-size: 25px;
+            font-family: "Poppins",sans-serif;
+            font-weight: 500;
+        }
+        
+        h4{
+            font-size: 18px;
+            font-family: "Poppins",sans-serif;
+            font-weight: 500;
+            margin-top:0 ;
+            margin-bottom:0 ;
+            line-height: 1.6;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table_Data{
+            border: 1px solid #ddd;
+        }
+        .table_Data th{
+            background-color:#E0E9E6;
+            color: rgb(64, 59, 59);
+        }
+        .table_Data tr td{
+            border: 1px solid #ddd;
+            font-size: 14px;
+            color: #525252;
+            font-family: "Roboto",sans-serif;
+        }
+
+        /* even  */
+        .table_Data tr:nth-child(even){
+            background-color: #edebeb;
+        }
+
+        /* odd */
+        .table_Data tr:nth-child(odd){
+            background-color: #F2F2F2;
+        }
+
+        .table_Data tr:last-child td{
+            font-size: 14px;
+            color: #525252;
+            font-family: "Poppins",sans-serif;
+            background-color: #edebeb;
+            border: 1px solid #ddd;           
+        }
+
+        .table_Data tr:last-child td:nth-child(2){
+            text-align: right;
+        }
+        .table_Data tr:last-child td:nth-child(3){
+            text-align: right;
+        }
+        
+        th, td {
+            padding: 8px;
+            /* border: 1px solid black; */
+            text-align: left;
+        }
+
+        .text_above_qr{
+            font-size: 18px;
+            font-family: "Roboto",sans-serif;
+            color: #31302D; 
+        }
+        
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .centered{
+            /* text-align: center;
+            vertical-align: middle;
+            height: 100%; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 10px;
+        }
+
+        .user_details_and_delivery_address_box{
+            min-height: 50px;
+            font-size: 14px;
+            font-family: "Roboto",sans-serif;
+            color: #31302D;
+        }
+
+        /* user_details_box */
+        .user_details_box{
+            background-color: #edebeb;
+            color: #31302D;
+        }
+
+        /* .delivery_address_box */
+        .delivery_address_box{
+            background-color: #edebeb;
+            color: #31302D;
+        }
+
+        /* phone_email_address_box */
+        .phone_email_address_box{
+            background-color: #edebeb;
+            font-size: 14px;
+            font-family: "Roboto",sans-serif;
+            color: #31302D;
+        }
+
+        /* inside footer  */
+        .powered_ByText{
+            font-size: 18px;
+            font-family: "Roboto",sans-serif;
+            color: #31302D;
+        }
+
+        /* Rest of the CSS styles... */
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="header-row">
+            <tr>
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td class="right logo_box" style="width: 15%;"> 
+                                <img src="${organizationLogo}" alt="Logo" class="logo">
+                            </td>
+                            <td class="left organization-name">${organizationName}</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tr>
+        <tr>
+            <td colspan="6" class="left">
+                <h4>
+                    Dear ${billCreator},
+                    <br/>
+                    <br/>
+                    I am writing to inform you that the bill you submitted for ${poNumber} has been deleted from our system. The reason for the deletion is/are 
+                    <br/>
+                    <br/>
+                    ${deleteReason}
+                    <br/>
+                    <br/>
+                    Please note that this deletion is for internal purposes within our organization and does not affect any payment or invoicing processes with the company.
+                    <br/>
+                    <br/>
+                    If you have any questions or require further information regarding the deletion of the bill, please do not hesitate to contact me.
+                    <br/>
+                    <br/>                   
+                    Best regards,   
+                    <br/>
+                    ${billDeleter}
+                    <br/>
+                    <br/>
+                </h4>
+            </td>
+        </tr>
+        <tr class="phone_email_address_box">
+            <td colspan="2">
+                <table>
+                    <tr>
+                        <td>${phoneNo}</td>
+                        <td rowspan="2" class="right">${orgAddress}</td>
+                    </tr>
+                    <tr>
+                        <td>${email}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="footer">
+        <tr>
+            <tr>
+              <td colspan="2">
+                  <table>
+                      <tr>
+                          <td class="right" style="width: 45%;"> 
+                              <img src="https://storage.googleapis.com/twinleaves_public/Template-logos/PALLET%20icon.png" alt="Powered By" width="40" height="40" style="border-radius: 0.5rem;">
+                          </td>
+                          <td class="left powered_ByText">Powered By Pallet</td>
+                      </tr>
+                  </table>
+              </td>
+            </tr>
+        </tr>
+    </table>
+</body>
+</html>

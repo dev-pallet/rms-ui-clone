@@ -1,0 +1,109 @@
+.filter-icon-main-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.filter-add-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  width: 100%;
+}
+
+.filter-values-main-div {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.common-filter-title {
+  color: var(--Surface-G5, #333);
+  text-align: center;
+  font-size: var(--text-1rem, 1rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 1rem */
+}
+
+.filter-divider-mob {
+  height: 0rem;
+  align-self: stretch;
+  stroke-width: 1px;
+  stroke: var(--Surface-G1, #e6e6e6);
+  margin: 0.5rem 0;
+}
+
+.filters-main-container {
+  display: flex;
+  flex: 1;
+  gap: 0.5rem;
+  max-height: 189px;
+  overflow: hidden;
+}
+
+.main-filters-mob {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+}
+
+.sub-filters-mob {
+  flex: 0.8;
+  overflow-y: scroll;
+  max-height: 100%;
+}
+
+.sub-filters-child-div {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.375rem;
+  flex-wrap: wrap;
+}
+
+/* .sub-filter-main-div {
+  margin-right: 0.375rem;
+} */
+
+.filter-action-btns-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 0.375rem;
+}
+
+.sub-filter-label {
+  text-align: center;
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}
+
+.filter-title-main-container {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.filter-main-btn-div {
+  position: relative;
+}
+
+.filter-count-ros-app {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--Blue-B1);
+  padding: 2px;
+  border-radius: 100vw;
+  height: max-content;
+}
+
+.filter-count-number {
+  font-size: 0.5rem;
+  color: white;
+}

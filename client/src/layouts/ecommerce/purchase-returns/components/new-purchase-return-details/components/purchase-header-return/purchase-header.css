@@ -1,0 +1,18 @@
+.view-debit-note {
+  color: #0562fb;
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* .return-additional-info-div {
+  margin-top: px;
+} */
+
+.view-debit-note-loader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}

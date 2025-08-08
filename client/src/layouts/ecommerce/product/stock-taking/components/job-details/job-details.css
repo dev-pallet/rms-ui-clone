@@ -1,0 +1,22 @@
+.stock-status-chip {
+  padding: 5px 1rem;
+  font-size: 0.7rem;
+  border-radius: 1rem;
+  border: 1px solid;
+  font-weight: 600;
+}
+
+.active-chip {
+  background-color: rgb(214, 255, 214);
+  color: green;
+}
+
+.closed-chip {
+  background-color: rgb(255, 211, 211);
+  color: red;
+}
+
+.pending-chip {
+  background-color: rgb(255, 255, 204);
+  color: rgb(255, 153, 0);
+}

@@ -1,0 +1,196 @@
+.sales-details-box {
+    padding: 20px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    border-radius: 7px;
+    background-color: #fff !important;
+  }
+  
+  .sales-details-comment-box {
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 7px;
+    background-color: #fff !important;
+  }
+  
+  .add-pi-main-box,
+  .add-pi-date-box {
+    border-radius: 11px !important;
+    box-shadow: rgba(37, 37, 37, 0.126) 0px 5px 50px !important;
+  }
+  .add-pi-table-head {
+    text-align: left;
+    font-size: 13px;
+  }
+  .add-pi-add-more-items {
+    background-color: white;
+    border-radius: 11px !important;
+    box-shadow: rgba(37, 37, 37, 0.126) 0px 5px 50px !important;
+  }
+  .tableRowHead {
+    color: rgb(0, 100, 254) !important;
+  }
+  .add-pi-font-size {
+    font-size: 12px !important;
+  }
+  .add-pi-second-pi {
+    background-color: white !important;
+    z-index: 100 !important;
+  }
+  .add-pi-textarea {
+    width: 95%;
+    border-radius: 10px;
+    /* height:70px !important; */
+  }
+  
+  .add-pi-textarea::placeholder {
+    font-size: 0.8em !important;
+    font-weight: 400 !important;
+    margin: 5px !important;
+  }
+  
+  .add-product-file-head-text {
+    margin-top: 20px !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+  }
+  .add-po-btns {
+    display: flex;
+    justify-content: flex-end;
+    float: left;
+    margin-right: 55px !important;
+    align-items: flex-end;
+    width: 100%;
+  }
+  .add-po-save {
+    color: white !important;
+    background-color: rgb(0, 100, 254) !important;
+    margin-right: 40px !important;
+  }
+  .add-po-cancel {
+    background-color: white !important;
+    color: rgb(0, 100, 254) !important;
+  }
+  .add-po-bill-details-box {
+    border-radius: 11px !important;
+    border: 1px solid lightgray !important;
+  }
+  .add-product-box-main-div {
+    width: 100%;
+    text-align: center;
+    border: 1px solid lightgray;
+    margin-right: 15px;
+  }
+  
+  .sales-details-save-box {
+    float: right;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+  }
+  
+  .add-pi-textarea-i {
+    width: 100% !important;
+    outline: rgb(225, 228, 231);
+  }
+  
+  .add-pi-textarea-i:focus {
+    outline: none !important;
+  }
+  
+  .add-pi-textarea-i::placeholder {
+    font-size: 0.7em !important;
+  }
+  
+  .add-product-file-head4 {
+    margin-top: 20px !important;
+  }
+  
+  .add-product-file-upload {
+    font-size: 1em !important;
+    font-weight: 400 !important;
+    color: rgb(0, 100, 254) !important;
+  }
+  
+  .you-text {
+    color: gray !important;
+    font-size: 0.7em !important;
+    font-weight: 300 !important;
+  }
+  .add-pi-textarea::placeholder {
+    margin: 5px !important;
+    font-size: 0.7em !important;
+  }
+  
+  .sales-details-scroll-table-box {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 11px !important;
+    box-shadow: #25252520 0px 5px 50px !important;
+    background-color: #fff !important;
+  }
+  
+  /* changes */
+  
+  .input-change1 {
+    width: 25%;
+    margin: auto;
+    margin-left: 40px;
+  }
+  .preview-btn-right {
+    float: right;
+    margin-right: 30vw;
+    margin-bottom: 10px;
+    
+  }
+  @media only screen and (max-width: 480px) {
+    .preview-btn-right {
+      float: right;
+      margin-right: 4vw;
+      
+    }
+  }
+  .attach-btn-cust {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+  }
+  .inpt-dis {
+    border: none !important;
+  }
+  .inpt-dis:focus{
+    outline: none !important;
+  }
+  .disc-select{
+    display: flex;
+    border:1.5px solid rgb(209, 206, 206);
+    border-radius: 10px;
+    width: 100%;
+  }
+  .inpt-select {
+    border: none !important;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .inpt-select option {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .inpt-select:focus {
+    outline: none;
+  }
+  .file-upload {
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .inpt-box-price{
+    border: none !important;
+    margin-bottom: 3px;
+    padding: 0 !important;
+  }
+  .inpt-box-price:first-child{
+    width: 100%;
+  }
+  

@@ -1,0 +1,47 @@
+.custom-filter-main-div {
+  max-width: 645px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.filter-custom-input > div {
+  width: 100%;
+}
+
+.filter-custom-input > div > .MuiInputBase-root {
+  padding: 0.5rem 0.75rem !important;
+}
+
+.filter-heading {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  width: 100%;
+}
+
+.filter-menu-main-div {
+  padding: 10px;
+}
+
+.title-toolbar {
+  padding-bottom: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.filter-actions-main-div {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.close-filter-modal-main-div {
+  cursor: pointer;
+}

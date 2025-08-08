@@ -1,0 +1,106 @@
+.operator-effectivesness-report-box {
+  width: 100%;
+  height: fit-content;
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.operator-effectiveness-box-typo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.operator-effectiveness-box-typo-1 {
+  color: #214053 !important;
+  font-size: 0.8rem !important;
+  font-weight: 200 !important;
+  text-align: right !important;
+}
+
+.operator-effectiveness-box-typo-2 {
+  color: #214053 !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  text-align: right !important;
+}
+
+.operator-effectiveness-box-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 40px;
+}
+
+.mob-res-filter-box {
+  padding: 15px;
+}
+
+.mob-res-filter-drawer-box {
+  height: fit-content !important;
+  padding: 10px;
+}
+
+.operator-effectiveness-box-typo-3 {
+    color: #214053 !important;
+    font-size: 0.8rem !important;
+    font-weight: 600 !important;
+    text-align: right !important;
+  }
+
+  .op-eff-grid-view {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px
+  }
+
+  .mob-res-slide {
+    width: auto !important
+  }
+
+  .order-metrics-single-box {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: #fff;
+  }
+
+  .order-metrics-product-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .order-metrics-product-left-img {
+    width: 50px;
+    height: 60px;
+    border-radius: 10px;
+  }
+
+  .order-metrics-product-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px
+  }
+
+  .custom-pagination-component-order-metrics {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }

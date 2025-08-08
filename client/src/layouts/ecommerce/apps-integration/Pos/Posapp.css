@@ -1,0 +1,31 @@
+.settingcard:hover {
+  transform: translateY(-8px);
+  transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 8px 15px rgba(4, 46, 82, 0.3);
+}
+
+.custom-idle-input {
+  width: 200px !important;
+  flex: 0.5;
+}
+
+.custom-idle-input-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+}
+
+.pos-general-setting-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+}
+@media (max-width: 768px) {
+  .pos-general-setting-btn {
+    position: fixed;
+    margin: 0.5rem;
+    padding: 0.75rem;
+  }
+}

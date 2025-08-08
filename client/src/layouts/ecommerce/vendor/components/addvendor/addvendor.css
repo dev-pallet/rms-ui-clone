@@ -1,0 +1,43 @@
+.AddVendor-Div {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+
+.Portfolio {
+  border-bottom: 4px solid rgb(235, 168, 90) !important;
+}
+
+.VDetails {
+  border-bottom: 4px solid rgb(235, 168, 90) !important;
+}
+
+.PaymentTerms {
+  border-bottom: 4px solid rgb(235, 168, 90) !important;
+}
+
+.add-link-color-i {
+  color: #0562fb !important;
+}
+.tabs-box {
+  width: 100%;
+  margin-left: 15px;
+}
+
+.bg-url {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.done-all-vendor-create {
+  font-size: 16px !important;
+  color: white !important;
+  z-index: 1;
+}
+
+.done-all-vendor-create-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0562fb !important;
+}

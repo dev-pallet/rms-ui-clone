@@ -1,0 +1,34 @@
+.purchase-return-product-list-container {
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Adjust as needed */
+    z-index: 1;
+  }
+  .file-preview-info {
+    border: 1px dotted gray;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .file-name {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .file-format {
+    font-size: 12px;
+    font-style: italic;
+  }
+  .radio-checbox-products {
+    width: 15px;
+    height: 15px;
+    background-color: #007bff; 
+    border-color: #007bff; 
+  }
+  .common-display-flex-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }

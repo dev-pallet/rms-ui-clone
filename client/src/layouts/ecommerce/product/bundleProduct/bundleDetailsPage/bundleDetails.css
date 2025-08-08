@@ -1,0 +1,9 @@
+.mobile-device-bundle-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.web-screen-bundle-info {
+  display: flex;
+  justify-content: space-between;
+}

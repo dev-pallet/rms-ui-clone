@@ -1,0 +1,105 @@
+/* inventory cards css (MOBILE) */
+.inv-main{
+  height: auto;
+  width: 100%;
+}
+
+.inv-card-wrrapper {
+  background-color: white !important;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); */
+}
+
+
+.inv-card-info-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.inv-card-img-div {
+  height: 126px !important;
+  width: 40%;
+  background-color: lightgray !important;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+  flex-grow: 1;
+}
+
+.inv-product-img{
+  height: 100px;
+  width: 80px;
+}
+.info-ooo{
+  height: 100%;
+  width: 100%;
+  border: '1px solid black'
+}
+.inv-card-info-div {
+  height: 100%;
+  width: 60%;
+  background-color: white!important;
+}
+
+.divider {
+  margin: 5px 0 !important;
+}
+
+.inv-card-btn{
+  width: 100%;
+  flex: 1;
+}
+
+.inv-card-btn-div{
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.nv-product-page-btn{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #3d8be7 !important;
+  border-radius: 0px 0px 10px 10px;
+  margin: 0 auto;
+  color: white !important;
+}
+
+.product-status-available{
+  color: green !important;
+  border: 2px solid green;
+  background-color: rgb(144, 238, 144) !important;
+  border-radius: 100vw 100vw 100vw 100vw;
+  padding: 2px 5px 2px 5px;
+}
+
+.product-status-out-of-stock{
+  color: red !important;
+  border: 2px solid red;
+  background-color: rgba(255, 0, 0, 0.219) !important;
+  border-radius: 100vw 100vw 100vw 100vw;
+  padding: 2px 5px 2px 5px;
+}
+
+@media only screen and (max-width: 375px){
+  .inv-card-img-div{
+      display: none !important;
+  }
+  .inv-card-info-div{
+      width: 100% !important;
+  }
+}

@@ -1,0 +1,13 @@
+.go-to-dashboard-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* margin-top: 300px !important; */
+}
+.dash-btn{
+    color: white !important;
+}
+
+.report-for-day{
+    height: 80vh !important;
+}

@@ -1,0 +1,81 @@
+.ticketgrid .common-datagrid-main-container {
+  height: 80vh !important;
+  box-shadow: 2px 0px 10px rgba(3, 3);
+  font-weight: 200;
+  font-family: sans-serif;
+  color: '#030303';
+  /* margin: -2px !important; */
+  margin-top: 30px;
+}
+.ticketgrid .common-datagrid-main-container .css-r8r9i5-MuiSvgIcon-root {
+  height: 0;
+  width: 0;
+}
+.ticketgrid .common-datagrid-main-container .MuiDataGrid-cellContent {
+  font-size: 12px;
+  color: #030303;
+}
+.ticketgrid .common-datagrid-main-container .css-12grizg-MuiDataGrid-root .MuiDataGrid-columnHeaders {
+  border-bottom: none !important;
+}
+.ticketgrid .common-datagrid-main-container .css-1hfn967-MuiDataGrid-root .MuiDataGrid-columnHeaders {
+  border-radius: 0 !important;
+}
+.ticketgrid .common-datagrid-main-container .css-1jbbcbn-MuiDataGrid-columnHeaderTitle {
+  font-weight: 0;
+}
+.ticketgrid .common-datagrid-main-container .css-1hfn967-MuiDataGrid-root .MuiDataGrid-cell {
+  border-bottom: none;
+}
+.ticket-head {
+  /* background-color: var(--main-bg-white); */
+  box-shadow: var(--main-boxshadow-xl);
+  border-radius: var(--border-radius-xl);
+}
+.ticket-searchbar {
+  padding: 0px 8px;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  border-radius: 24px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  color: #242424;
+  font-size: 14px;
+  height: 40px;
+  font-weight: 500;
+  line-height: 19px;
+  outline: none;
+  width: 67vh;
+  /* flex: 1; */
+}
+.ticket ::placeholder {
+  color: #242424;
+  font-size: 14px;
+}
+.ticket-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 44px;
+  left: 1276px;
+  width: 120px;
+  height: 40px;
+  padding: 0px 8px;
+  border: 1px solid #007aff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #007aff;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 18px;
+  outline: none;
+}
+.tasklist-datagrid-container {
+  height: 450px;
+  width: 100%;
+  background-color: white;
+  margin-top: 7px;
+  border-radius: 24px;
+  box-shadow: 2px 0px 10px rgba(3, 3);
+}

@@ -1,0 +1,106 @@
+.campaign-template-main-dashboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.campaign-template-single-box {
+  width: 230px;
+  border: 1px solid rgba(36, 28, 21, 0.15);
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+}
+
+.campaign-template-single-box img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #efeeea;
+}
+
+.campaign-template-box-create-new {
+  font-size: 13px !important;
+  font-weight: 200 !important;
+  color: #0562fb;
+  line-height: 2;
+  margin-top: 20px !important;
+  text-align: right !important;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.campaign-template-box-create-new:hover {
+  transform: scale(1.1);
+}
+
+.campaign-template-box-header {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #241c15;
+  text-align: center;
+  line-height: 2;
+}
+
+.campaign-template-box-typo {
+  font-size: 14px !important;
+  font-weight: 200 !important;
+  color: #8A94A8;
+  text-align: center;
+  line-height: 2;
+}
+
+.campaign-template-box-desc {
+  font-size: 14px !important;
+  font-weight: 200 !important;
+  color: #241c15;
+  text-align: center;
+  line-height: 2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.tab-template-selected {
+  border-bottom: 2px solid #0562fb;
+  color: #0562fb;
+  font-weight: 600 !important;
+  cursor: pointer
+}
+
+.tab-template {
+  cursor: pointer;
+}
+
+.transactional-templates-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.transactional-template-single {
+    width: 200px;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0562fb;
+    border-radius: 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.transactional-template-typo {
+    font-size: 14px !important;
+    font-weight: 200 !important;
+    text-align: center;
+    line-height: 2;
+}

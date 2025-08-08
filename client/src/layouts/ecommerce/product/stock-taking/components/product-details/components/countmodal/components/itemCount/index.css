@@ -1,0 +1,15 @@
+.item-count-text {
+    font-size: 0.9rem !important;
+    font-weight: bold !important;
+    margin-top: 1rem;
+}
+
+.item-count-save-btn {
+    position: absolute !important;
+    right: 0;
+    bottom: 0;
+    color:white !important;
+    background-color: rgb(5,98,251) !important;
+    margin: 1rem !important;
+
+}

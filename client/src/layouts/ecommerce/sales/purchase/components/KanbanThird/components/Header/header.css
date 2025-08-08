@@ -1,0 +1,6 @@
+.header-submit-box{
+    float: right;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+}

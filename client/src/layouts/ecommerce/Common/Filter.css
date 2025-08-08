@@ -1,0 +1,31 @@
+.filterBox {
+  max-width: 750px !important;
+}
+
+/* single chip display box heading */
+.chipDisplayBoxHeading{
+  position: absolute !important;
+  top: 2px !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+}
+
+/* single chip display box for selected filter */
+.singleChipDisplayBox {
+  position: relative;
+  padding: 15px 10px 10px !important;
+  border: 1px solid gainsboro;
+  border-radius: 0.5rem;
+}
+
+.insideSingleChipDisplayBox {
+  margin-top: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-select-menu {
+  padding: 0 !important;
+}

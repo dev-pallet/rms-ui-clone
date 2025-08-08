@@ -1,0 +1,23 @@
+.inward-status-mob {
+    width: max-content;
+    height: 20px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 5px 0 5px;
+    font-weight: 700 !important;
+}
+
+.Inward-approve-mob {
+    color: green;
+    font-size: 0.7em;
+    font-weight: 600;
+    border: 1px solid green;
+}
+
+.Inward-closed-mob {
+    color: #DE350B;
+    font-size: 0.7em;
+    font-weight: 600;
+    border: 1px solid #DE350B;
+}

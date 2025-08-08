@@ -1,0 +1,58 @@
+.abc-analysis-text {
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+.abc-sub-heading-summary {
+  font-size: 14px !important;
+}
+.abc-analysis-tabs {
+  border: 1px solid darkgray;
+  margin: 10px 0px;
+  padding: 3px 10px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.active-tab {
+  color: #367df3 !important;
+  border-color: #367df3;
+}
+.text-center{
+  text-align: center !important;
+}
+
+/* summary - div */
+.displayInline {
+  display: inline;
+}
+
+.displayInlineBlock {
+  display: inline-block;
+}
+
+/* summary - div - tabs */
+.aTab {
+  display: inline;
+  color: #008000;
+  cursor: pointer;
+  font-weight: bold;
+}
+.bTab {
+  display: inline;
+  color: #fbcf33;
+  cursor: pointer;
+  font-weight: bold;
+}
+.cTab {
+  display: inline;
+  color: #ea0606;
+  cursor: pointer;
+  font-weight: bold;
+}
+.dTab {
+  display: inline;
+  color: #ea0606;
+  font-weight: bold;
+}
+/* a - #008000 */
+/* b - #FBCF33 */
+/* c - #EA0606 */

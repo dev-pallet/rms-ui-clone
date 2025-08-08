@@ -1,0 +1,36 @@
+.overlay-div-upgrade-plan {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  height: 75%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.upgrade-img {
+  height: 50%;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.upgrade-img-view {
+  width: 100%;
+  height: 12rem;
+  display: block;
+}
+
+.upgrade-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  height: 50%;
+  justify-content: center;
+}
+
+.upgrade-details-title {
+  margin-top: 1rem !important;
+}

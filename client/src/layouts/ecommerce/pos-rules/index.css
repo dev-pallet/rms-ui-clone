@@ -1,0 +1,37 @@
+.pos-order-rules{
+    padding : 30px 50px 30px 50px;
+    border-radius: 7px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.cancel-activate-box{
+   /* line-height: 100px; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: left;
+}
+
+.input-rule-box{
+    width: 40px;
+    height: 40px;
+    /* border:none; */
+    margin-left: 13%;
+}
+
+.input-check-rule-box{
+    width: 40px;
+    height: 40px;
+}
+
+
+.rules-main-box{
+    padding:50px !important;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
+    margin-top: 20px;
+}

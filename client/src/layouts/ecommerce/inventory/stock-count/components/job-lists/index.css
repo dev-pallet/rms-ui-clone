@@ -1,0 +1,49 @@
+.job-listing-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  align-self: stretch;
+  background: var(--Surface-G0, #f5f5f5);
+  padding-bottom: 0.375rem;
+}
+.stock-count-title-div {
+  display: flex;
+  height: var(--32, 2rem);
+  padding: var(--8, 0.5rem);
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+  border-radius: var(--4, 0.25rem);
+  background: var(--Blue-B3, #bfeaff);
+}
+
+.stock-count-title {
+  color: var(--Surface-G5, #333);
+  text-align: center;
+  font-family: var(--Nunito-Sans, 'Nunito Sans');
+  font-size: var(--12, 0.75rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 0.75rem */
+}
+
+.job-list-card-main {
+  display: flex;
+  padding: 0rem 0.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.375rem;
+  align-self: stretch;
+  border-radius: var(--8, 0.5rem);
+}
+.job-card {
+  display: flex;
+  padding: var(--12, 0.75rem);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  align-self: stretch;
+  border-radius: var(--8, 0.5rem);
+  background: var(--Surface-White, #fefefe);
+}

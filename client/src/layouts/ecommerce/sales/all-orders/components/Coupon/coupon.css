@@ -1,0 +1,11 @@
+.coupon-btn{
+    align-self: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.coupon-btn:hover{
+    background-color: rgb(223, 216, 216);
+    color: rgb(84,100,127);
+}

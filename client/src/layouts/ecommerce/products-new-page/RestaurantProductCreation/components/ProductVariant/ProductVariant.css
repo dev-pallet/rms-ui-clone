@@ -1,0 +1,32 @@
+.product-variant-image-box {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 88px;
+  height: 77px;
+  border: 1px solid #959595;
+  border-radius: 6px;
+  color: #959595;
+  outline: none;
+}
+
+.cart-view-box {
+  border: 1px solid #959595;
+  border-radius: 6px;
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.stack-column-center-start {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}

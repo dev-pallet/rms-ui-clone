@@ -1,0 +1,51 @@
+.back-btn-box {
+  padding-top: 0;
+  padding: 1rem;
+}
+
+.back-btn {
+  background-color: #0562fb !important;
+  color: white !important;
+}
+
+.arrow-back-icon {
+  margin-right: 0.5rem;
+}
+
+.addons-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.addon {
+  display: flex;
+  align-items: center;
+  gap: 3rem !important;
+}
+
+.addon-img {
+  height: 100%;
+}
+
+.add-contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.billing-details-not-allowed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;
+  gap: 0.6rem;
+}
+.billing-details-not-allowed-content {
+  font-size: 1rem !important;
+  color: #0562fb !important;
+  font-weight: 600 !important;
+}

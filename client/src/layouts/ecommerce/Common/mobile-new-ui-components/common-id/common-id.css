@@ -1,0 +1,17 @@
+.id-number-div {
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+  background: var(--Blue-B4, #d9f2ff);
+  max-width: max-content;
+}
+
+.id-number {
+  color: var(--Surface-G5, #333);
+  text-align: center;
+  font-size: var(--text-0_625rem, 0.625rem);
+  font-weight: bold;
+  line-height: 100%; /* 0.625rem */
+}

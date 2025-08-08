@@ -1,0 +1,98 @@
+.custom-alert-mobile-ros {
+    display: flex;
+    width: 90%;
+    padding: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid #FFE9E9;
+    background: #FFE9E9;
+    opacity: 0;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    z-index: 1301 !important;
+}
+
+.custom-alert-mobile-ros.top {
+    top: -100px;
+    animation-name: slideInFromTop;
+}
+
+.custom-alert-mobile-ros.bottom {
+    bottom: -100px;
+    animation-name: slideInFromBottom;
+}
+
+@keyframes slideInFromTop {
+    0% {
+        opacity: 0;
+        top: -100px;
+    }
+    100% {
+        opacity: 1;
+        top: 20px;
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        opacity: 0;
+        bottom: -100px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 20px;
+    }
+}
+
+.custom-alert-content-mobile-ros {
+    display: flex;
+    align-items: center;
+    width: 130%;
+}
+
+.icon-container-mobile-ros {
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+}
+
+.message-mobile-ros {
+    color: #333;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-right: auto;
+}
+
+.close-button-mobile-ros {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 0.5rem;
+}
+
+.notification-mobile-ros {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subMessage-mobile-ros {
+    color: #333;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.button-group-mobile-ros {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.25rem;
+    align-self: stretch;
+}

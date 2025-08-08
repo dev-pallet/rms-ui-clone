@@ -1,0 +1,95 @@
+.loc-txt-accordin {
+  font-weight: 600;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+.loc-light-txt-accordin {
+  font-weight: 400;
+  color: gray;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+
+.components-wrapper-box {
+  margin-bottom: 2rem !important;
+}
+
+.suggestion-list-area-pincode-wrapper {
+  list-style-type: none;
+  margin: 0;
+  position: absolute;
+  background-color: white;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1;
+  width: 35%;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 13rem;
+  transition: display 0.3s ease;
+}
+
+.suggestion-list-area-pincode-wrapper li {
+  cursor: pointer;
+  border-bottom: 1px solid lightblue;
+  text-align: left !important;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.suggestion-list-area-pincode-wrapper li:hover {
+  background-color: #f2f2f2;
+}
+
+/* Pincode suggestion wrapper styles */
+.pincode-suggestion-wrapper,
+.pincode-suggestion-wrapper-edit {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0.1rem;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+/* Pincode suggestion input styles */
+.pincode-suggestion-input {
+  width: 30% !important;
+  padding: 0.1rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+  flex: 1;
+}
+
+/* Input label text styles */
+.input-label-text {
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  color: #344767 !important;
+  text-transform: capitalize !important;
+  margin-right: 0.5rem;
+
+}
+
+/* Cancel cursor styles */
+.cancel-cursor {
+  cursor: pointer !important;
+  color: #f44336;
+  transition: color 0.3s ease;
+  margin-top: .8rem !important;
+}
+
+.cancel-cursor:hover {
+  /* color: #82a5dd; */
+  color: red;
+}
+
+.service-add-more-btn-wrapper{
+  display: flex;
+  justify-content: flex-end;
+}

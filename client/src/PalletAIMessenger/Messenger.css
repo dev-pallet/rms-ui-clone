@@ -1,0 +1,40 @@
+df-messenger {
+  z-index: 10000;
+  position: fixed;
+  --df-messenger-font-color: #344767;
+  --df-messenger-font-family: Roboto, Helvetica, Arial, sans-serif;
+  --df-messenger-font-size: 0.75rem;
+  --df-messenger-chat-background: #f3f6fc;
+  --df-messenger-message-user-background: #d3e3fd;
+  --df-messenger-message-bot-background: #fff;
+  --df-messenger-focus-color: #1976d2;
+  bottom: 16px;
+  right: 16px;
+
+  --df-messenger-chat-bubble-background: #1976d2;
+  --df-messenger-chat-bubble-icon-color: #ffffff;
+  --df-messenger-chat-window-width: 21.875rem;
+  --df-messenger-chat-window-height: 32.5rem;
+  --df-messenger-chat-bubble-icon-size: 24px;
+  --df-messenger-chat-bubble-close-icon-size: 14px;
+  --df-messenger-chat-bubble-size: 40px;
+
+  --df-messenger-titlebar-title-font-size: 16px;
+  --df-messenger-titlebar-icon-width: 24px;
+  --df-messenger-titlebar-icon-height: 24px;
+  --df-messenger-titlebar-icon-padding: 0 8px 0 0;
+  --df-messenger-titlebar-height: 40px;
+  --df-messenger-titlebar-padding: 0 10px;
+  --df-messenger-titlebar-background: #0562fb;
+  --df-messenger-titlebar-font-color: #fff;
+
+  --df-messenger-chat-border-radius: 8px;
+  --df-messenger-chat-window-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+  --df-messenger-input-inner-padding: 0px 5px;
+  --df-messenger-input-padding: 4px;
+}
+
+df-messenger::part(df-messenger-collapse-button) {
+  color: #ffffff;
+}

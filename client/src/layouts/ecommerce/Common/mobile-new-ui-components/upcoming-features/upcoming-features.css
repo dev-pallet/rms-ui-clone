@@ -1,0 +1,30 @@
+.shy-data-found-text {
+  color: var(--Blue-B0, #0860e6);
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.shy-data-text {
+  color: var(--Surface-Black, #0b0b0b);
+  font-size: var(--text-0_75rem, 0.75rem);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 0.975rem */
+  max-width: 200px;
+}
+.shy-data-found-image {
+  width: 10rem;
+  height: 10rem;
+}
+
+.shy-data-found-main-container {
+  margin: auto;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-direction: column;
+}

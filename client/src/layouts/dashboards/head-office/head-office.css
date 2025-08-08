@@ -1,0 +1,5 @@
+.cards-main-div-head-office{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

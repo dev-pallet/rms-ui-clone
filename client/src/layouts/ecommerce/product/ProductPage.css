@@ -1,0 +1,36 @@
+.productTitle-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px
+}
+
+.element-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px
+}
+
+.select-wrapper {
+    flex: 0.8;
+  }
+
+
+.labeltitle {
+    font-size: 0.8rem !important;
+    font-weight: 600 !important;
+    color : #344767 !important;
+    margin-bottom: 3px;
+
+}
+
+.bundleProduct-box {
+    padding: 15px;
+    gap:20px;
+    display: flex;
+    border : 1px solid #367df3;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}

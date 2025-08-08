@@ -1,0 +1,21 @@
+@media only screen and (max-width: 576px) {
+    .bills-details-typo-mobile {
+        margin-left: 0 !important;
+        font-size: 0.8em !important;
+        font-weight: 600 !important;
+    }
+
+    .bills-details-mob {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-left: 0px !important;
+        border-bottom: 1px solid lightgray;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .sales-details-btn-div{
+        display: flex;
+    }
+}

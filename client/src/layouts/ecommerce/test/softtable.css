@@ -1,0 +1,96 @@
+/* .ses{
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    padding: 5px;
+    margin-top: 2%;
+    width: 80%;
+    float: right;
+    margin-right: 2%;   
+}
+.bage{
+    float: right;
+}
+.box-search{
+    width: 40% !important;
+    margin-left: 20%;
+}
+
+.single{
+    margin-left: 90% !important;
+}
+.searches{
+    margin-left: 4% !important;
+ 
+    width: 25% !important;
+
+}
+.iconss{
+    display: block;
+}
+.solidss{
+    color: black !important; 
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+margin-left: 30% !important;
+width: 10%;
+padding: 12px !important;
+}
+.new{
+    background-color: blue !important;
+    color: white !important; 
+    width: 10%;
+    padding: 12px !important;
+    margin-left: 10% !important;
+}
+.st-dot-box-o{
+   margin-left: -15% !important;
+   padding: 12px !important;
+   font-size: 100% !important;
+} */
+
+.searc{
+    margin-top: 30px;
+}
+.pro{
+    margin-top: 40px; 
+    height: 220px;
+}
+.flow{
+    border: 1px solid red;
+}
+
+
+.searches{
+margin-left: -14px !important;
+width: 30% !important;
+}
+.new{
+    background-color: blue !important;
+    color: white !important; 
+    padding: 12px 24px 12px 28px !important;
+    margin-left: 56% !important;
+
+}
+.dots-p{
+  margin-left: 1700% !important;
+}
+
+@media only screen and (max-width: 480px) {
+  
+  
+
+    .searches{
+        margin-left: -14px !important;
+        width: 70% !important;
+        }
+     
+        .new{
+            background-color: blue !important;
+            color: white !important; 
+     
+            padding: 12px 24px 12px 28px !important;
+            margin-left: 2% !important;
+        }
+        .dots-p{
+            margin-left: 10px !important;
+          }
+     
+    }

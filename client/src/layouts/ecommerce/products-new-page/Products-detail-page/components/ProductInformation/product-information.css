@@ -1,0 +1,52 @@
+.products-new-details-desc-typo {
+  color: #505050;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 17px !important;
+  margin-top: 10px !important;
+}
+
+.products-new-details-desc-typo-1 {
+  color: #505050;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 17px !important;
+}
+
+.products-new-details-des-det-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.products-new-details-box-mob {
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+}
+
+.products-new-details-variants-price-typo-2 {
+  color: #505050;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  line-height: 22px !important;
+}
+
+.products-new-details-variants-price-typo-value-2 {
+  color: #000000;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  line-height: 21px !important;
+}
+
+.products-new-details-performance-price-1234 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  margin-bottom: 10px;
+}

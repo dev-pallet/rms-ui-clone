@@ -1,0 +1,60 @@
+.export-div-bill-w{
+    margin-top: 14px !important;
+    /* margin-left:50% !important; */
+    /* position: absolute; */
+    transform: translateX(375px); 
+}
+
+.export-div-v-referal-rec{
+    transform: translateX(380px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.export-div-v{
+    margin-top: 10px !important;
+    width: 30%;
+    
+}
+.table-css-fix-box-scroll-ref{
+    padding: 9px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -15px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .filter-product-list-cont{
+        width: 100%;
+    }
+
+    .soft-select-menu-box-O-i{
+        width: 90%;
+        margin-left: -154%;
+    }
+   
+    .referal-stsu{
+        width: 100% !important;
+        margin-left: -90%;
+    }
+   
+
+    .export-div-v{
+        width: 8% !important;
+        margin-top: 5px !important;
+        margin-left: 12px !important;
+        padding: 5px !important;
+        
+    }
+    
+    .referal-rec{
+        width: 15% !important;
+        margin-top: 1px !important;
+        margin-left: -5px !important;
+    }
+   
+    
+    
+}

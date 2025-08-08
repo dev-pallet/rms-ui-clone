@@ -1,0 +1,28 @@
+.addbrand-Box {
+    padding: 15px 25px 15px 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+    overflow: visible !important;
+    margin : 20px 0px 20px 0px
+}
+
+.brandslabelStyle {
+    font-weight: 200 !important;
+    font-size: 0.8rem !important;
+    line-height: 1.5;
+    color : #4b524d;
+    text-align: left;
+    margin : 10px 0px;
+}
+
+.label-heading-brands {
+    font-size: 0.95rem;
+    color: #100f5e;
+    margin: 0px 0px 10px 5px;
+    font-weight: 500 !important;
+    margin: -20px;
+    font-family: system-ui;
+    background-color: #e1eff7;
+    border-radius: 8px;
+    padding: 5px 20px 40px 5px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset !important;
+}

@@ -1,0 +1,216 @@
+.CustomerContact,
+.Country,
+.Address {
+  display: flex;
+  justify-content: space-between;
+}
+.CustomerContactBox,
+.AddressBox {
+  margin-top: 30px;
+}
+.Address {
+  display: flex;
+  margin-top: 20px;
+}
+.Country {
+  display: flex;
+}
+.CustomerType {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+}
+.AddCustomerMain {
+  font-size: 0.7em;
+}
+.CustomerTypeHead {
+  font-size: 0.75rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #344767;
+  font-weight: 700;
+}
+.SubCustomerContact,
+.SubCountry,
+.SubAddress {
+  width: 30%;
+}
+
+.CountryBox {
+  margin-top: 20px;
+}
+.AddCustomerGstin {
+  font-size: 0.9em;
+}
+.GstinBox {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.CustomerAccess {
+  font-size: 1.05em !important;
+}
+.CustomerAccessBox {
+  /* margin-top: 30px; */
+  margin-bottom: 0px;
+}
+.CheckBoxLabel {
+  font-size: 0.75rem !important;
+  color: #344767 !important;
+  padding: 10px;
+}
+.AssignWarehouse {
+  font-size: 1.05em !important;
+}
+.AssignBox {
+  margin-top: 30px;
+}
+.AssignSelect {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.311);
+}
+.business-name {
+  width: 65%;
+}
+.form-button-customer {
+  float: right;
+}
+.form-button-cancel {
+  color: rgb(28, 119, 255) !important;
+  background-color: white !important;
+  border: 1px solid rgb(28, 119, 255) !important;
+  width: 150px;
+}
+.form-button-submit {
+  color: white !important;
+  /* background-color: rgb(28, 119, 255) !important; */
+  background-color: #0562fb !important;
+  margin-left: 20px !important;
+  width: 150px;
+}
+.add-customer-head {
+  padding: 10px;
+  background-color: rgb(235, 168, 90) !important;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+.add-customer-type-box {
+  border-radius: 11px;
+  background-color: white !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -15px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.add-customer-file-box1 {
+  margin-top: 10.65px;
+  background-color: transparent;
+}
+.add-customer-file-head {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+.add-customer-box-main {
+  text-align: center;
+  border: 2px solid rgba(117, 117, 117, 0.308) !important;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.add-customer-file-attach {
+  color: rgb(235, 168, 90) !important;
+  cursor: pointer;
+  font-size: 13px;
+}
+.add-customer-file-format {
+  font-size: 13px;
+}
+  .add-customer-bottom-main {
+  background-color: white !important;
+  border-radius: 11px;
+  padding: 25px;
+  margin-top: 60px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -15px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  line-height: 40.17px;
+  /* height:-webkit-fill-available !important; */
+}
+.add-customer-add-more {
+  margin-top: 5px;
+}
+.add-customer-btn-box {
+  margin-left: 25px !important;
+}
+.add-customer-save-btn {
+  background-color: rgb(235, 168, 90) !important;
+  color: white !important;
+  margin-right: 15px !important;
+}
+.add-customer-cancel-btn {
+  color: rgb(235, 168, 90) !important;
+  background-color: white !important;
+}
+.add-customer-other-details-box {
+  background-color: white;
+  border-radius: 17px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -15px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  margin-left: 0 !important;
+}
+.add-customer-portal-access {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+.add-customer-pan-verify {
+  font-size: 11px !important;
+  margin-left: 10px !important;
+  color: rgb(235, 168, 90) !important;
+  height: 20px !important;
+  width: 60px;
+  border: 1px solid !important;
+  margin-top: 27px !important;
+  background-color: white;
+  border-radius: 4px;
+}
+.add-customer-pan-verify:hover {
+  color: rgb(251, 117, 34) !important;
+  transform: scale(1.2) !important;
+}
+
+.assign-warehouse {
+  margin-left: -21px;
+  width: 106%;
+}
+.bg-u {
+  height: 90px !important;
+  margin-bottom: 20px !important;
+}
+.upload-tag {
+  /* margin-top: -94px; */
+  /* margin-left: 5%; */
+  /* background-color:#344767; */
+}
+.pencil-icon {
+  position: relative;
+  left: 65px;
+  bottom: 35px;
+  z-index: 20;
+  /* margin-top: 13px; */
+  /* margin-left: 70px !important; */
+}
+
+.add-customer-progress-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 5px !important;
+  margin-left: 3px !important;
+  color: white !important;
+}
+
+.edit-icon-business-pan {
+  cursor: pointer;
+}
+
+.add-vendor-other-details {
+  margin-left: 0 !important;
+}
+
+.contactType {
+  z-index: 123123123;
+}

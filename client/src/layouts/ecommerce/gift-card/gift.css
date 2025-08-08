@@ -1,0 +1,55 @@
+.gift-box {
+  border-bottom: 1px solid lightgray;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.gift-text {
+  font-size: 1em !important;
+  font-weight: 500 !important;
+}
+.save-button-I {
+  background-color: #0562fb !important;
+  color: #fff !important;
+  height: 20px !important;
+  float: right;
+}
+.auto-div {
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 7px;
+}
+.gift-text-I {
+  font-size: 0.9em !important;
+  font-weight: 500 !important;
+}
+.gift-text-II {
+  font-size: 0.8em !important;
+  font-weight: 300 !important;
+}
+.expire-div {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.half-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.gif-text {
+  font-size: 0.8em !important;
+  margin-left: 5px !important;
+  margin-bottom: 10px !important;
+}
+.learn-text {
+  color: #0562fb !important;
+  font-size: 0.8em !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+.learn-text:hover {
+  text-decoration: none !important;
+}

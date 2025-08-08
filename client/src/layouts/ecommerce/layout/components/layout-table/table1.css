@@ -1,0 +1,73 @@
+.table-box {
+  background: #ffff !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  /* border-radius: 1rem !important; */
+  border-radius: 1rem;
+  /* overflow: hidden !important; */
+  position: relative !important;
+  height: 29rem !important;
+}
+
+.table-top-hierarchy-head {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.table-head {
+  background-color: rgba(224, 223, 223, 0.519) !important;
+  font-size: 0.7rem;
+  font-weight: 500;
+  height: 4rem;
+}
+
+.table-row {
+  height: 3rem;
+}
+
+.table-row-data {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: hsl(220, 16%, 48%);
+}
+
+.pagination {
+  /* height: 2rem; */
+  width: 100% !important;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.generate-btn {
+  background-color: transparent !important;
+  margin-top: 2rem !important;
+}
+
+.barcode-container {
+  /* margin-top: 1rem !important; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.entity-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.hierarchy-table {
+  width: 100%;
+  overflow-x: scroll !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .modal-box-barcode {
+    width: 90vw !important;
+  }
+}

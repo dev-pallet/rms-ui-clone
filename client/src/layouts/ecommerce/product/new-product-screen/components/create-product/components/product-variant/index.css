@@ -1,0 +1,32 @@
+.inputLabel-style {
+  font-weight: 600 !important;
+  font-size: 0.75rem !important;
+  color: #344767 !important;
+  line-height: 1.625;
+  letter-spacing: 0.00938em;
+}
+.inputLabel-style-head {
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  color: #344767 !important;
+  line-height: 1.625;
+  letter-spacing: 0.00938em;
+}
+
+.duplicateProduct-cancel {
+  background-color: #fff !important;
+  border: 1px solid #0562fb !important;
+  color: #0562fb !important;
+  cursor: pointer;
+  margin-right: 20px;
+  height: 45px;
+  font-size: 12px !important;
+}
+
+.variant-name-css {
+  font-weight: 200 !important;
+  font-size: 0.7rem !important;
+  color: #344767 !important;
+  line-height: 1.625;
+  letter-spacing: 0.00938em;
+}

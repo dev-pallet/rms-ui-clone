@@ -1,0 +1,16 @@
+.highlighted-row {
+    cursor: pointer !important;
+  }
+
+  .unhighlighted-row{
+    cursor: not-allowed !important;
+    background-color: #e8e7e7 !important;
+    opacity: .5 !important;
+  }
+
+
+.delete-icon-service{
+  color: #0562fb !important;
+  margin-left: .7rem !important;
+  font-size: 1.3rem !important;
+}

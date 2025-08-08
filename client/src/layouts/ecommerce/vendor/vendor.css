@@ -1,0 +1,165 @@
+.VendorDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.VendorBtn {
+  float: right;
+  background-color: rgb(235, 168, 90) !important;
+  color: white !important;
+  width: 160px !important;
+  margin-right: 5px !important;
+}
+.vendor-div-inner-small-input {
+  width: 60% !important;
+  /* padding: 8px; */
+}
+.vendor-table-checkbox {
+  pointer-events: none;
+}
+.vendor-table-star-icon {
+  font-size: 60px !important;
+}
+.filter-product-list1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+.create-vendor-modal-heading {
+  font-size: 16px !important;
+}
+.vendor-modal-font-size {
+  font-size: 13px !important;
+}
+
+.vendor-modal-export-btn {
+  color: white !important;
+  background-color: rgb(235, 168, 90) !important;
+  margin: 10px 10px 10px 0px !important;
+}
+
+.vendor-modal-cancel-btn {
+  background-color: white !important;
+  color: rgb(235, 168, 90) !important;
+  margin: 10px 0px 10px 0px !important;
+}
+.create-vendor-modal-heading1 {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.select-module-box {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.soft-select-menu-box1 {
+  width: 150px !important;
+}
+
+.doot-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.filter-add-list-cont-vendor {
+  width: 50% !important;
+  margin-top: 5px;
+  /* margin-left: -10px; */
+}
+.loc {
+  /* margin-left: 20px; */
+  width: 200px !important;
+}
+
+.vendor-sta {
+  width: 100px !important;
+}
+
+.vendor-add-btn {
+  background-color: var(--bg-button) !important;
+  color: #fff !important;
+  /* border: 2px solid #ffffff !important; */
+}
+
+.vendor-third-btn {
+  background-color: #00ac47 !important;
+  color: #fff !important;
+  /* border: 2px solid #ffffff !important; */
+}
+
+.coupon-add-btn {
+  background-color: #0562fb !important;
+  color: #fff !important;
+  border: 2px solid #ffffff !important;
+}
+.vendor-dot {
+  margin-top: 1px;
+  margin-left: 72% !important;
+  position: absolute;
+}
+
+.table-css-fix-box-scroll-vend {
+  /* padding: 15px; */
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -15px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  overflow: auto;
+}
+
+/* .vendor-filter-input {
+  padding: 10px;
+} */
+/* .vendors-new-btn {
+  margin-left: 10px;
+  margin-right: 10px;
+} */
+
+.vendors-filter-div {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background-color: #fff !important; */
+  border-radius: 0.7rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.vendor-listing-card-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.375rem;
+  align-self: stretch;
+}
+
+@media only screen and (max-width: 480px) {
+  .filter-add-list-cont-vendor {
+    width: 60% !important;
+    margin-top: 5px;
+    margin-left: 10px;
+    /* margin-left: -10px; */
+  }
+
+  .loc {
+    width: 80% !important;
+  }
+  .vendor-sta {
+    width: 150px !important;
+    margin-left: -30px;
+  }
+  .vendor-name {
+    margin-left: -30px;
+  }
+
+  .vendor-dot {
+    margin-left: 301% !important;
+    position: absolute;
+    border-radius: 80px;
+  }
+}

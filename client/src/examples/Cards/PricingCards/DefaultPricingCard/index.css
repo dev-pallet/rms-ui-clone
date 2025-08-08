@@ -1,0 +1,52 @@
+.pricing-details {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+}
+
+.pricing-packageName {
+  font-size: 1rem !important;
+  font-weight: 450 !important;
+}
+.pricing-packageName2 {
+  font-weight: 600 !important;
+}
+
+.pricing-packageName3 {
+  font-size: 0.8rem !important;
+  font-weight: 450 !important;
+}
+
+.feature-label {
+  font-size: 0.8rem !important;
+  font-weight: 450 !important;
+  margin-top: 0.5rem !important;
+  margin-left: 1rem !important;
+  color: #a6a6a6 !important;
+}
+
+.feature-description {
+  margin-top: 1rem !important;
+  margin-left: 1rem !important;
+}
+
+.view-features {
+  margin: 1rem !important;
+  font-size: 0.8rem !important;
+  color: #004aad !important;
+  cursor: pointer !important;
+}
+
+.view-features-highlight {
+  margin: 1rem !important;
+  font-size: 0.8rem !important;
+  color: white !important;
+  cursor: pointer !important;
+}
+
+.active-plan-highlight {
+  background-color: #004aad !important;
+  color: white !important;
+}
+/* .active-plan-highlight-annual {
+  background-color: black !important;
+} */

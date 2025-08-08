@@ -1,0 +1,33 @@
+.boom-box {
+  border: 1px solid lightgray;
+  display: flex;
+  border-radius: 10px;
+}
+
+.boom-input {
+  border: none !important;
+  width: 85%;
+  border-radius: 10px;
+}
+.boom-input:focus {
+  outline: none !important;
+}
+
+.boom-soft-select {
+  border: none !important;
+}
+
+.spec-text {
+  font-size: 0.6em !important;
+  font-weight: 600 !important;
+  margin-bottom: 4px !important;
+}
+
+.css-y9gdep-MuiInputBase-root {
+  display: flex !important;
+}
+
+.close-icons {
+  color: red !important;
+  cursor: pointer;
+}

@@ -1,0 +1,592 @@
+.accordin-wrapper {
+  margin-bottom: 1rem;
+}
+
+.tally-form-wrapper-box {
+  padding: 1rem;
+}
+
+.tally-header-wrapper {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
+  color: #0562fb;
+  margin-bottom: 0.5rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.tally-subtitle-wrapper {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #333;
+  margin-bottom: 1rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.checkbox-tally-wrapper-box {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  line-height: 2.5;
+  margin-top: 4rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.checkbox-tally-wrapper-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 7px;
+}
+
+.tally-wrapper-span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.tally-table-wrapper-btn {
+  margin-bottom: 1rem ;
+  display: flex ;
+  justify-content: flex-end ;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.tally-new-btn {
+  border: 1px solid #0562fb !important;
+  padding: 8px !important;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  background-color: #0562fb !important;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.tally-wrapper-main-container {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-60%, -20%);
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 800px;
+  animation: fadeIn 0.5s ease-in-out;
+  z-index: 1000;
+}
+
+.modal-content {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  width: 800px;
+  overflow: hidden;
+  padding: 1.5rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.tally-input-feild {
+  border: 1px solid #b8d2fa;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.tally-input-feild:focus {
+  outline: none;
+  border-color: #0562fb;
+}
+
+.tally-wrapper-btn-box {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.tally-wrapper-cancel-btn,
+.tally-wrapper-save-btn {
+  padding: 8px !important;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: 1px solid #b8d2fa;
+  width: 100px;
+}
+
+.tally-wrapper-cancel-btn {
+  color: #0562fb;
+}
+
+.tally-wrapper-cancel-btn:hover {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #0562fb;
+}
+
+.tally-wrapper-save-btn {
+  background-color: #0562fb;
+  color: #fff;
+}
+
+.tally-form-wrapper-main-title-text{
+  font-size: .8rem !important;
+  color: #116dff !important;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.modal-content {
+  position: relative;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.form-wrapper-container {
+  margin-top: 1rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.form-wrapper-container label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-wrapper-containerI {
+  margin-top: 1.5rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.form-wrapper-containerI label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.error {
+  border: 1px solid red;
+  animation: shake 0.3s ease-in-out;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  font-weight: 600;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25%,
+  75% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.password-input-container {
+  position: relative;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.password-input-container span {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #666;
+  transition: color 0.3s ease-in-out;
+}
+
+.password-input-container span:hover {
+  color: #0562fb;
+}
+
+.slider-slider-wrapper {
+  padding-left: 5px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.header-text-tally {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #3498db;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+.react-datepicker-popper {
+  z-index: 1000;
+  margin-top: 19rem !important;
+}
+
+.react-datepicker {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.react-datepicker__input-container input {
+  height: 40px;
+}
+
+.react-datepicker__input-container input::placeholder {
+  color: #0562fb;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.react-datepicker__input-container input {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #0562fb;
+  padding-left: 0.5rem;
+}
+
+.react-datepicker__input-container input:focus {
+  outline: none;
+  border-color: #0562fb;
+  box-shadow: 0 0 0 2px rgba(5, 98, 251, 0.2);
+  padding-left: 0.5rem;
+}
+
+.react-datepicker__input-container input:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+.react-datepicker__close-icon::after {
+  color: #0562fb;
+}
+
+.react-datepicker__close-icon:hover::after {
+  color: #0345a6;
+}
+
+.modal-content {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modal-content.step-3 .form-wrapper-container label,
+.modal-content.step-3 .form-wrapper-container label input,
+.modal-content.step-4 .form-wrapper-container label,
+.modal-content.step-5 .form-wrapper-container label,
+.modal-content.step-6 .form-wrapper-containerI label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal-content.step-3 .form-wrapper-container label input {
+  margin-right: 5px;
+}
+
+.modal-content.step-5 .checkbox-tally-wrapper-box label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.date-picker-wrapper-tally {
+  display: flex;
+}
+
+.form-wrapper-tally-inner-datepicker-conatiner {
+  display: flex;
+  gap: 1rem;
+  margin-top: 5.5rem;
+}
+
+.datepicker-form-tally {
+  border-radius: 4px !important;
+  font-size: 0.9rem !important;
+  color: #0562fb !important;
+  cursor: pointer !important;
+  border: 1px solid #b8d2fa !important;
+}
+
+.datepicker-form-tally:focus {
+  outline: none !important;
+}
+
+.datepicker-form-tally::placeholder {
+  color: #0562fb !important;
+  padding-left: 0.5rem !important;
+}
+
+.datepicker-form-tally:hover {
+  background-color: #d6e6fe !important;
+}
+
+.comapny-name-wrapper-conatiner {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.2rem;
+}
+
+.comapnay-name-inner-wrapper-conatiner-one,
+.comapnay-name-inner-wrapper-conatiner-two {
+  line-height: 1.8;
+  height: 200px;
+  overflow: scroll;
+  flex: 1;
+}
+
+.tally-unique-checkbox{
+  width: 20px;
+  height: 20px;
+  margin-top: 0.4rem;
+  border: 2px solid #b8d2fa;
+}
+
+.tally-unique-checkbox:focus{
+  outline: none;
+}
+
+.tally-unique-checkbox:checked {
+  border: 2px solid #0562fb;
+  background-color: #3498db;
+  color: #0562fb;
+}
+
+.single-comapny-name-wrapper-conatiner-one {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.company-name-txt {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #116dff;
+  margin-top: -0.4rem;
+  text-transform: capitalize;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  background-color: #d6e6fe;
+  border-radius: 3px;
+}
+
+.tally-advanced-label {
+  font-size: 0.9rem !important;
+  font-weight: 600 !important;
+  color: #0562fb !important;
+  margin-bottom: 1.5rem !important;
+  display: block !important;
+  line-height: 1.5 !important;
+  position: relative !important;
+}
+
+.tally-advanced-label::before {
+  content: '\2022';
+  color: #ff7f50;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  position: absolute;
+  left: -0.8rem;
+  top: 14%;
+  transform: translateY(-50%);
+}
+
+.label-description {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #333;
+  margin-top: 0.5rem;
+  display: block;
+  line-height: 1.8;
+  text-transform: capitalize;
+}
+
+.datepicker-label-text {
+  font-size: 0.8rem;
+  margin-top: 0.6rem;
+  margin-right: 0.3rem;
+}
+
+/* step6 css */
+
+.sync-data-loader-wrapper {
+  height: 200px;
+}
+
+.sync-data-wrapper-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sync-data-wrapper-text {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  overflow: hidden;
+  color: #116dff;
+  letter-spacing: 0.15em;
+  margin-top: 0.5rem;
+}
+
+.sync-data-wrapper-text span {
+  display: inline-block;
+  margin: 0 2px;
+  animation: floatText 1s infinite alternate;
+}
+
+@keyframes floatText {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-5px);
+  }
+}
+
+/* step7 css */
+.sync-history-table-container {
+  margin-top: 20px;
+  max-height: 250px; 
+  overflow-y: auto;
+}
+
+.sync-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.sync-history-table thead {
+  font-size: 1rem;
+  color: #0562fb;
+}
+
+
+.sync-history-table th,
+.sync-history-table td {
+  padding: 10px;
+  text-align: left;
+  font-size: .9rem;
+  border: 1px solid #74b2dc;
+}
+
+.sync-history-table th{
+  background-color: #d6e6fe;
+  font-weight: 400;
+}
+
+.sync-history-table th.company-name {
+  width: 25%;
+}
+
+.sync-history-table th.sync-data-type,
+.sync-history-table th.from,
+.sync-history-table th.until {
+  width: 15%;
+}
+
+.sync-history-table tbody tr:nth-child(even) {
+  background-color: #e9f5ff;
+}
+
+
+@media (max-width: 767px) {
+  .sync-history-table th,
+  .sync-history-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .sync-history-table th.company-name,
+  .sync-history-table th.sync-data-type,
+  .sync-history-table th.from,
+  .sync-history-table th.until,
+  .sync-history-table td {
+    text-align: center;
+  }
+
+  .sync-history-table tbody tr {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.company-name-inner-text{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .7rem;
+  font-weight: 500;
+  background-color: #D6E6FE;
+  color: #0562fb;
+  border-radius: 3px;
+  border: 1px solid #116dff;
+  letter-spacing: .5px;
+}
+
+
+.form-wrapper-container-after{
+  padding: 8px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.sync-data-wrapper-table-history{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

@@ -1,0 +1,65 @@
+.products-new-details-product-insights-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.products-new-details-insights-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.products-new-details-insights-typo {
+  color: #000;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 21px !important;
+}
+
+.products-new-details-insights-see-more {
+  color: #367df3;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  line-height: 21px !important;
+  cursor: pointer;
+  text-align: right;
+  margin-top: 15px !important;
+}
+
+.products-new-details-insights-see-more-1 {
+  color: #367df3;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 21px !important;
+  cursor: pointer;
+  text-align: right;
+  margin-top: 1px !important;
+}
+
+.products-new-details-insights-see-more-2 {
+  color: #367df3;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 21px !important;
+  cursor: pointer;
+  text-align: right;
+  margin-top: -12px !important;
+}
+
+.products-location-alignCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
